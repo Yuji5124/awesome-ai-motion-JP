@@ -75,7 +75,7 @@ const L = (ko, en, explicitJa) => {
 };
 const Lh = (ko, en) => `<span lang="ko">${ko}</span><span lang="en">${en}</span><span lang="ja"><span class="untranslated">日本語訳未登録</span><details class="original"><summary>原文</summary>${ko}</details></span>`;
 const content = (ko, en = '', ja = '') => `<span lang="ko">${esc(ko || '')}</span>${en ? `<span lang="en">${esc(en)}</span>` : ''}${ja ? `<span lang="ja">${esc(ja)}</span>` : `<span lang="ja"><span class="untranslated">日本語訳未登録</span><details class="original"><summary>原文</summary>${esc(ko || '')}${en ? ` · ${esc(en)}` : ''}</details></span>`}`;
-const listContent = (ko = [], en = [], ja = []) => `<ul lang="ko">${(ko || []).map(x => `<li>${esc(x)}</li>`).join('')}</ul>${en?.length ? `<ul lang="en">${en.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}${ja?.length ? `<ul lang="ja">${ja.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : `<ul lang="ja"><li><span class="untranslated">日本語訳未登録</span><details class="original"><summary>原文</summary>${(ko || []).map(esc).join('<br>')}${en?.length ? `<hr>${en.map(esc).join('<br>')}` : ''}</details></li></ul>`}`;
+const listContent = (ko = [], en = [], ja = []) => { const jaList = Array.isArray(ja) ? ja : []; return `<ul lang="ko">${(ko || []).map(x => `<li>${esc(x)}</li>`).join('')}</ul>${en?.length ? `<ul lang="en">${en.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}${jaList.length ? `<ul lang="ja">${jaList.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : `<ul lang="ja"><li><span class="untranslated">日本語訳未登録</span><details class="original"><summary>原文</summary>${(ko || []).map(esc).join('<br>')}${en?.length ? `<hr>${en.map(esc).join('<br>')}` : ''}</details></li></ul>`}`; };
 const write = (rel, html) => { const p = path.join(SITE, rel); fs.mkdirSync(path.dirname(p), { recursive: true }); fs.writeFileSync(p, html); };
 const up = d => '../'.repeat(d);
 const famName = f => FAM[f] ? L(FAM[f].ko, cap(FAM[f].en)) : esc(f);
@@ -205,8 +205,8 @@ function detail(e) {
 <section class="sec" style="margin-top:48px"><div class="lab"><div class="dd">${sn()}</div><h2>${L('무엇을 전하나', 'What it tells')}</h2></div>
 <div class="rows">
 <div class="r"><div class="k">${L('전달 효과', 'Conveys')}<small>CONVEYS</small></div><div>${L(e.conveys || '', e.conveysEn, jaCatalog.effects.get(e.slug)?.conveys)}</div></div>
-<div class="r"><div class="k">${L('언제 쓰나', 'Use when')}<small>USE WHEN</small></div><div>${listContent(e.useWhen, e.useWhenEn)}</div></div>
-<div class="r"><div class="k">${L('과용 주의', 'Avoid')}<small>AVOID</small></div><div>${listContent(e.avoid)}</div></div>
+<div class="r"><div class="k">${L('언제 쓰나', 'Use when')}<small>USE WHEN</small></div><div>${listContent(e.useWhen, e.useWhenEn, jaCatalog.effects.get(e.slug)?.useWhen)}</div></div>
+<div class="r"><div class="k">${L('과용 주의', 'Avoid')}<small>AVOID</small></div><div>${listContent(e.avoid, [], jaCatalog.effects.get(e.slug)?.avoid)}</div></div>
 <div class="r"><div class="k">${L('분류', 'Tags')}<small>TAGS</small></div><div class="tags"><a href="${u}index.html#fam=${e.family}">${famName(e.family)}</a>${tagLinks}</div></div>
 </div></section>
 <section class="sec"><div class="lab"><div class="dd">${sn()}</div><h2>${L('좋은 예와 나쁜 예', 'Good and bad use')}</h2></div>

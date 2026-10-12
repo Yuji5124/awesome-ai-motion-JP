@@ -5,173 +5,532 @@
     {
       "slug": "overlapping-action",
       "ja": {
-        "name": "オーバーラップ動作"
+        "name": "オーバーラップ動作",
+        "oneLiner": "各部位の開始と停止を少しずつずらし、動きに余韻を作る。",
+        "useWhen": [
+          "手足やパーツに重さとしなやかさを与えるとき"
+        ],
+        "avoid": "停止時刻をそろえると、機械的で硬い印象になる。"
       },
       "reviewed": {
         "sourceHash": "b3f1c9d35b27f7709a932b2f186d9b1c9603dc7a0e77d5e89ba27eb18203a698",
         "fields": [
-          "name"
-        ]
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
       },
       "sourceHash": "b3f1c9d35b27f7709a932b2f186d9b1c9603dc7a0e77d5e89ba27eb18203a698"
     },
     {
       "slug": "anticipation",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "予備動作",
+        "oneLiner": "主動作の直前に反対方向へ短く動き、次の動きを予告する。",
+        "useWhen": [
+          "キャラクターやアイコンの発射方向を示すとき",
+          "大きな移動の前に視線を誘導するとき"
+        ],
+        "avoid": "操作への即時応答では遅延を感じさせないよう短くする。"
+      },
+      "reviewed": {
+        "sourceHash": "a4dacaea08eec46c9e290427e05937c9747440e04280afff2005d5b783374e1b",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "a4dacaea08eec46c9e290427e05937c9747440e04280afff2005d5b783374e1b"
     },
     {
       "slug": "easing-curves",
       "ja": {
-        "name": "イージングカーブ"
+        "name": "イージングカーブ",
+        "oneLiner": "移動距離と時間を保ちながら、進行に応じた速度の変化を作る。",
+        "useWhen": [
+          "動きの加速や減速を自然に見せるとき",
+          "複数の動きの印象を調整するとき"
+        ],
+        "avoid": "距離や時間が同じでもイージングが違えば印象は変わる。"
       },
       "reviewed": {
         "sourceHash": "78d67f03fd485ce5de7bc2038ef1c23fa2394ec0909e869959ce201e8bcd6454",
         "fields": [
-          "name"
-        ]
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
       },
       "sourceHash": "78d67f03fd485ce5de7bc2038ef1c23fa2394ec0909e869959ce201e8bcd6454"
     },
     {
       "slug": "spring-overshoot",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "スプリング・オーバーシュート",
+        "oneLiner": "目標位置や大きさを少し行き過ぎてから戻り、弾むように定着する。",
+        "useWhen": [
+          "小さな要素の登場や選択状態の強調"
+        ],
+        "avoid": "振幅を大きくしすぎると周囲と重なり、落ち着きがなくなる。"
+      },
+      "reviewed": {
+        "sourceHash": "6486ecf5e5bf90bf60aacfe44a4ad478aad4e8abac8bbc93e6df9212956b5a6b",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "6486ecf5e5bf90bf60aacfe44a4ad478aad4e8abac8bbc93e6df9212956b5a6b"
     },
     {
       "slug": "squash-stretch",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "スクワッシュ＆ストレッチ",
+        "oneLiner": "加速時に伸び、衝突時に縮む変形で、弾力や重さを伝える。",
+        "useWhen": [
+          "ボールや柔らかいキャラクターの動き"
+        ],
+        "avoid": "硬い物体に大きな変形を与えず、縦横の比率を保つ。"
+      },
+      "reviewed": {
+        "sourceHash": "03ce49cb882fa1d02a62e2b2763cdcfc91681cde912280e1dded27915d318cc8",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "03ce49cb882fa1d02a62e2b2763cdcfc91681cde912280e1dded27915d318cc8"
     },
     {
       "slug": "stagger",
       "ja": {
-        "name": "時間差表示"
+        "name": "スタガー",
+        "oneLiner": "複数の要素を一定の時間差で順番に動かす。",
+        "useWhen": [
+          "カードやリストを順に見せるとき",
+          "視線を段階的に誘導するとき"
+        ],
+        "avoid": "要素数が多い場合は時間差を詰め、表示完了を遅らせすぎない。"
       },
       "reviewed": {
         "sourceHash": "9e12115d1ceb0362e8fe01432110b399787476ab34404cc89692bf6b9653b692",
         "fields": [
-          "name"
-        ]
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
       },
       "sourceHash": "9e12115d1ceb0362e8fe01432110b399787476ab34404cc89692bf6b9653b692"
     },
     {
       "slug": "arc-motion",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "弧を描く動き",
+        "oneLiner": "直線ではなく、弧を描く軌道に沿って対象を移動させる。",
+        "useWhen": [
+          "投げる・跳ねるなど自然な移動を表すとき"
+        ],
+        "avoid": "弧の方向が動作の意図や重力感と合っているか確認する。"
+      },
+      "reviewed": {
+        "sourceHash": "4afb52bd9627a9f5aa319da1d9a9313f80dbd2cf70ca8b26f1ff18a5d2868123",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "4afb52bd9627a9f5aa319da1d9a9313f80dbd2cf70ca8b26f1ff18a5d2868123"
     },
     {
       "slug": "follow-through",
       "ja": {
-        "name": "フォロースルー"
+        "name": "フォロースルー",
+        "oneLiner": "主な部分が止まった後も末端が慣性で動き、少し遅れて停止する。",
+        "useWhen": [
+          "髪・布・触角などに遅れと柔らかさを出すとき"
+        ],
+        "avoid": "付随部分を大きく動かしすぎて主動作より目立たせない。"
       },
       "reviewed": {
         "sourceHash": "e273055f26179127cf5975f90d6373a2f9547e30eb2ee6dd5b743bea5c34418f",
         "fields": [
-          "name"
-        ]
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
       },
       "sourceHash": "e273055f26179127cf5975f90d6373a2f9547e30eb2ee6dd5b743bea5c34418f"
     },
     {
       "slug": "motion-hierarchy",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "モーションの階層",
+        "oneLiner": "重要度に応じて動きの大きさやタイミングを変え、見る順序を作る。",
+        "useWhen": [
+          "見出し・補足・注釈の優先順位を示すとき"
+        ],
+        "avoid": "すべての要素に同じ強さの動きを付けない。"
+      },
+      "reviewed": {
+        "sourceHash": "114d46b51f97923e9be7c7ca10ad8063d87f35d3e22961e072a2a181a79d3fc5",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "114d46b51f97923e9be7c7ca10ad8063d87f35d3e22961e072a2a181a79d3fc5"
     },
     {
       "slug": "timing-spacing",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "タイミングと間隔",
+        "oneLiner": "フレーム間の位置間隔で速度の変化を示し、動きの重さを調整する。",
+        "useWhen": [
+          "加速・減速や動きの重さを設計するとき"
+        ],
+        "avoid": "滑らかさだけでなく、読める時間や動作の目的も考慮する。"
+      },
+      "reviewed": {
+        "sourceHash": "124828e1ac67e642be440008a728ebcbc1bd2becca4cd56390f6eee68b158f20",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "124828e1ac67e642be440008a728ebcbc1bd2becca4cd56390f6eee68b158f20"
     },
     {
       "slug": "motion-blend",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "モーションブレンド",
+        "oneLiner": "二つの動きを重み付けして混ぜ、状態間を連続的につなぐ。",
+        "useWhen": [
+          "歩行から停止など動作を切り替えるとき"
+        ],
+        "avoid": "切り替え中の姿勢や速度が不自然にならないよう確認する。"
+      },
+      "reviewed": {
+        "sourceHash": "8be2581b2de14a80763a3eaf491dfd118f118f529b30e6184fd9ca60b66eb8d7",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "8be2581b2de14a80763a3eaf491dfd118f118f529b30e6184fd9ca60b66eb8d7"
     },
     {
       "slug": "smear-frame",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "スマearフレーム",
+        "oneLiner": "高速移動の瞬間に形を移動方向へ伸ばし、速度感を強める表現。",
+        "useWhen": [
+          "短い高速移動やコミカルなアクション"
+        ],
+        "avoid": "長く表示すると形が崩れて見えるため、瞬間的に使う。"
+      },
+      "reviewed": {
+        "sourceHash": "38f125ff8f83f1343e1de937434997c46154b0366eaacb2dc06d1352fb0e2beb",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "38f125ff8f83f1343e1de937434997c46154b0366eaacb2dc06d1352fb0e2beb"
     },
     {
       "slug": "action-sequence",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "アクションシーケンス",
+        "oneLiner": "複数の動作を順番につなぎ、段階的な流れとして見せる。",
+        "useWhen": [
+          "操作手順や一連のアクションを説明するとき"
+        ],
+        "avoid": "各段階の間隔を設け、順序が読み取れるようにする。"
+      },
+      "reviewed": {
+        "sourceHash": "d5d9625dc2510c270aed975611211f63cabf2240f1a75c9d1458bbaa7ceac8d5",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "d5d9625dc2510c270aed975611211f63cabf2240f1a75c9d1458bbaa7ceac8d5"
     },
     {
       "slug": "additive-motion",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "加算モーション",
+        "oneLiner": "大きな移動に小さな揺れや回転を重ね、複合的な動きを作る。",
+        "useWhen": [
+          "移動中の浮遊感や振動を加えるとき"
+        ],
+        "avoid": "加える動きが基本の軌道を読みにくくしないよう抑える。"
+      },
+      "reviewed": {
+        "sourceHash": "3ed9757d822f955ea2f15a676ab765a1b74215a9ec9fff8ebf1a0250a408c700",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "3ed9757d822f955ea2f15a676ab765a1b74215a9ec9fff8ebf1a0250a408c700"
     },
     {
       "slug": "beat-sync",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "ビート同期",
+        "oneLiner": "要素の到着や画面転換を音楽の拍に合わせる。",
+        "useWhen": [
+          "音楽に合わせたタイトルやカットを作るとき"
+        ],
+        "avoid": "拍を合わせることを優先して、情報の可読性を損なわない。"
+      },
+      "reviewed": {
+        "sourceHash": "6fef218bfdc1632f4d6c395e8db92784e565fcbf6e1e2b82647520ce36fc7de3",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "6fef218bfdc1632f4d6c395e8db92784e565fcbf6e1e2b82647520ce36fc7de3"
     },
     {
       "slug": "bounce-landing",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "バウンス着地",
+        "oneLiner": "落下した対象が接地後に小さく跳ね、反発を弱めながら止まる。",
+        "useWhen": [
+          "落下物の重さや弾力を表すとき"
+        ],
+        "avoid": "跳ねの高さと回数を対象の材質や重さに合わせる。"
+      },
+      "reviewed": {
+        "sourceHash": "0fe8df14f2f33d682fc5046c7b5ac64c8564cf779edb063c70372786d02d22b8",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "0fe8df14f2f33d682fc5046c7b5ac64c8564cf779edb063c70372786d02d22b8"
     },
     {
       "slug": "concurrent-motion",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "同時進行モーション",
+        "oneLiner": "複数の対象や属性を同じ時間帯に動かし、一つの動きとして組み合わせる。",
+        "useWhen": [
+          "位置と色など複数属性を一緒に変えるとき"
+        ],
+        "avoid": "同時に動く要素を整理し、主役が分かるようにする。"
+      },
+      "reviewed": {
+        "sourceHash": "b9ffb19bb4d8fd8493d75cfa7e5f5bbb134ef5ba67d8de5576985b9a9930bd06",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "b9ffb19bb4d8fd8493d75cfa7e5f5bbb134ef5ba67d8de5576985b9a9930bd06"
     },
     {
       "slug": "continuous-motion",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "連続モーション",
+        "oneLiner": "場面や地点を通過しても動きを止めず、ひと続きの流れを保つ。",
+        "useWhen": [
+          "複数の情報を一つのカメラ移動でつなぐとき"
+        ],
+        "avoid": "継続時間が長くなりすぎないよう、節目を設ける。"
+      },
+      "reviewed": {
+        "sourceHash": "9b81fcc7ef13bf5227b3af650f0123c0d9f3e8b83c1cd1eaf294f61d05308167",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "9b81fcc7ef13bf5227b3af650f0123c0d9f3e8b83c1cd1eaf294f61d05308167"
     },
     {
       "slug": "group-motion",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "グループモーション",
+        "oneLiner": "同じグループの要素を共通の方向と速度で動かし、一体感を作る。",
+        "useWhen": [
+          "関連するマークや図形をまとめて移動するとき"
+        ],
+        "avoid": "個々の要素の違いが必要な場合は適度なずれを加える。"
+      },
+      "reviewed": {
+        "sourceHash": "ea6565bbc17bf7ab0309e9d2bf2399df879e6094d37d01c331099d17481f7998",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "ea6565bbc17bf7ab0309e9d2bf2399df879e6094d37d01c331099d17481f7998"
     },
     {
       "slug": "inertial-glide",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "慣性グライド",
+        "oneLiner": "対象が進行方向へ滑り続け、徐々に減速して停止する。",
+        "useWhen": [
+          "画面やカードのスクロール停止を柔らかく見せるとき"
+        ],
+        "avoid": "止まるまでの距離を画面端や周囲の要素に合わせる。"
+      },
+      "reviewed": {
+        "sourceHash": "75a3d17b7f288b7f785aaf6239a2cf5c337b6be97ebfe4afb9f45daf81b7cb04",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "75a3d17b7f288b7f785aaf6239a2cf5c337b6be97ebfe4afb9f45daf81b7cb04"
     },
     {
       "slug": "retarget-motion",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "移動中の目標変更",
+        "oneLiner": "動作中に目的地が変わっても、現在位置から新しい方向へ滑らかに向かわせる。",
+        "useWhen": [
+          "追従対象やインタラクションの目的地が変わるとき"
+        ],
+        "avoid": "速度を急に反転させず、現在の勢いを連続させる。"
+      },
+      "reviewed": {
+        "sourceHash": "c67914bf559d42dd4f3bce88247b8209d3dad345785d706a60b055931b4cdc5c",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "c67914bf559d42dd4f3bce88247b8209d3dad345785d706a60b055931b4cdc5c"
     },
     {
       "slug": "rotate",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "回転",
+        "oneLiner": "対象を基準点の周りで回し、向きや方向の変化を示す。",
+        "useWhen": [
+          "アイコンの向きや円形要素を変化させるとき"
+        ],
+        "avoid": "回転軸と基準点を明確にし、過剰な回転を避ける。"
+      },
+      "reviewed": {
+        "sourceHash": "62fa198b67787954875c3628672c9d35b3fc5b490c85868fc3683ae6745d6cff",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "62fa198b67787954875c3628672c9d35b3fc5b490c85868fc3683ae6745d6cff"
     },
     {
       "slug": "scale",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "拡大・縮小",
+        "oneLiner": "基準点から大きさを変え、出現・強調・後退を表す。",
+        "useWhen": [
+          "要素の出現や重要度を示すとき"
+        ],
+        "avoid": "基準点と縦横比を保ち、文字の読みにくさに注意する。"
+      },
+      "reviewed": {
+        "sourceHash": "f5c928fe3177a21c6360ce70477d06915a2f0f53a481b08aab8d2b55f8592fbe",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "f5c928fe3177a21c6360ce70477d06915a2f0f53a481b08aab8d2b55f8592fbe"
     },
     {
       "slug": "state-tween",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "状態間の補間",
+        "oneLiner": "位置・大きさ・回転・色などを、現在状態から次の状態へ同時に変化させる。",
+        "useWhen": [
+          "カードの開閉やアイコンの状態変更"
+        ],
+        "avoid": "開始状態と終了状態を明示し、意図しない属性の飛びを防ぐ。"
+      },
+      "reviewed": {
+        "sourceHash": "0881265501cb0ea04ce631a68d9170e1a0b5a4aaec850ffabe5097c6d4f10ef3",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "0881265501cb0ea04ce631a68d9170e1a0b5a4aaec850ffabe5097c6d4f10ef3"
     },
     {
@@ -182,8 +541,24 @@
     },
     {
       "slug": "temporal-overlap",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "時間的オーバーラップ",
+        "oneLiner": "先行する要素が止まる前に次の要素を動かし、連鎖する流れを作る。",
+        "useWhen": [
+          "カードやアイコンを途切れず順番に表示するとき"
+        ],
+        "avoid": "重ねる時間を調整し、同時に動きすぎて見えないようにする。"
+      },
+      "reviewed": {
+        "sourceHash": "91a2b0afecbebb789846e8132836f40755d5d55ea87084c72aa5fd35c0716091",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "91a2b0afecbebb789846e8132836f40755d5d55ea87084c72aa5fd35c0716091"
     },
     {
