@@ -3,8 +3,8 @@
 @font-face{font-family:"IBM Plex Mono";src:url("../../lib/fonts/IBMPlexMono-Regular.ttf") format("truetype");font-weight:400;font-display:swap}
 :root{
   --paper:#F4EEE3;--paper2:#EAE2D3;--ink:#141210;--ink2:#58524A;--ink3:#9A9182;--rule:#CDC3B2;--verm:#D6401C;--verm-soft:#F2C9B8;--card:#FBF8F2;
-  --serif:"Noto Serif KR","Noto Serif CJK KR",serif;
-  --sans:"Pretendard","Pretendard Variable","Noto Sans KR",system-ui,sans-serif;
+  --serif:"Noto Serif JP","Noto Serif CJK JP","Noto Serif KR","Noto Serif CJK KR","Hiragino Mincho ProN",serif;
+  --sans:"Noto Sans JP","Noto Sans CJK JP","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,"Pretendard","Noto Sans KR",system-ui,sans-serif;
   --didone:"Bodoni Moda","Didot",serif;
   --mono:"IBM Plex Mono",ui-monospace,"Pretendard",monospace;
   --gut:48px;
@@ -243,7 +243,11 @@ code{font-family:var(--mono);font-size:.92em;letter-spacing:0}
 }
 /* 언어 전환: html[data-lang] */
 html:not([data-lang="en"]) [lang="en"]{display:none!important}
-html[data-lang="en"] [lang="ko"]{display:none!important}
+html[data-lang="en"] [lang="ko"],html[data-lang="en"] [lang="ja"]{display:none!important}
+html[data-lang="ko"] [lang="ja"],html[data-lang="ja"] [lang="ko"]{display:none!important}
+html[data-lang="ja"] [lang="ja"]{display:revert}
+.untranslated{font-size:.82em;color:var(--ink3)}
+mark.search-highlight{background:var(--verm-soft);color:var(--ink);padding:0 .04em}
 .lang{background:none;border:0;padding:0;font-family:var(--mono);font-size:12px;letter-spacing:.12em;color:var(--ink2);cursor:pointer}
 .lang b{color:var(--ink);font-weight:400;border-bottom:2px solid var(--ink)}
 /* 히어로 몽타주 */

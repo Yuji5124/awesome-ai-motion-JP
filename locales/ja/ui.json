@@ -1,0 +1,73 @@
+{
+  "language": "日本語",
+  "siteTitle": "Awesome AI Motion JP",
+  "siteDescription": "モーション技法を探し、参考映像を確認し、制作に活用するためのガイド",
+  "nav": {
+    "effects": "技法一覧",
+    "recipes": "レシピ",
+    "routes": "制作ガイド",
+    "glossary": "用語集",
+    "skill": "AIエージェントで使う",
+    "search": "技法名・英語名・用途で検索",
+    "clipsOnly": "参考クリップがある技法",
+    "motion": "動き",
+    "purpose": "目的",
+    "medium": "媒体",
+    "level": "難易度",
+    "compare": "比較",
+    "comparePlay": "並べて再生",
+    "clear": "選択を解除",
+    "close": "閉じる",
+    "restart": "最初から",
+    "copy": "コピー",
+    "copied": "コピーしました",
+    "speed": "再生速度",
+    "noResults": "一致する技法がありません。検索語や絞り込みを見直してください。",
+    "clipComing": "クリップ準備中",
+    "untranslated": "日本語訳は未登録です。原文を表示しています。",
+    "sourceLanguage": "原文"
+  },
+  "categories": {
+    "principles": "アニメーションの原則",
+    "entrances": "登場と退場",
+    "emphasis": "強調と注意喚起",
+    "type": "タイポグラフィ",
+    "transitions": "画面転換",
+    "camera": "カメラワーク",
+    "data": "データ表現",
+    "ui": "UIデモ",
+    "explainer": "図解",
+    "shapes": "図形とパス",
+    "texture": "質感とスタイル",
+    "generative": "生成表現",
+    "depth": "3Dと奥行き",
+    "loops": "ループと環境表現",
+    "captions": "字幕"
+  },
+  "purposes": {
+    "Attention": "注目を集める",
+    "Explain": "説明する",
+    "Compare": "比較する",
+    "Sequence": "順序や流れを示す",
+    "Emphasis": "強調する",
+    "Transition": "場面を切り替える",
+    "Data proof": "データで示す",
+    "Feedback": "操作に応答する",
+    "Mood": "雰囲気を作る",
+    "Branding": "ブランドを印象づける"
+  },
+  "media": {
+    "Explainer video": "解説動画",
+    "Short-form": "ショート動画",
+    "Scroll deck": "スクロール式プレゼン",
+    "Presentation": "プレゼンテーション",
+    "Product demo": "製品デモ",
+    "Data story": "データストーリー",
+    "Web UI": "Web UI"
+  },
+  "levels": {
+    "Basic": "初級",
+    "Intermediate": "中級",
+    "Advanced": "上級"
+  }
+}

@@ -6,15 +6,18 @@
 
   // 언어
   const qlang = new URLSearchParams(location.search).get('lang');
-  const lang = qlang || store.get('am-lang') || ((navigator.language || 'ko').startsWith('ko') ? 'ko' : 'en');
+  const savedLang = qlang || store.get('am-lang');
+  const lang = ['ja', 'en', 'ko'].includes(savedLang) ? savedLang : ((navigator.language || 'ja').startsWith('ja') ? 'ja' : ((navigator.language || '').startsWith('ko') ? 'ko' : 'en'));
   document.documentElement.dataset.lang = lang; document.documentElement.lang = lang;
+  const titleNode = $('title');
+  if (titleNode) { titleNode.dataset.original = titleNode.textContent; if (lang === 'ja' && titleNode.dataset.ja) titleNode.textContent = titleNode.dataset.ja; }
   $$('.lang').forEach(b => {
-    const draw = () => { const l = document.documentElement.dataset.lang; b.innerHTML = l === 'en' ? '한 / <b>EN</b>' : '<b>한</b> / EN'; };
+    const draw = () => { b.textContent = '日本語 / EN / 한국어'; };
     draw();
-    b.addEventListener('click', () => { const nx = document.documentElement.dataset.lang === 'en' ? 'ko' : 'en'; document.documentElement.dataset.lang = nx; document.documentElement.lang = nx; store.set('am-lang', nx); $$('.lang').forEach(x => x.dispatchEvent(new Event('redraw'))); draw(); });
+    b.addEventListener('click', () => { const order = ['ja', 'en', 'ko']; const nx = order[(order.indexOf(document.documentElement.dataset.lang) + 1) % order.length]; document.documentElement.dataset.lang = nx; document.documentElement.lang = nx; if (titleNode) titleNode.textContent = nx === 'ja' && titleNode.dataset.ja ? titleNode.dataset.ja : titleNode.dataset.original; store.set('am-lang', nx); $$('.lang').forEach(x => x.dispatchEvent(new Event('redraw'))); draw(); });
     b.addEventListener('redraw', draw);
   });
-  const phs = () => $$('[data-ph-ko]').forEach(i => { i.placeholder = document.documentElement.dataset.lang === 'en' ? i.dataset.phEn : i.dataset.phKo; });
+  const phs = () => $$('[data-ph-ko]').forEach(i => { const l = document.documentElement.dataset.lang; i.placeholder = l === 'en' ? i.dataset.phEn : (l === 'ja' ? (i.dataset.phJa || `日本語訳未登録 · ${i.dataset.phEn}`) : i.dataset.phKo); });
   phs(); $$('.lang').forEach(b => b.addEventListener('click', phs));
 
   // 테마
@@ -32,7 +35,7 @@
     try { await navigator.clipboard.writeText(t); } catch (e) {
       const ta = document.createElement('textarea'); ta.value = t; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); ta.remove();
     }
-    const o = b.textContent; b.textContent = '복사됨'; b.classList.add('ok');
+    const o = b.textContent; b.textContent = document.documentElement.lang === 'ja' ? 'コピーしました' : (document.documentElement.lang === 'en' ? 'Copied' : '복사됨'); b.classList.add('ok');
     setTimeout(() => { b.textContent = o; b.classList.remove('ok'); }, 1200);
   }));
 
@@ -78,22 +81,47 @@
       for (const [k, v] of Object.entries(state)) if (v) h.set(k, v === true ? '1' : v);
       history.replaceState(null, '', h.toString() ? '#' + h : location.pathname + location.search);
     };
-    const norm = s => (s || '').toLowerCase().replace(/\s+/g, '');
+    const norm = s => (s || '').normalize('NFKC').toLocaleLowerCase().replace(/[\s\p{P}\p{S}]+/gu, '');
+    function highlightMatches(query) {
+      const raw = (query || '').trim().split(/\s+/).filter(term => term.length >= 2);
+      const roots = $$('.tile .cap, .tile .one, .xrow .ko, .xrow .one');
+      roots.forEach(root => {
+        root.querySelectorAll('mark.search-highlight').forEach(mark => mark.replaceWith(document.createTextNode(mark.textContent)));
+        root.normalize();
+        if (!raw.length) return;
+        for (const term of raw) {
+          const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode: node => node.parentElement?.closest('mark,script,style,button') ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT });
+          const nodes = []; while (walker.nextNode()) nodes.push(walker.currentNode);
+          for (const node of nodes) {
+            const source = node.nodeValue, lower = source.toLocaleLowerCase(), match = term.toLocaleLowerCase();
+            if (!lower.includes(match)) continue;
+            const parts = document.createDocumentFragment(); let cursor = 0, at;
+            while ((at = lower.indexOf(match, cursor)) >= 0) {
+              parts.append(source.slice(cursor, at));
+              const mark = document.createElement('mark'); mark.className = 'search-highlight'; mark.textContent = source.slice(at, at + match.length); parts.append(mark);
+              cursor = at + match.length;
+            }
+            parts.append(source.slice(cursor)); node.replaceWith(parts);
+          }
+        }
+      });
+    }
     function apply() {
       let n = 0;
-      const q = norm(state.q);
+      const q = (state.q || '').normalize('NFKC').trim().split(/\s+/).map(norm).filter(Boolean);
       tiles.forEach(t => {
         const ok = (!state.fam || t.dataset.fam === state.fam)
           && (!state.purpose || (t.dataset.purposes || '').split('|').includes(state.purpose))
           && (!state.media || (t.dataset.media || '').split('|').includes(state.media))
           && (!state.level || t.dataset.level === state.level)
           && (!state.clip || !!t.dataset.mp4 || t.dataset.clip === '1')
-          && (!q || norm(t.dataset.q).includes(q));
+          && (!q.length || q.every(term => norm(t.dataset.q).includes(term)));
         t.hidden = !ok; if (!ok) { const v = t.querySelector('video'); if (v) v.pause(); } if (ok && t.classList.contains('xrow')) n++;
       });
       $$('.famblock').forEach(b => { if (b.closest('.featured')) return; b.hidden = !$$('.tile, .xrow', b).some(t => !t.hidden); });
-      $('#cnt').textContent = document.documentElement.dataset.lang === 'en' ? `${n} effects` : `${n}개`;
+      $('#cnt').textContent = document.documentElement.dataset.lang === 'en' ? `${n} effects` : (document.documentElement.dataset.lang === 'ja' ? `${n}件` : `${n}개`);
       $('#none').hidden = n > 0;
+      highlightMatches(state.q);
       $$('.chip[data-k]').forEach(c => c.classList.toggle('on', state[c.dataset.k] === c.dataset.v));
       $('#q').value = state.q; $('#clip').checked = state.clip;
     }
@@ -110,14 +138,14 @@
     const picked = [];
     const tray = $('#tray'), items = $('#tray-items');
     function drawTray() {
-      items.innerHTML = picked.map(p => `<span>${p.ko} <button data-rm="${p.slug}" aria-label="빼기">×</button></span>`).join('') || '<span class="muted"><span lang="ko">효과를 두세 개 고르면 나란히 재생합니다</span><span lang="en">Pick two to four effects to play them side by side</span></span>';
+      items.innerHTML = picked.map(p => `<span>${p.ja} <button data-rm="${p.slug}" aria-label="${document.documentElement.lang === 'ja' ? '選択から外す' : 'Remove'}">×</button></span>`).join('') || '<span class="muted"><span lang="ko">효과를 두세 개 고르면 나란히 재생합니다</span><span lang="en">Pick two to four effects to play them side by side</span><span lang="ja">2〜4件の技法を選ぶと並べて再生できます</span></span>';
       tray.classList.toggle('show', picked.length > 0);
       $$('.cmp').forEach(b => b.classList.toggle('on', picked.some(p => p.slug === b.dataset.slug)));
     }
     $$('.cmp').forEach(b => b.addEventListener('click', e => {
       e.preventDefault(); e.stopPropagation();
       const i = picked.findIndex(p => p.slug === b.dataset.slug);
-      if (i >= 0) picked.splice(i, 1); else { if (picked.length >= 4) picked.shift(); picked.push({ slug: b.dataset.slug, ko: b.dataset.ko, mp4: b.dataset.mp4, no: b.dataset.no, href: b.dataset.href }); }
+      if (i >= 0) picked.splice(i, 1); else { if (picked.length >= 4) picked.shift(); picked.push({ slug: b.dataset.slug, ko: b.dataset.ko, ja: b.dataset.ja, mp4: b.dataset.mp4, no: b.dataset.no, href: b.dataset.href }); }
       drawTray();
     }));
     items.addEventListener('click', e => { const b = e.target.closest('[data-rm]'); if (!b) return; picked.splice(picked.findIndex(p => p.slug === b.dataset.rm), 1); drawTray(); });
@@ -126,7 +154,7 @@
     $('#tray-go').addEventListener('click', () => {
       const g = $('#cgrid');
       g.style.gridTemplateColumns = `repeat(${Math.min(picked.length, 2)}, 1fr)`;
-      g.innerHTML = picked.map(p => `<figure><video class="cv" src="${p.mp4}" muted loop playsinline preload="auto"></video><figcaption><span class="mono muted">Nº ${p.no}</span><b>${p.ko}</b><a class="mono muted" href="${p.href}">→</a></figcaption></figure>`).join('');
+      g.innerHTML = picked.map(p => `<figure><video class="cv" src="${p.mp4}" muted loop playsinline preload="auto"></video><figcaption><span class="mono muted">Nº ${p.no}</span><b>${document.documentElement.lang === 'ja' ? p.ja : p.ko}</b><a class="mono muted" href="${p.href}">→</a></figcaption></figure>`).join('');
       ov.classList.add('show'); document.body.style.overflow = 'hidden';
       const vs = $$('.cv', g); let loaded = 0;
       vs.forEach(v => v.addEventListener('canplay', () => { if (++loaded === vs.length) vs.forEach(x => { x.currentTime = 0; x.play(); }); }, { once: true }));
@@ -140,8 +168,8 @@
   const gq = $('#gq');
   if (gq) {
     const terms = $$('.term');
-    const norm = s => (s || '').toLowerCase().replace(/\s+/g, '');
-    const run = () => { const q = norm(gq.value); let n = 0; terms.forEach(t => { const ok = !q || norm(t.dataset.q).includes(q); t.hidden = !ok; if (ok) n++; }); $$('.glsec').forEach(s => { s.hidden = !$$('.term', s).some(t => !t.hidden); }); $('#gcnt').textContent = n + '개'; };
+    const norm = s => (s || '').normalize('NFKC').toLocaleLowerCase().replace(/[\s\p{P}\p{S}]+/gu, '');
+    const run = () => { const q = (gq.value || '').normalize('NFKC').trim().split(/\s+/).map(norm).filter(Boolean); let n = 0; terms.forEach(t => { const ok = !q.length || q.every(term => norm(t.dataset.q).includes(term)); t.hidden = !ok; if (ok) n++; }); $$('.glsec').forEach(s => { s.hidden = !$$('.term', s).some(t => !t.hidden); }); $('#gcnt').textContent = document.documentElement.lang === 'ja' ? `${n}件` : (document.documentElement.lang === 'en' ? `${n} terms` : `${n}개`); };
     gq.addEventListener('input', run); run();
   }
 })();

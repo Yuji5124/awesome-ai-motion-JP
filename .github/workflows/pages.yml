@@ -32,7 +32,8 @@ jobs:
       - name: Assemble Pages artifact
         run: |
           mkdir -p _pages
-          cp -r site lib effects recipes index.json index.html .nojekyll _pages/
+          cp -r site/. _pages/
+          cp -r lib effects recipes index.json .nojekyll _pages/
           find _pages/effects _pages/recipes -name 'README.md' -delete
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

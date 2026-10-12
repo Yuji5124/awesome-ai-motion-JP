@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "sourceRepository": "gongnyang/awesome-ai-motion",
+  "entries": [
+    {
+      "slug": "newsletter",
+      "ja": {
+        "name": "ニュースレター",
+        "title": "ニュースレター・ブログ本文でのモーション活用ガイド",
+        "oneLiner": "本文の流れと読者の理解を優先し、記事間の図解・短いGIF・UIデモ・データ比較に使う技法を選びます。"
+      },
+      "reviewed": {
+        "sourceHash": "7648229d7aee6c3d6c614155f66c25cf4b9022bc447ade35a7d3550bcedd8101",
+        "fields": [
+          "name",
+          "title",
+          "oneLiner"
+        ]
+      },
+      "sourceHash": "7648229d7aee6c3d6c614155f66c25cf4b9022bc447ade35a7d3550bcedd8101"
+    },
+    {
+      "slug": "infographic",
+      "ja": {
+        "name": "インフォグラフィック",
+        "title": "インフォグラフィックのモーション活用ガイド",
+        "oneLiner": "静止画・動画インフォグラフィックで、データや注釈、前後比較を強調し、Web掲載へつなげます。"
+      },
+      "reviewed": {
+        "sourceHash": "804eb1f3e093f9b18c6769239c0e0fdd8c452f7427f276b7d6d4197a0def38e6",
+        "fields": [
+          "name",
+          "title",
+          "oneLiner"
+        ]
+      },
+      "sourceHash": "804eb1f3e093f9b18c6769239c0e0fdd8c452f7427f276b7d6d4197a0def38e6"
+    },
+    {
+      "slug": "thumbnail",
+      "ja": {
+        "name": "サムネイル",
+        "title": "サムネイル制作ガイド",
+        "oneLiner": "動画サムネイル、講座一覧カード、シリーズカバーに使う静止画の見せ方を選びます。"
+      },
+      "reviewed": {
+        "sourceHash": "9fc15736ce746dd5e955f750604582990ff2db53ea3a4c0b623e2198d9bac836",
+        "fields": [
+          "name",
+          "title",
+          "oneLiner"
+        ]
+      },
+      "sourceHash": "9fc15736ce746dd5e955f750604582990ff2db53ea3a4c0b623e2198d9bac836"
+    },
+    {
+      "slug": "video-editing",
+      "ja": {
+        "name": "動画編集",
+        "title": "解説・講義動画の編集とモーション活用ガイド",
+        "oneLiner": "カットのリズム、画面転換、字幕、画面操作、図解アニメーション、ナレーション同期に使う技法を選びます。"
+      },
+      "reviewed": {
+        "sourceHash": "ec8176b61392f081d9e3f10525a726897a04d5824c0ef576b76264f85bbb61bf",
+        "fields": [
+          "name",
+          "title",
+          "oneLiner"
+        ]
+      },
+      "sourceHash": "ec8176b61392f081d9e3f10525a726897a04d5824c0ef576b76264f85bbb61bf"
+    },
+    {
+      "slug": "promo",
+      "ja": {
+        "name": "プロモーション",
+        "title": "製品紹介・プロモーション動画の制作ガイド",
+        "oneLiner": "製品紹介、ローンチ予告、フック、製品リビール、ロゴ演出、CTAを動画のビートに配置します。"
+      },
+      "reviewed": {
+        "sourceHash": "a31f372f732b3d698ea5564d2d746a53b432b0df429524fddd145405416f6aa7",
+        "fields": [
+          "name",
+          "title",
+          "oneLiner"
+        ]
+      },
+      "sourceHash": "a31f372f732b3d698ea5564d2d746a53b432b0df429524fddd145405416f6aa7"
+    },
+    {
+      "slug": "shorts",
+      "ja": {
+        "name": "ショート動画",
+        "title": "ショート動画・リールのモーション活用ガイド",
+        "oneLiner": "9:16縦型動画の冒頭1秒で視線をつかみ、テンポよく韓国語字幕を見せる技法を選びます。"
+      },
+      "reviewed": {
+        "sourceHash": "e458d9d2f3b540b54c6bc32c506ecbd3e80b55509fc8f12da029b8a724ec926a",
+        "fields": [
+          "name",
+          "title",
+          "oneLiner"
+        ]
+      },
+      "sourceHash": "e458d9d2f3b540b54c6bc32c506ecbd3e80b55509fc8f12da029b8a724ec926a"
+    },
+    {
+      "slug": "deck-and-site",
+      "ja": {
+        "name": "プレゼンとWebサイト",
+        "title": "プレゼン資料とWebサイトのモーション活用ガイド",
+        "oneLiner": "スクロールデッキ、Webサイト、Webベースの体験UIに適した技法を選びます。"
+      },
+      "reviewed": {
+        "sourceHash": "6b4dc491f6a7a181c64d17611d397e3becd7ed184767840f8d1f9e9118d14b71",
+        "fields": [
+          "name",
+          "title",
+          "oneLiner"
+        ]
+      },
+      "sourceHash": "6b4dc491f6a7a181c64d17611d397e3becd7ed184767840f8d1f9e9118d14b71"
+    }
+  ]
+}

@@ -1,0 +1,4108 @@
+{
+  "schemaVersion": 1,
+  "sourceRepository": "gongnyang/awesome-ai-motion",
+  "entries": [
+    {
+      "slug": "overlapping-action",
+      "ja": {
+        "name": "オーバーラップ動作"
+      },
+      "reviewed": {
+        "sourceHash": "b3f1c9d35b27f7709a932b2f186d9b1c9603dc7a0e77d5e89ba27eb18203a698",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "b3f1c9d35b27f7709a932b2f186d9b1c9603dc7a0e77d5e89ba27eb18203a698"
+    },
+    {
+      "slug": "anticipation",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "a4dacaea08eec46c9e290427e05937c9747440e04280afff2005d5b783374e1b"
+    },
+    {
+      "slug": "easing-curves",
+      "ja": {
+        "name": "イージングカーブ"
+      },
+      "reviewed": {
+        "sourceHash": "78d67f03fd485ce5de7bc2038ef1c23fa2394ec0909e869959ce201e8bcd6454",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "78d67f03fd485ce5de7bc2038ef1c23fa2394ec0909e869959ce201e8bcd6454"
+    },
+    {
+      "slug": "spring-overshoot",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "6486ecf5e5bf90bf60aacfe44a4ad478aad4e8abac8bbc93e6df9212956b5a6b"
+    },
+    {
+      "slug": "squash-stretch",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "03ce49cb882fa1d02a62e2b2763cdcfc91681cde912280e1dded27915d318cc8"
+    },
+    {
+      "slug": "stagger",
+      "ja": {
+        "name": "時間差表示"
+      },
+      "reviewed": {
+        "sourceHash": "9e12115d1ceb0362e8fe01432110b399787476ab34404cc89692bf6b9653b692",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "9e12115d1ceb0362e8fe01432110b399787476ab34404cc89692bf6b9653b692"
+    },
+    {
+      "slug": "arc-motion",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "4afb52bd9627a9f5aa319da1d9a9313f80dbd2cf70ca8b26f1ff18a5d2868123"
+    },
+    {
+      "slug": "follow-through",
+      "ja": {
+        "name": "フォロースルー"
+      },
+      "reviewed": {
+        "sourceHash": "e273055f26179127cf5975f90d6373a2f9547e30eb2ee6dd5b743bea5c34418f",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "e273055f26179127cf5975f90d6373a2f9547e30eb2ee6dd5b743bea5c34418f"
+    },
+    {
+      "slug": "motion-hierarchy",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "114d46b51f97923e9be7c7ca10ad8063d87f35d3e22961e072a2a181a79d3fc5"
+    },
+    {
+      "slug": "timing-spacing",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "124828e1ac67e642be440008a728ebcbc1bd2becca4cd56390f6eee68b158f20"
+    },
+    {
+      "slug": "motion-blend",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "8be2581b2de14a80763a3eaf491dfd118f118f529b30e6184fd9ca60b66eb8d7"
+    },
+    {
+      "slug": "smear-frame",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "38f125ff8f83f1343e1de937434997c46154b0366eaacb2dc06d1352fb0e2beb"
+    },
+    {
+      "slug": "action-sequence",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d5d9625dc2510c270aed975611211f63cabf2240f1a75c9d1458bbaa7ceac8d5"
+    },
+    {
+      "slug": "additive-motion",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "3ed9757d822f955ea2f15a676ab765a1b74215a9ec9fff8ebf1a0250a408c700"
+    },
+    {
+      "slug": "beat-sync",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "6fef218bfdc1632f4d6c395e8db92784e565fcbf6e1e2b82647520ce36fc7de3"
+    },
+    {
+      "slug": "bounce-landing",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "0fe8df14f2f33d682fc5046c7b5ac64c8564cf779edb063c70372786d02d22b8"
+    },
+    {
+      "slug": "concurrent-motion",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b9ffb19bb4d8fd8493d75cfa7e5f5bbb134ef5ba67d8de5576985b9a9930bd06"
+    },
+    {
+      "slug": "continuous-motion",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "9b81fcc7ef13bf5227b3af650f0123c0d9f3e8b83c1cd1eaf294f61d05308167"
+    },
+    {
+      "slug": "group-motion",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "ea6565bbc17bf7ab0309e9d2bf2399df879e6094d37d01c331099d17481f7998"
+    },
+    {
+      "slug": "inertial-glide",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "75a3d17b7f288b7f785aaf6239a2cf5c337b6be97ebfe4afb9f45daf81b7cb04"
+    },
+    {
+      "slug": "retarget-motion",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "c67914bf559d42dd4f3bce88247b8209d3dad345785d706a60b055931b4cdc5c"
+    },
+    {
+      "slug": "rotate",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "62fa198b67787954875c3628672c9d35b3fc5b490c85868fc3683ae6745d6cff"
+    },
+    {
+      "slug": "scale",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "f5c928fe3177a21c6360ce70477d06915a2f0f53a481b08aab8d2b55f8592fbe"
+    },
+    {
+      "slug": "state-tween",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "0881265501cb0ea04ce631a68d9170e1a0b5a4aaec850ffabe5097c6d4f10ef3"
+    },
+    {
+      "slug": "stepped-motion",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "f5a024cb2708fecbcaf8f916af737072b6a5f5c111d8e632b28349ec136aea33"
+    },
+    {
+      "slug": "temporal-overlap",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "91a2b0afecbebb789846e8132836f40755d5d55ea87084c72aa5fd35c0716091"
+    },
+    {
+      "slug": "symmetric-panel-open",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "f366148903c33193883c5b61dea0bbc21dd6397592ad3b4308a4fe98f1ccb0fb"
+    },
+    {
+      "slug": "back-entrance",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "e024a9543ac1c6eb0d3de84b35cb68a56a56eecd165432142d7e5a13f0ccfc55"
+    },
+    {
+      "slug": "blinds-reveal",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "8c9b994a16ab1933a8cc240a253d05c3866a40e6e396f117e037eb8dc78698bb"
+    },
+    {
+      "slug": "blur-reveal",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "e357f2e51c3bd8e9035a1e150ea56ee566756d5cb6d5f2115419bc25887cc033"
+    },
+    {
+      "slug": "blurred-slide",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "c6a93e44239376167b5b829e149c67d3c384aa3050071ca205fda6cafcf8187e"
+    },
+    {
+      "slug": "bomb-exit",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "0d7d3f18eea96df084d9286ca886a460d55cccaa191215d016be1c9bea3d11fe"
+    },
+    {
+      "slug": "corner-mask-swing",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "c5bf9088ed8e2e6312d19d9814d4db8b5ef49a9aede15133c45f7e15c135fe8b"
+    },
+    {
+      "slug": "counter-moving-matte",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d10eb229876f849cedc0f89a07f9f2ce27f541ae36eb17bf1f8b8ca78a965a7b"
+    },
+    {
+      "slug": "curtain-reveal",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d5904a33e06a71a7120e398d91ff27b962a3fc63a8d0be87a93d1a4753b2434f"
+    },
+    {
+      "slug": "depixelate-reveal",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "c10c28c5de221621c9575df9375c9008722874f8ce76dbede34658b1a97d7a7b"
+    },
+    {
+      "slug": "elliptic-entrance",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "7caac054c1a187ee23855b99493cd4374a8e05ffa4825f0ea1bec5e21d86083a"
+    },
+    {
+      "slug": "fade-slide",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "54889129e6979d2341079ec922661dfad70ccb31dbde37403f0435515cfc9aa5"
+    },
+    {
+      "slug": "fade",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "8a6c66fd755cfbdb8a7678ac8cdc54d42ef236283b7f31744e5b979542465278"
+    },
+    {
+      "slug": "flicker-reveal",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "0dc5979bf55bfbcff05db1fe1e0de17bfc0597097a4ab48281db49747b9a40be"
+    },
+    {
+      "slug": "flip-reveal",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "2fdce73d5e5f607a684d5c54e510d0f33f31a4e6a876fb26dbbee9eb4a88fb1e"
+    },
+    {
+      "slug": "foolish-reveal",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "443b4d8320b3122dd3075cf90ffa66e2313b3337bc4accf213dedf6e3dad33ee"
+    },
+    {
+      "slug": "hinge-drop",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "235d0a94b5c3db5a704f8e199c57bc35707c0a4f4d5fbc0be3aa4c1734a94371"
+    },
+    {
+      "slug": "hinge-reveal",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "9f365c989ac4eea63b030c4e23658fa3a574506cf57e145a8d1ef0736bda31c6"
+    },
+    {
+      "slug": "jack-in-the-box",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "05446dad4ce07bc3e94424b3d163d18e359d57857d309c6390b2e73055c30361"
+    },
+    {
+      "slug": "light-speed",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "730a1f9e22a4a6be29f9c655e34bdaec3942eba0f932ef603d10addf9a389008"
+    },
+    {
+      "slug": "magic-exit",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "db9537e89e74cf927a87daaca78ffd6cd1997907877e9612bf2d41af6622c0f0"
+    },
+    {
+      "slug": "mosaic-reveal",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "404069cc6f3fcfffa92bbbdd62b4a1ed92990196456e76dd5370b2dff783304f"
+    },
+    {
+      "slug": "physical-exit",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "9f07622586b4eeb2b30f66b54c149777924e4121bc5f07c3392031bf8a0278c3"
+    },
+    {
+      "slug": "puff-reveal",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "ef7d53d6f07cc263bb4f7363aa7454e0146c4df1656378030e097bc87b524238"
+    },
+    {
+      "slug": "roll-reveal",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "accc96960273fe374110c74987d0e969137f868cae8606ae4d19c589fc5b4d25"
+    },
+    {
+      "slug": "rotate-reveal",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d8296665ec68aeec39e06e948b0d8f35a4195205bb6a71c4072e576fe59137b8"
+    },
+    {
+      "slug": "scale-pop",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "fa0e6793d0e2112c1e4b22a1850d90340586b4efc64c0554d054b6c4b8986ef3"
+    },
+    {
+      "slug": "slide",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "90c60440bf17d4d425bb180fdf9cc5861790d4b60f23db4f8791f75142e30a3a"
+    },
+    {
+      "slug": "swap-entrance",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "7c906892fe4988c6eebcfad6f665ac54b93a63aaaeab046b64310582366dfdfa"
+    },
+    {
+      "slug": "swirl-reveal",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "5d3105b03753bb505d1df1ef455b4cff8d43a7aad9172e511c8c4227794e97b3"
+    },
+    {
+      "slug": "tilt-entrance",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "f617dc3c62af456b1d993252dfc4978c6c5a6a9f24421e442df3d6fca9779dda"
+    },
+    {
+      "slug": "blur-resolve",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d4ed46aa921d2ad94422bbca3069302214e9646887d24056689d7aaf3e8b56c5"
+    },
+    {
+      "slug": "clip-reveal",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b64373ab43b5c99892730e2494c0996299b4f0c0ec5ddcd0f7dde0cb51098ff6"
+    },
+    {
+      "slug": "hard-appearance",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d07935c30b428f18b2fabea3d18ca93bb69d726300043261614f4e5db7849aae"
+    },
+    {
+      "slug": "outline-flash-reveal",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "4155fbdddca333a5e68836929a9f3746d6dba238951194e1a942676d0f90d988"
+    },
+    {
+      "slug": "paper-shred-exit",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "9206ce195d304a39bde0228f4582fa4b89f6474590553a8e7e8b5dad96b1d6a5"
+    },
+    {
+      "slug": "spiral-assembly",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "80165876ba60a47175eb5ce05ab62e1b9f5585f2f7473f6439f900b5355d8a04"
+    },
+    {
+      "slug": "letter-spin-in",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "9ab0c233bf2907b3fb827ed994212fbf6f5cae5768c5815fff8648996aa398a0"
+    },
+    {
+      "slug": "overwhelm-surround",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "6bab78d3bcbb2186edbdf4937152f80479fd50c0e1f6036a386fdab01e637afa"
+    },
+    {
+      "slug": "threshold-pulse",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "1e03e1ac47387ebdadbb627a0f93a226a06111d556635bed344d49c055cc9d76"
+    },
+    {
+      "slug": "border-reveal",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "68cd57b542e4e10fadf5713a53032df88dc58d900326917613a33b27127c18a2"
+    },
+    {
+      "slug": "jello",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d313bfb3d28cc37119c61ab3c52555028d9de8242e99c3c967da85f2b4f9ad15"
+    },
+    {
+      "slug": "pulse",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "8774a308048db4f7fdbc94093e5ace009f3a9cf6e884a46dacdc35df503d75b0"
+    },
+    {
+      "slug": "rotate-scale",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "ffd93b6e1b63a9b2b3939f0487b4f922e9d4d06c033b2dcb3d3595b064cfcc3c"
+    },
+    {
+      "slug": "tada",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "3d267db660454a2a5221c293deec5d97a37305f4126ea072c037eb492103e219"
+    },
+    {
+      "slug": "wobble",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "4a32b13d9cac59618f3712752fe15442eb39af5fc1bc3736fb413bc38d3fe0de"
+    },
+    {
+      "slug": "audio-reactive-pulse",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "8c8b60b9f55ecb7906636d3c70712308d558cc829725db4fd9670e8dabc6764c"
+    },
+    {
+      "slug": "blink",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "653626a363d4ecc0e916341263ad623d00a2b2a658ea9752d5a2625ba133266e"
+    },
+    {
+      "slug": "bounce-attention",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "16de516ba17a40c38396b750cc6822f54149bde9ce64f55bfc5c84079736ed0a"
+    },
+    {
+      "slug": "circumscribe",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "eeb75ec1438ee68e2df4a1cc562f6be26a1c05b9ddad7daf4dd7e6f6855c014c"
+    },
+    {
+      "slug": "color-transition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "21d47c376a49eb31a255f47515b859e99fbe219a56c88e0f4d5330b450165808"
+    },
+    {
+      "slug": "focus-contraction",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d38afffce735d42869563b227d4970af91d86f23bd05babb799bd017d9fc669a"
+    },
+    {
+      "slug": "focus-handoff",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b2b132c2490382a8a08c734f242d5fc112dafa652e4c55e90a5e6b27f379c8fb"
+    },
+    {
+      "slug": "outline-pulse",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "3f3cb3a7d792d876382924f4add1a73f7cee88c0ca7ccd9b9d99ad0bc86b2930"
+    },
+    {
+      "slug": "radial-speed-lines",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "f4854e04b639f396e24d3417e8e5006c8b2dda2851aca29b5bb66ba12d50bf4d"
+    },
+    {
+      "slug": "selection-travel",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "dd63d50876924b00c4fe2bf68508745c197e0bfe176d72dda8e51cc9d6afaada"
+    },
+    {
+      "slug": "shake",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "a230f04483043e019adafd154a6859c4f01bee64499ee93f37f6f010567f5093"
+    },
+    {
+      "slug": "swing",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "9fc3f6c19117bceef574ecabb7a9dd1d2cbd55de2fba81cf818fcdb36508071c"
+    },
+    {
+      "slug": "vignette-pulse",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "3627e2fb5e67a80d8fbd2dc587a03a5724506a22662a36be9859e252b2035161"
+    },
+    {
+      "slug": "text-color-wipe",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "94ed2ec7618be714be5d3e127021342f9a70bc2f1b4e6369abcbbe1b876c4949"
+    },
+    {
+      "slug": "letter-drop-pile",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "c020d943d8157e94c30e9fb7c72b5afe0225afd7c31807aed17fb542985b1fb0"
+    },
+    {
+      "slug": "char-stagger",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "af43231e132afe9c2d6927bb5f284c7d32968d2a110935188e18e3729aba19a2"
+    },
+    {
+      "slug": "highlight-sweep",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "30a66cb8d7ea9095f1191038da321d5932e017fa34095283b376aee0c1c88d1b"
+    },
+    {
+      "slug": "kinetic-beats",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "c57fd2d3a281885fc9451db5530107bd2a3a690013c69f1379fd657d3f165afd"
+    },
+    {
+      "slug": "mask-reveal",
+      "ja": {
+        "name": "マスクで表示"
+      },
+      "reviewed": {
+        "sourceHash": "8b34a044177a8a656327cb5964d5bb105dc2f6a8abe13d03ed8ef2e37f691d7b",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "8b34a044177a8a656327cb5964d5bb105dc2f6a8abe13d03ed8ef2e37f691d7b"
+    },
+    {
+      "slug": "text-scramble",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "5a327328a33431c5054ee6aff9900d5e5a2e2fc8c2c4d6cc4d4a6421f7c18a19"
+    },
+    {
+      "slug": "typewriter",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "51328f874daaafedb5a86b25982f96da6b484470b817b11b22ce9e0e34bcb9b3"
+    },
+    {
+      "slug": "underline-draw",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "577291eea9149a7fe2b29f6a323b75c8e937618c099e114e4f4eea74c3bcae41"
+    },
+    {
+      "slug": "word-emphasis",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "47b5870a6adc351d669109ae5096a004b4cec487721045eea0e11b3063888a9d"
+    },
+    {
+      "slug": "kinetic-type-sweep",
+      "ja": {
+        "name": "キネティックタイポ・スイープ"
+      },
+      "reviewed": {
+        "sourceHash": "79b1a6098dae29472c9364c75d332e21604048912fe3ecb876c9e393fed924f4",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "79b1a6098dae29472c9364c75d332e21604048912fe3ecb876c9e393fed924f4"
+    },
+    {
+      "slug": "context-caret",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "3979753656526f3cd6f002729eee34f63e5f91f2d8144a978ebd93b3d3dbab4b"
+    },
+    {
+      "slug": "flip-decode-text",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "3dc9f2838dac13945af722744104f2728803587b4aa08fc42633bfd4f47161fa"
+    },
+    {
+      "slug": "font-shuffle",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "8fccac3ce31b1c14b84a97566c343a3f9dcfa1ce090a3f840f0391fece559a27"
+    },
+    {
+      "slug": "glyph-roll",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "dd9735cbc76304e0f62eb4cbf60611ce4f3a6e65703e3b542a502332c02c6c07"
+    },
+    {
+      "slug": "handwriting-write-on",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "15bee5c17d644a4049322303a2000dbbe6006e6ebf9ede58a6b4012708fb9af8"
+    },
+    {
+      "slug": "inline-image-expand",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b690734f8c4a410f29ff6933bb06e365aaf26570df62f485628aee123bfaabe7"
+    },
+    {
+      "slug": "letter-anagram-shift",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "8f3f3fe4c66b083f012e88e2890cb23ab648c8419230c25b30ca917eaed11809"
+    },
+    {
+      "slug": "phrase-push-build",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "1d3098ca2a82716191f4e6ef09336cee6e3af25b67082bfcbfe94e55e8704d49"
+    },
+    {
+      "slug": "quote-card-build",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "4a82e9bd66ff3c0c8544cdb4e24eb3ce2d697bd4ae7be5651244caca8186e067"
+    },
+    {
+      "slug": "repeat-text-wall",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "c8cf2860f76ba5eacdbc829890dfc5daf865035866cc024cad52cf2242bd90f7"
+    },
+    {
+      "slug": "scene-integrated-title",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "8959f754423ad9bfb9e746c1b886d949704a1cdce9f6d9e744fc8f7dad6b37f6"
+    },
+    {
+      "slug": "spatial-word-composition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "8937a49e30c22c99c2dc1a87da3f35e4fb71bc01a66532e66482e3a89cceac45"
+    },
+    {
+      "slug": "split-flap",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "4fee9dc68de0d0155d25dc9405703cbace4a086a8e654a7e0b11bcf772d8fdfb"
+    },
+    {
+      "slug": "strikethrough-replace",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "a20db4d05e7b8275fe4d1a2457fb9af30f496ccf7fc86e5bb7f99902ff3eee8b"
+    },
+    {
+      "slug": "text-scatter-assemble",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "a856dd7c93e05516adb6ce0fd89f6220bf2b89cd243f1ae31ae9966ec211693b"
+    },
+    {
+      "slug": "text-wave",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "2048ae77ac3f1130c4411ea2deb96c07ecdcc14c89461ed4ce99157b815be556"
+    },
+    {
+      "slug": "text-window-fill",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "4531fdc8422fc1fd6e787439419fed5965839c9492fea543c04084c82039fd5f"
+    },
+    {
+      "slug": "tracking-reveal",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "dd1a1bc83751181b760034da85cee5e2145e3bee02df1f46a1832e96cf821646"
+    },
+    {
+      "slug": "variable-font-axis-morph",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "1a8dc42c7be5b0e1dc2332dfb7420f67429f51d8aaef1cacac0dbdaf612c7169"
+    },
+    {
+      "slug": "variable-font-weight-wave",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "a0690354e45b250951c4e7ee8d8c95145ded0201f1abeec32b9fa43a75d1effb"
+    },
+    {
+      "slug": "word-relay",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "54fd3da40a676ce24197a323117618125d2aeb232fa0149ce737914f2782f2ce"
+    },
+    {
+      "slug": "word-rise-fade",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "706b98503dc8eb899b0d72b85a1081f04566e32a39d9ad4904affcf343bb8296"
+    },
+    {
+      "slug": "word-slot-cycle",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "e2267924e9f478f94e35e196b99af09549fffebb9b49c034f86e1357b8bd56db"
+    },
+    {
+      "slug": "crossfade",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b624ebc8dffa34649eabd77ecce361005e5b3063b687415dfec89f69af64a718"
+    },
+    {
+      "slug": "push-transition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "53cc4d06919f304d5fa26bf4bcfa257c7cca1082a51c28161cd3f0c8ea59458f"
+    },
+    {
+      "slug": "wipe",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "277077cf83b5d57aad0be32d7facf19d78376cf212b130db66c56104cac71bfe"
+    },
+    {
+      "slug": "iris-mask",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d6da2b02b8a4f649edcdc7068b1f06f539abfc92f5f053852e887f3fee75d368"
+    },
+    {
+      "slug": "match-cut",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "c7bc7be10e93d8751b537fd7de0461b348e016970ad8a3d08b35eea2191dfd5e"
+    },
+    {
+      "slug": "shape-morph",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "a01bdb8883c6d9bb799a979c6afe634ae17fd3ad294b91322b4e31cc9c4d479a"
+    },
+    {
+      "slug": "whip-pan",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "7e5ad1eac75af302735d67895638ffc3ff2f7a0c106d38d0bbbef2f13b73dd61"
+    },
+    {
+      "slug": "zoom-through",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "8962d974068db0fe26a100591722d99f29ef98fa88c0e3d77dd2ad373003f0f9"
+    },
+    {
+      "slug": "blur-dissolve",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b4015fefb4b21f4b8e656a100a24207e7f96e52494117be70a61dac96c4ef186"
+    },
+    {
+      "slug": "bounce-transition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "957641786c9221ca8fec13cf032ed53b717d8b383b020bdf121f16c7fd4baeb1"
+    },
+    {
+      "slug": "burn-transition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "55d8246e6a5ad22762f68ff02e9010ad4b0420b994b04dbfd2aecd7984ac33ad"
+    },
+    {
+      "slug": "chromatic-wipe",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "9bbc09a4d0ea91525db93ffd9a3e2628fedf069996f29661d0d7dae48ab97c56"
+    },
+    {
+      "slug": "clock-wipe",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d5c6100e4f2521080ef2007407a27a0c7fa8a39b00757aced8c306c0635c3d6c"
+    },
+    {
+      "slug": "column-melt",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "fbea7ac52962748e1ae4b9141a9dc41f0f1d38d9777bf1674fd5ceeeea5ef2d1"
+    },
+    {
+      "slug": "cube-transition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "6e718b3d0ef7b981459584046d01ce9103875737a9ea64b3ae142a7d51497453"
+    },
+    {
+      "slug": "dip-to-color",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "2ef7164471a303f21bedbbbd494c13fe4571deb290262638a5baa1f7ca78f9da"
+    },
+    {
+      "slug": "flash-transition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "1e0ef972cbe5071b40defbe7395699e75909a9814d8cca0708d6c403e2f514aa"
+    },
+    {
+      "slug": "halftone-dissolve",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "4685710ebddf468146819bde9481a43c68a27ad740523ccc90e4b73769cec3e3"
+    },
+    {
+      "slug": "page-turn",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "2f82870702f04694515dfc0d592e8c7c669f9f6c451b504e8dfba035ecd77456"
+    },
+    {
+      "slug": "perspective-swap",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "377999ef947bb6c172807906f766c783a466470a660f89c64512dac294a26447"
+    },
+    {
+      "slug": "ripple-dissolve",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "69969c07fd4295ce22eff0674a0a10358f9389d2569aacaec991e42658964221"
+    },
+    {
+      "slug": "rotating-tile-dissolve",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "64ed23412058c668866aa42a8b3598154f9587b4bc0a6651ca2962bc31cf9424"
+    },
+    {
+      "slug": "scale-swap",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "6d20ac8301e9a2469c028b13d5a8e5177ef21aee71f7ca5c79ef09a0c29c6218"
+    },
+    {
+      "slug": "split-slide",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b9a07d698a1c50f8f0bd29ec1323f7fc8b7ccd2ab8865ca0d5abf3e400cca289"
+    },
+    {
+      "slug": "squeeze-transition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "2cf3f2f7e1d8d56f62ea5855ef81c6c047080a8203f7b2cf1de4658a6fa2a637"
+    },
+    {
+      "slug": "stereo-viewer-swap",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b876e84a08d0efe3f3f1ca70c4f085395e008b1af383550614c2a60fdbf5bceb"
+    },
+    {
+      "slug": "tangent-blur-spin",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "c87cb57338de5e5583eccae2db8a515935af2db4fa4223e527ceb48d295e270c"
+    },
+    {
+      "slug": "additive-dissolve",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "cbc0bf4730078f648a5cde5ac592cc0f2de52ce3ac4bb6d47a9daf5fc0d54c35"
+    },
+    {
+      "slug": "band-slide",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "52e8978a0ab39ba02662d09dc46befbd7c0fcc6323374b7d44d1191680b559ca"
+    },
+    {
+      "slug": "channel-phase-dissolve",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b024113dc8a32ca0f5aec79525504aac8b00ece1caa57ffc0961c5e99a74ff4e"
+    },
+    {
+      "slug": "chapter-interstitial",
+      "ja": {
+        "name": "章間タイトル"
+      },
+      "reviewed": {
+        "sourceHash": "713075d67b6e0fb33a98327d5d7dbc8a45bb06ed9bded51e9eb4640a9dd920ec",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "713075d67b6e0fb33a98327d5d7dbc8a45bb06ed9bded51e9eb4640a9dd920ec"
+    },
+    {
+      "slug": "clone-wall-wipe",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b28b2ba348d9aee75c57e93220dec8b9787080105bf8ab71ebfc18c07e7f451d"
+    },
+    {
+      "slug": "color-distance-dissolve",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "3501f203d2ae9d250a2e9bb681ac23a9e6f8f9542eaa147afd4d1e75c8a98c4c"
+    },
+    {
+      "slug": "cross-cutting",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "33d49a181e0b41d888f835fa1237874bb01d825e31c6e0ded900afaf4a3f150b"
+    },
+    {
+      "slug": "cutaway",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "56f2a49f9d6bc8912d59211a45394ada82b1f54d212c78261125d50451c3dd91"
+    },
+    {
+      "slug": "datamosh-transition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "a2c3d5b374f0d302c8843303de3c1be1d790a51bae9fa4d1f906eca527770c2a"
+    },
+    {
+      "slug": "edge-trace-transition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "1b8e53ee066a5fd24365dde49a5d0f9e8ec1c965e0095991aed2651902752088"
+    },
+    {
+      "slug": "exit-before-enter",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "dd8789381cb1f8ada79e18a81ebc4670bd74b1c40bacf386e7b5baa10c8a1a33"
+    },
+    {
+      "slug": "eyeline-match",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "93133ef372aafd087556c4bc8c90d3441c2b7d967fdc190ec80a613ca1368611"
+    },
+    {
+      "slug": "fly-eye-transition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "e2574f68bd747bade5ee30099b20d4801c860e6cb77eebf3bc87d8feda45f0b3"
+    },
+    {
+      "slug": "frame-border-transition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "067a06857b91c6cfa1bec7d8244b398081fe9a91aff6e458093688bb6cc5f0b2"
+    },
+    {
+      "slug": "freeze-cut",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "c158759edf94afb3624361009420d66c3d9e5473ad02cebe679401260c5b51e4"
+    },
+    {
+      "slug": "freeze-frame-dressing",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "ce36e03fda21aeb035de22c4a058a43714cdf654117a527f4e2da7c1b6209da9"
+    },
+    {
+      "slug": "glitch-transition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "11ea1a6c48993a4a2c2e6cd0e0e61081247bea01f5486506ba8894c06a851464"
+    },
+    {
+      "slug": "gravitational-lens",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "fc5f8c569ef56bd7a25dce498d5146a058961f2715d64fccba8d69daf11f683e"
+    },
+    {
+      "slug": "grayscale-dissolve",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "84de52ef84b2fe428f68859ccc14f2ace6dc056efc1a1cabb293f09fb4b777fb"
+    },
+    {
+      "slug": "grid-flip",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "2cb94dc50eba4d33fbf88760fb87f280976fe792d1ca4c6b86b69cf88e7b52c9"
+    },
+    {
+      "slug": "hard-cut",
+      "ja": {
+        "name": "ハードカット"
+      },
+      "reviewed": {
+        "sourceHash": "48d9d04b60c775feb4360c175c58f5e30de0152f84229acf7be3cbb14eaa0258",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "48d9d04b60c775feb4360c175c58f5e30de0152f84229acf7be3cbb14eaa0258"
+    },
+    {
+      "slug": "held-scene-overlap",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "4524f05db539bdf3bb0c489ae3700d070f4e102a67fbfcf17d619e15a03dcecd"
+    },
+    {
+      "slug": "hsv-dissolve",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "a2f55bda53dfee224f87c98640e68a4f387cc6505687c794fabd1e1944753454"
+    },
+    {
+      "slug": "insert-shot",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "58b2deab52bfd9952a021987323359867eb5107d5300858c74959cc16fc95a9f"
+    },
+    {
+      "slug": "jump-cut",
+      "ja": {
+        "name": "ジャンプカット"
+      },
+      "reviewed": {
+        "sourceHash": "3ce2d4d51ba52b60027b57968a18ec8dcb8130517a22d128ea871066cb006598",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "3ce2d4d51ba52b60027b57968a18ec8dcb8130517a22d128ea871066cb006598"
+    },
+    {
+      "slug": "kaleidoscope-transition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d59a428edaa2d5338480a6d3020b3636157d6fb9a8ac964d82c91f4720005ef0"
+    },
+    {
+      "slug": "lens-flare-transition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "82d2e5942af4424c6d0333d71c5d81b9f850402c34a8adbf710afd41a5434376"
+    },
+    {
+      "slug": "light-leak-transition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "35a44f603490b14e26134e5fb3f0add525162edf1c82aaa542d7bc077343205a"
+    },
+    {
+      "slug": "light-ray-transition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b71884053b36955226a850c435bd5f1fa1ab8280c96b33f1353d1c63fd34550c"
+    },
+    {
+      "slug": "luma-wipe",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "6a3f998265e2fbdd52e17ac095683ca506e97550e244da4307f63a69b717b9b1"
+    },
+    {
+      "slug": "luminance-melt",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "e1271c0439d75824493559421266a7fa677dc33bbb598f93af929e25c5a1f22e"
+    },
+    {
+      "slug": "match-on-action",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "38edf9b14ffd24d06081cbdd517ef503a7905f126d60410d21771c126872d240"
+    },
+    {
+      "slug": "mirror-transition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "6156ccfcff4d7db8466be2235dd6d783709d55c8f663c0f767c82afc52d59b53"
+    },
+    {
+      "slug": "montage",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "74a52f5b9d3860e9dbf15413555b79cf9df1e6bc01f1cbc673ffd0d4cd550b35"
+    },
+    {
+      "slug": "morph-match-cut",
+      "ja": {
+        "name": "モーフ・マッチカット"
+      },
+      "reviewed": {
+        "sourceHash": "c90b2e54adf98128b9ee1592009e35efe1ea52be3881b485e6aa56a5c3acfbe3",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "c90b2e54adf98128b9ee1592009e35efe1ea52be3881b485e6aa56a5c3acfbe3"
+    },
+    {
+      "slug": "mosaic-traverse",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "ec1dd09453c4910cb58b8f39d631993f101e236a58366524daeaeefb11f1febf"
+    },
+    {
+      "slug": "multiply-dissolve",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "efcbae1676c2e3a4f293197760da0aab8f09df97f1bf11f053c9099bb5e8874e"
+    },
+    {
+      "slug": "noise-dissolve",
+      "ja": {
+        "name": "ノイズディゾルブ"
+      },
+      "reviewed": {
+        "sourceHash": "7fdd9aca9ff29327393c86f85e8491c52648c81bbb9a58ef2d4c125667733947",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "7fdd9aca9ff29327393c86f85e8491c52648c81bbb9a58ef2d4c125667733947"
+    },
+    {
+      "slug": "origami-fold",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "1469e435b34ada84253cf92f8eca99bb857367b3749b24b3f5f6b0d583429642"
+    },
+    {
+      "slug": "outline-dissolve",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "ddc6aebbad3a4b34f77d27e6dbe96ba288a25141be30e4b95e09a02dfb53371f"
+    },
+    {
+      "slug": "overlay-bridge",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "027b574a32dfc448da1dce9c0c42d917242a24f492f32c348884e1ea06073545"
+    },
+    {
+      "slug": "paint-splatter-wipe",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "c684d4dd7750c917f9bc0ffcd8a92cd2d314eca18ae2e7a66e830f1a923fda86"
+    },
+    {
+      "slug": "phosphor-dissolve",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "a3d14218ab8d1a35caf8fa973d7ec3974d60b8b8c1827e768c76edef343ab192"
+    },
+    {
+      "slug": "reaction-cut",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "381c51129bd432f78dca14b65d9d9772d61034079f7a4eed5184fe2acf15c6b4"
+    },
+    {
+      "slug": "retreat-cover",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "136489b8987adad201cfb77e5c4b57fe8de897622b92fa34db222ad2ea2c9a8c"
+    },
+    {
+      "slug": "ring-zoom",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "f9f2d4ef49d94bd5d16a2163fb5928a836366540d820aa9b23fe7caf7c539702"
+    },
+    {
+      "slug": "scribble-wipe",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "5a30c75b8c40a3288d0da4fedfb65aae97c4fc1e9d3c171904e214dd4e182c80"
+    },
+    {
+      "slug": "shader-wipe",
+      "ja": {
+        "name": "シェーダーワイプ"
+      },
+      "reviewed": {
+        "sourceHash": "5643a25f368dd6c980409d97a2d28f8b18642bc8d09320e1f13c35dc30e70bda",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "5643a25f368dd6c980409d97a2d28f8b18642bc8d09320e1f13c35dc30e70bda"
+    },
+    {
+      "slug": "shatter-transition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "de350854f16b968d7c87b4fe49e81f6ddf59c3635e80f16e35f24898b56b1181"
+    },
+    {
+      "slug": "shot-reverse-shot",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "ddf265303e46f3ed5117e63b5b158a1c64c5786d7a05870d33aeb2a959d980e1"
+    },
+    {
+      "slug": "smash-cut",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b9a44b5615056295af7084619d4f2926baad718418fb6fc9a522af08af94f916"
+    },
+    {
+      "slug": "solarized-dissolve",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "9e75b284a410f8b80c47fb2e951b3f08914e09a2db23892dd480816cb00a991b"
+    },
+    {
+      "slug": "speed-ramp",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "9dba8d0ee966d2454e0ffbbe2f081f33459494e3a56e8a2595f4877ee8656a81"
+    },
+    {
+      "slug": "split-edit",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d7624096ff77c0397f36617d580cf133d6a291cb9ec593f3112f05436cef6b09"
+    },
+    {
+      "slug": "split-panel-handoff",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "f622d7cfc4ab90bd816762591ee90acef271547c1cfa1953b4fafcffb3d6e90f"
+    },
+    {
+      "slug": "static-band-wipe",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "655b5995ea296ef34d3e0662bfda32c8ac4e987d43392c0533456731fc8597f2"
+    },
+    {
+      "slug": "swirl-transition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "948d287e4c38dcff32bdf2d8001f57ed7cd349c197b9c0311c6cff2bb1b8fd43"
+    },
+    {
+      "slug": "time-compression",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "0456e8a359688862a173ef7bc23ef02473cd9558adc1159d06ba07ab49967855"
+    },
+    {
+      "slug": "tinted-burn-dissolve",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "cc826fdef181e855bda046daa0f25ab0b78b405b11d5d60dc1c50b17e05b3ea4"
+    },
+    {
+      "slug": "translate-fade",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "752707e2019c4f918bc337c60f31b42416277b86243688bc9876ef64da35430c"
+    },
+    {
+      "slug": "tv-static-transition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "f22e00d6d342167e3311e917dfdb5e92a899bd27793247861cd1459d8ecad67e"
+    },
+    {
+      "slug": "tv-tracking-transition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "3cbd14933f3f56f44178a1a21c0ec8cef70196c3afb5de3fca3b2bd77e68df1d"
+    },
+    {
+      "slug": "warp-dissolve",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "cc2ef64924b1c48bed289581bf34e4057749b850a43989ac80e6e496542d50e2"
+    },
+    {
+      "slug": "wave-dissolve",
+      "ja": {
+        "name": "波形ディゾルブ"
+      },
+      "reviewed": {
+        "sourceHash": "148a27196da29bc6f8a442fe0d9c223a993fe5b0ff459dcbef39f504cf36df9e",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "148a27196da29bc6f8a442fe0d9c223a993fe5b0ff459dcbef39f504cf36df9e"
+    },
+    {
+      "slug": "wind-wipe",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d722ed782c4fb64eadcd7c7e34f81603112d00325d37f91270bfaa1794374802"
+    },
+    {
+      "slug": "zigzag-wipe",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "adad05f5f69bb68e75a1690cd20af8750902531993f2763ce011cd0106fa7c04"
+    },
+    {
+      "slug": "zoom-flash",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "f8caca408f25081a7e710536c5e5c1f3788042d1f19e35f3ab9929d5ada070b1"
+    },
+    {
+      "slug": "zoom-wipe",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "6af402d6af09b965d1bbd481eabd6a2d20e7c3cfe9404d43348916184dc2abd6"
+    },
+    {
+      "slug": "text-cutout-zoom",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "0018e244079b1d80f3932a448489dd2c7bc67a1d2a36bc3f0b106567e187baa4"
+    },
+    {
+      "slug": "text-half-split",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "0ca61264106a4f4d3fe4dc60bdf62c04447b4d49f79f454a20a3a87e9c9512a4"
+    },
+    {
+      "slug": "title-card-rhythm",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "dac25284b9c16156240ff058a14264ba8dbd66869395e710efc3d5aa8478b855"
+    },
+    {
+      "slug": "ken-burns",
+      "ja": {
+        "name": "ケン・バーンズ効果"
+      },
+      "reviewed": {
+        "sourceHash": "ffe95c0358530ff25fa7cce6566b95840b96d6d86f855beec32707817fa91d4f",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "ffe95c0358530ff25fa7cce6566b95840b96d6d86f855beec32707817fa91d4f"
+    },
+    {
+      "slug": "pan",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d84810bcca589458026e3d061f202b31637e147d01c02c56c4d0e773373d5f39"
+    },
+    {
+      "slug": "parallax",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "92f45409a08b2766777251a55a49fe3391d0ca585cbd4e84a7dfd4993be5fb4b"
+    },
+    {
+      "slug": "push-in",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "9774a7e3adccbaa9fcd7eac2688e2073910c1fb577d60b392d4c14367c3d4175"
+    },
+    {
+      "slug": "rack-focus",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d4146f8781704a37e419db7f38c1c4a75981ba1f7a538d9dbdf6474e237447ce"
+    },
+    {
+      "slug": "zoom-to-detail",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "8eebad6af6719cc52e8b2a4055eb4037bdfe33ea38b1a0c8d905e9c2ea3a6774"
+    },
+    {
+      "slug": "camera-flight",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "fa7d2df846a9b939e01da0039e6ae25ccc8c3941e7e6af62606b31fac7d6ea8b"
+    },
+    {
+      "slug": "camera-follow",
+      "ja": {
+        "name": "カメラ追従"
+      },
+      "reviewed": {
+        "sourceHash": "e88fb20a9c379ac19d18644097f0c896c1c697efff08f26ee5a7072a2279b521",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "e88fb20a9c379ac19d18644097f0c896c1c697efff08f26ee5a7072a2279b521"
+    },
+    {
+      "slug": "camera-orbit",
+      "ja": {
+        "name": "カメラ周回"
+      },
+      "reviewed": {
+        "sourceHash": "cb885319bcecb81fa2abc98dfaabe077d4135d125cfdaaa29147384361724f89",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "cb885319bcecb81fa2abc98dfaabe077d4135d125cfdaaa29147384361724f89"
+    },
+    {
+      "slug": "camera-shake",
+      "ja": {
+        "name": "カメラ揺れ"
+      },
+      "reviewed": {
+        "sourceHash": "c71a2b8298301d0010f1b0ac933d0276edfe21ab7aae7daab04f41560ff22c47",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "c71a2b8298301d0010f1b0ac933d0276edfe21ab7aae7daab04f41560ff22c47"
+    },
+    {
+      "slug": "crane-tilt",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "537d5b3bf8825b1749bc08de50311f3d4cc6ea22063dfe4c87cbd754378dfdb7"
+    },
+    {
+      "slug": "dolly-zoom",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "c2dbfeae2db4d7e8a171227545783ac29d4ac63d53c670469c1adc4226757e0f"
+    },
+    {
+      "slug": "fly-to",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "1434e35485e9863e2cf6b62801aa0eb7e8a0ab3d8f0f901677a317590f99ce55"
+    },
+    {
+      "slug": "frame-scrub",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "f4c41f755a89fa65d0463a1141939d0d071b2671f086f1b2986d41463b6d86d5"
+    },
+    {
+      "slug": "giant-mask-reveal",
+      "ja": {
+        "name": "巨大マスクリビール"
+      },
+      "reviewed": {
+        "sourceHash": "e7a01932671334b12309f49e9908f6e6cb616bfbad6212633915c2fd7c71ae82",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "e7a01932671334b12309f49e9908f6e6cb616bfbad6212633915c2fd7c71ae82"
+    },
+    {
+      "slug": "infinite-pan",
+      "ja": {
+        "name": "無限パン"
+      },
+      "reviewed": {
+        "sourceHash": "baad6950e42baacfc4a6bd5028a31981642174961b25fda40e8d90eb42694fd5",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "baad6950e42baacfc4a6bd5028a31981642174961b25fda40e8d90eb42694fd5"
+    },
+    {
+      "slug": "infinite-zoom",
+      "ja": {
+        "name": "無限ズーム"
+      },
+      "reviewed": {
+        "sourceHash": "26e3bf4fc829f778dd8f007c3d61f4ed3c23cc796f8b3c3c56d71e4599750337",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "26e3bf4fc829f778dd8f007c3d61f4ed3c23cc796f8b3c3c56d71e4599750337"
+    },
+    {
+      "slug": "lens-distortion-zoom",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "02b5a936f6fbeb895b747d1690bc0c5bfb740dfaafef2efe8998e6d1374dc1ca"
+    },
+    {
+      "slug": "perspective-tilt",
+      "ja": {
+        "name": "遠近パースの傾き"
+      },
+      "reviewed": {
+        "sourceHash": "1002d7503f6face90f440e8050e8fcfed0018f63e2d51f2969812e4ddf66dbfc",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "1002d7503f6face90f440e8050e8fcfed0018f63e2d51f2969812e4ddf66dbfc"
+    },
+    {
+      "slug": "screen-shake",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "93a792d57c5f383b46d7cb0c7e294b6f8e28f4811eae996224118b7e1acf2a22"
+    },
+    {
+      "slug": "scroll-scrub-cinema",
+      "ja": {
+        "name": "スクロール連動のシネマ演出"
+      },
+      "reviewed": {
+        "sourceHash": "a990fc753398e304bfa1c056e83b4195a7ab493b8e21cfa02646aed5774006b1",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "a990fc753398e304bfa1c056e83b4195a7ab493b8e21cfa02646aed5774006b1"
+    },
+    {
+      "slug": "vanishing-point-shift",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b3d961fedc57cabe13a0ca738faedb82c40aee2adb89d56c0b77de395f33869c"
+    },
+    {
+      "slug": "annotation-callout",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "57f13306655f2e8d80fb4d03e5943e2fdd66e882f2f96ecb68d4e0b719cc8120"
+    },
+    {
+      "slug": "bar-grow",
+      "ja": {
+        "name": "棒グラフの伸長"
+      },
+      "reviewed": {
+        "sourceHash": "52fae77b4b75452b0dade4092011d127a4ba69bfd576e682043e6ec6b4c4cd2b",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "52fae77b4b75452b0dade4092011d127a4ba69bfd576e682043e6ec6b4c4cd2b"
+    },
+    {
+      "slug": "count-up",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "3fb50511ffdc9652898dbd16a025f0f29e8912affc33fd34dfe764ee95e5e250"
+    },
+    {
+      "slug": "dot-regroup",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "7c3c69560ef857a59e90eb365890ed00802de36495e911da09b2fc268c35caf8"
+    },
+    {
+      "slug": "line-draw",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "f241e5938c3f9c70f545c89be7688dde6a6f5065d3a32362efb94c3449b16c1b"
+    },
+    {
+      "slug": "unit-grid",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "aa9a21f672ae4ca986d542b17f6ef33c02b9abccf5015c5f29fe55dec008fb9e"
+    },
+    {
+      "slug": "aggregate-split-merge",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "5dcb3a5b47cc562b73c4a3167647706d217354f3091fe84e4d3dda251446f3a1"
+    },
+    {
+      "slug": "audio-spectrum",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "961d6f32292beadcf8e5551e97ff4816845d72e9a885c6b045d2bbef1daa5903"
+    },
+    {
+      "slug": "audio-waveform",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "596ab42260470d15615bab07059666b711d3630310a46d7f3e3692cfe49e06ca"
+    },
+    {
+      "slug": "axis-rescale",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "8d8b8f69dce62f13df9cbdd8230d8811f623719fce1dad851b9d76dc73eda3b4"
+    },
+    {
+      "slug": "bar-chart-race",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "5cd1dc8b688efddaf987a9685edc54edcf767d383ace732912e075bacf77ec49"
+    },
+    {
+      "slug": "beeswarm-settling",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "edbb1a52dd4e49d28a9330d6d2d8df35d604d5bfbcc4362db7de709aac47f362"
+    },
+    {
+      "slug": "boxplot-update",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "57742084627dd3f59e8914bf2c3802ccc0a9d042a0d6ee2240d56e16184726ef"
+    },
+    {
+      "slug": "brush-linked-update",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "e020fa4165d82cb4e34d4bf9baabab8d349f50acafd8c51369c978e93cdeadc5"
+    },
+    {
+      "slug": "bubble-time-series",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "ef8560275ac5de2b86d894ca2ebb98ddb98a0d1096c7f4f129f7b2f684eaa111"
+    },
+    {
+      "slug": "bump-rank-reveal",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "41d70c935f769dd279d0342f638f03c2eda33fac7f3723b46215f0e0c742e738"
+    },
+    {
+      "slug": "cartogram-transition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "00e1b68c134a45986baffee8d00b6d7df1ec6d8c86a45879600f694a45066c6e"
+    },
+    {
+      "slug": "change-arrows",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "459b917aef0bc80a113e734225c957c2e616439fce6f6cb1d79e14216ed9a759"
+    },
+    {
+      "slug": "chart-filter-fade",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "14a3978adf512e12e042f9426600bfe72cfbcf0e31eb52806bbe99bcb00fc5fd"
+    },
+    {
+      "slug": "chart-path-morph",
+      "ja": {
+        "name": "チャートのパス変形"
+      },
+      "reviewed": {
+        "sourceHash": "421131a255c88c49d2713c8a463f6ea350bfe7e96f2762018abfea1ca27b7c25",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "421131a255c88c49d2713c8a463f6ea350bfe7e96f2762018abfea1ca27b7c25"
+    },
+    {
+      "slug": "chart-scrub",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b3e1477ad99c49f91727d30003cf7cab95aa19b3eaa226caa8452d520c7b2234"
+    },
+    {
+      "slug": "choropleth-transition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "fe37fe3eba8ed7976905dcf6c8dc41d31b203b17b48d57dedae54c154b85e525"
+    },
+    {
+      "slug": "color-encoding-transition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "3d88107e388c3e49ccfc02d877d8ec162384af1ce8507feecac67038dfdf0a28"
+    },
+    {
+      "slug": "confidence-band-reveal",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "09e60c8190f01e597a542aa4166f50f8bfd34863e0fe3c2f5b0318ce099d6bbd"
+    },
+    {
+      "slug": "density-field-animation",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "fa9347f8f2a18fa2f98fbe89287ba21508211b480ceb0ce38ce11c28b48ee8e2"
+    },
+    {
+      "slug": "donut-ring-staging",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "9ba938fe961c933d84538fa497a92034df61b2879d8e32d7838992eb77d47a47"
+    },
+    {
+      "slug": "force-layout-settling",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "95acca785c7b1ccd71dd02ddc4aa46867dc864c3383156b84a606fc75f85ee44"
+    },
+    {
+      "slug": "formation-transition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "ceb5bd43ae2bb67834bff33634e2a90de791684bc8d7bea8a1fe6811904cd10b"
+    },
+    {
+      "slug": "fractional-icon-fill",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "9d43ffdb83d417de48182ca4b97f8add2cbceef9b9e06b667f47738da54765dd"
+    },
+    {
+      "slug": "freeze-replay",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "bbe4370e275df6b99425aa94a5725efe504085f8e0cf8f96cf4f387574ce2278"
+    },
+    {
+      "slug": "gantt-progress",
+      "ja": {
+        "name": "ガントチャートの進捗表示"
+      },
+      "reviewed": {
+        "sourceHash": "46de4cb80bb2e898ca19d8356823b35996830246bf6f869d7794c90512cffa4f",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "46de4cb80bb2e898ca19d8356823b35996830246bf6f869d7794c90512cffa4f"
+    },
+    {
+      "slug": "histogram-rebin",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "df9a31686e655888b6c72ec65b77e0470f107f3fdaff32bc26b55931be05e8e4"
+    },
+    {
+      "slug": "hypothetical-outcome-cycle",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "5f9c674c431e7ead98706ef173e10979d6dbbd8fffea1b31780fa1afad8642c3"
+    },
+    {
+      "slug": "interval-expansion",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "34b52ec651e2f81bb5a0058e098bc23a0f390f8e89670576cd416520a162fa6c"
+    },
+    {
+      "slug": "line-chart-race",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "583d0501f40668d0e48540fbb03f85ab9e02f63e11edca37fe36cd5dab060ba1"
+    },
+    {
+      "slug": "linear-log-transition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "96139505a0c3c1cde68a1042410f3df862db910e30103c985a78ac4d2786144d"
+    },
+    {
+      "slug": "map-event-accumulation",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "37669b2ac6e1086ca9f61fc5e37ecc8f7879f93afec88aa4f739fc0cd1aacbd8"
+    },
+    {
+      "slug": "map-outline-comparison",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "10f7a228d1abfc4b5f663f69ca3f07f1578fbac61d9d6032f672844c570e0e99"
+    },
+    {
+      "slug": "map-route-animation",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "0b41fef14fdd9e25c1bfa4ffca009242052a9f3c2555ee92056de011c0fec758"
+    },
+    {
+      "slug": "matrix-sort",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "04399a4663319d065114f0e6780a3a2ab7e80f274a8f227726eaa7bb7288c71e"
+    },
+    {
+      "slug": "motion-trails",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "a9adfa39464b97981b793d15b04c7e8441890ba2dfe7d0d3df14b40d6a907f74"
+    },
+    {
+      "slug": "oscilloscope-trace",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "17cf37b18b928aeb0170f1bd4338de29da0b00a57eb49c92064900e0dcfc2703"
+    },
+    {
+      "slug": "percent-normalization",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "9267fabec2dbe37e3f770b8be9380d3d664f6dfb1e07c74b0b727cd16ef36091"
+    },
+    {
+      "slug": "pie-donut-update",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "ac93383e03ffed17781cab49307afa13bb081d047d345ead0c62574175034a64"
+    },
+    {
+      "slug": "point-to-point-build",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "c07cbc9e0ef8ff29eaab60dbfc75357bba22c7533a444baf24ecd4abf4880ada"
+    },
+    {
+      "slug": "progress-ring",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "95e82ba0dde9a882a91d212253a53f8cdcb9a42fb3d918a3456a3d06a1ca24c1"
+    },
+    {
+      "slug": "radar-morph",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "1ae1484ddf44f7715f1461c41fe335cb04e1f2f98ebd16b9945be7f4f9945742"
+    },
+    {
+      "slug": "rank-transition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "851c74401af81d8bc2491dfdb70cb39becea22c05fa8f32a9ae0035787c6e7e2"
+    },
+    {
+      "slug": "ribbon-particle-transition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "e0073185fe05f72a2a60825fbefa8d7a80d3348859d4fb6f7b0baf99c27a4890"
+    },
+    {
+      "slug": "rolling-digits",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "dfc8a7db15cd510274d4129aa0963570e08bf8574e6b3d78cbaf127ba370cd2e"
+    },
+    {
+      "slug": "sankey-reflow",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b9d82963b474b00efb903a933e2343596be6b73e99874fd323b8f0307d4801e3"
+    },
+    {
+      "slug": "sankey-ribbon-grow",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "1464d23617a8a40e4c7b039e409ace7d836e7ed2bf78a68d5f85382324fbdb38"
+    },
+    {
+      "slug": "size-encoding",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "3777b6adf2e4b5d0cf0a7869f9adf96e9e230d75e83524d37456e4c8ea96d005"
+    },
+    {
+      "slug": "stack-layer-addition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "bdefe09c66fec323d6167aca2915785ab87e345de0b0bb7734b32e0f21a96f69"
+    },
+    {
+      "slug": "stacked-grouped-transition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "c729db07c0e1d5a7bf616a642624bffde433786a297f7bb640b0518f4f4d1537"
+    },
+    {
+      "slug": "streamgraph-baseline-shift",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "4736fac09c3f101a6073ab7f5aa071f1bb8a41831cda8524ffcca009aed1148e"
+    },
+    {
+      "slug": "streaming-chart",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "45f6c9666656635e349380253b2d65eedd0e1e05a5ba3b7a6ae59d26546d1216"
+    },
+    {
+      "slug": "table-to-chart",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "c5719b34a5325b6ccbf747288d54d36873289b10e3729ae930436b1df69048ed"
+    },
+    {
+      "slug": "temporal-network",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "ea853ce3fb5a9ee7a70c7705158bb1d23d75dacb839f1a6a17a86b77e3620ee0"
+    },
+    {
+      "slug": "track-data-race",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "3ee20a813e6535dbf021e6f2b519e7f2f02b8f1f096f8f975cfa1bf762e45c45"
+    },
+    {
+      "slug": "tree-expand-collapse",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "41f829ba7e9ccabcf5f6bf4ce72120aacb228f75515aff7699d92f4dc81209fd"
+    },
+    {
+      "slug": "tree-reroot",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "fe6915542c78799bf378a2546cee35f32be5eda01a1f851c36f9ff7cb2770331"
+    },
+    {
+      "slug": "treemap-resize",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "31e6a15ca2733a886c49dd80490fbe87d79927b5e684e2455ef0944ee4cff5a4"
+    },
+    {
+      "slug": "uncertainty-needle",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "312a25efbcbaa634d6e0b28983f3ce14e4a99a79f44cf27642fd1a995fbb945f"
+    },
+    {
+      "slug": "unit-aggregate-transition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "380fb83c1c955a776f834e3b4b184641542ce2f66fdb30587a2b2a8029649382"
+    },
+    {
+      "slug": "waterfall-accumulation",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "161031dd24f43419959ca170bfd6b2075e702ae2355a4f6d0cf23376d943a1e8"
+    },
+    {
+      "slug": "object-constant-update",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "4825e05d1c41ffd257827315e43def170955de6192935be1cdcce8c862f7dd8d"
+    },
+    {
+      "slug": "facet-single-transition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "8f7f85620b9c7b56f3e24c2704a5a682f8cb195987c6d6708e0b5d85ad1a6ba8"
+    },
+    {
+      "slug": "fisheye-lens",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "597fed4d6b0d308bd6ec9f3823871b71806621b6848f0ac589aecfa1128d05d8"
+    },
+    {
+      "slug": "map-extrusion",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "5d911601d424b4f9e78ff114b23c4dffdf92dda95c212e1e3597b3a38b480bbc"
+    },
+    {
+      "slug": "map-to-bar-chart",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "05da0d1e37c7122dc4088ce931a978d845314a1893ad804a347145167bd9be69"
+    },
+    {
+      "slug": "scatter-dimension-rotation",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "1182a2f0e454ac08ccc35767bd845e8430105db01c032195c7cdd05e8c2749f9"
+    },
+    {
+      "slug": "staged-chart-transition",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "e476a4b31e5ba552247d8c75a44b84a907d4239108d4c0a87f05eae380f9844e"
+    },
+    {
+      "slug": "countdown-ticker",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "bd5ecb00f12f49fadcd6d9be437a2681d331f9fb64c61167c735999cc3233413"
+    },
+    {
+      "slug": "answer-stream",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "3faa1a3de6e1c8e9906f7c5253d2fb73f9c45efee7e55ba9185d96b7cff7d82f"
+    },
+    {
+      "slug": "cursor-click",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d1f28347337915786942d62dfe71b4b70e6a36a03ed3037f8acfb2d688fefc79"
+    },
+    {
+      "slug": "spotlight",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "7972e3d717656966b5c8cfbe50a5d00f7700e4bacab45fccb9dbce61b5784246"
+    },
+    {
+      "slug": "typing-input",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d8db0d43cdc4444de72476393a28e7421ce738811aa401e821a57bab35a19883"
+    },
+    {
+      "slug": "ui-scroll",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "95c826feea91f6b8f55c19c60c1df497cb023a2cd68b89c2d64dac7b1957a035"
+    },
+    {
+      "slug": "zoom-callout",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "da27f5290c27467968ac7b45f7507041b399444dcdce4212423df62efbba95cd"
+    },
+    {
+      "slug": "accordion-expand",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "580188de82a9666b6e163edc4427b00fd87c9ad0df45deb363f9663c435f3746"
+    },
+    {
+      "slug": "active-indicator-glide",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "8052008bdb509677e017f6ebebd5a6ffb7713259e1c9e474928b230c0560f05e"
+    },
+    {
+      "slug": "adaptive-header",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "cba1b85f21f294017026736b773496e9d1a72f3cfeea926377df838e8099e709"
+    },
+    {
+      "slug": "card-stack-shuffle",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "8693513355b59509a1570b4bc6793300a4631f914f61c397f87531fafec17eb3"
+    },
+    {
+      "slug": "carousel-slide",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "9c0e36bb050d49989f725656888ee197162a20189f94138bd8f66ba8e962bd10"
+    },
+    {
+      "slug": "character-input-response",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "42a06284b3876363156eef7aa13420a1a23d70a8a1663ac04f2a15cb6efaa3ec"
+    },
+    {
+      "slug": "chat-thread",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "5ae210e93025d7b033bbf8d068c62839884927f7cb16589759c45fe2ea9ed769"
+    },
+    {
+      "slug": "collaborative-cursors",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "21cff578ac03ded5f69cc7683fc786373bbdc23d88808654549d0a65235376d3"
+    },
+    {
+      "slug": "control-target-sync",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "3ab9c4ee38a68cb6473496125cad33f5089f249aba448712cbe8e2006d7aa31b"
+    },
+    {
+      "slug": "cursor-follow",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "f648c02868976fd672e42e9729a9abad4a4cc96889bdf1a15a650bc92ef2c23b"
+    },
+    {
+      "slug": "cursor-trail",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "1a97df631491e22fa2211705f1d92c794e4a115e6d917bbce1f6ee4722e9d6ae"
+    },
+    {
+      "slug": "dock-magnification",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "79fd432c9f08a0d00bfc038aca45af4cbdb6693b6fcf202be55b3e342fcb215e"
+    },
+    {
+      "slug": "drag-and-drop",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "1fad36a21cd8fa2dabd6b89734010bee8b38ed71325300830babe1018bbe0a94"
+    },
+    {
+      "slug": "drawer-slide",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "f71411371f3619e5b660948b868147430389403927ba21b0c6fddbe9baf696da"
+    },
+    {
+      "slug": "elastic-boundary-return",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "0a32f00a7dabc8709fe30a4c090c83f573ac036d8d80e57c405a3b36a6df4280"
+    },
+    {
+      "slug": "error-shake",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "0065531063b908bfb45c8693e403d2ab8a65d0f8542b4f4be1c02bfecab66106"
+    },
+    {
+      "slug": "file-upload-stack",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "6193fdc3ffd04338ca05c812f41b541667fa899e3e18faa54cc305e07aac2e84"
+    },
+    {
+      "slug": "hold-to-confirm",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "69c01647219350283a840427da902cad0b6ce1f5f9bc1c1e1963a8fd2bdb7f4f"
+    },
+    {
+      "slug": "hotspot-pulse",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "2a39f860d36fe7ffd110f7ffd5fc73ba3d5148b19b2b3eec2b29a6304f97ee8f"
+    },
+    {
+      "slug": "icon-flight",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "ce076e0aa190bb8f2763b1db4c0e9ff7a001c657e3676852160dcfbf41e226b8"
+    },
+    {
+      "slug": "idle-cursor-hide",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "91c1319f2ac0e28e74e2530665bad5ee3fddf49943e44034f653523495766ec9"
+    },
+    {
+      "slug": "image-fanout",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "3d45aa16d39878c5037a88b9c5a8496fd061b52af8d9c2be313099fc41c1021d"
+    },
+    {
+      "slug": "image-generation-scan",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "ba46d632ef2907a16b0e33e600b7ea1f8eee39bdcedc7c8de5b478aea77a4fe2"
+    },
+    {
+      "slug": "layout-reflow",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "2a5424c4066f36995809ebcefcc42e27a5ceb6cf262628a8c3b88f80772d7118"
+    },
+    {
+      "slug": "layout-yield",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "58aae8011a4d5ff70d41d26ec87f8882f5f773579b81f1ffc2901af155a3653e"
+    },
+    {
+      "slug": "magnetic-attraction",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b8aedd9c167589b950249e4664bf8af15130ce3f6dde9078901b05b61dc47bcd"
+    },
+    {
+      "slug": "modal-lift",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "74f40e7e4fc60563b7c1a3f9af6e363fdcec7095157114ec483758de38735d3a"
+    },
+    {
+      "slug": "pull-to-refresh",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "1ef7e9083fb8e2cd6e1a25e58462fdb2535f8bfdb6497ef0c4ad2597b6d0561f"
+    },
+    {
+      "slug": "radial-menu-fanout",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "7f77e44871c9574fa327abad2543bb97b804f89540ca9f155283e87baa26879f"
+    },
+    {
+      "slug": "scroll-frame-scrub",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "391cf6891015378f2fc26df8fd615b34b40fd90713d875649b548483beadcda1"
+    },
+    {
+      "slug": "scroll-grid-expand",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "5aedc53f2dd45eebe87c68621ddf1342f7db920eb1c5d13090aca807497e3202"
+    },
+    {
+      "slug": "scroll-snap",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "a50cd4bc8bcb66c53e3543d44aa65a42e4a5004a0640bc3232109c6da563452e"
+    },
+    {
+      "slug": "swipe-action-reveal",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d2d49fb822564d39b0135b874983227c959ada41283cd8d5c9f8b4b746ea3870"
+    },
+    {
+      "slug": "terminal-run",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "9afca5cfee880004f45add03cfeca7a58abb9d0b8748661745322f74c02d0db2"
+    },
+    {
+      "slug": "toast-stack",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "917247495d2b38caaa12539e24493bd25b29114396808173741545629c9c648a"
+    },
+    {
+      "slug": "toggle-slide",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "6e801b2af5eca534834f86f0ea99f631de603ce1bcca874be0b8ab28eea8aff6"
+    },
+    {
+      "slug": "tracked-redaction",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "99418a7aa0fab204d40a9bc64ea32ab2302a4d94fdec58e19e1c47ce94e4a433"
+    },
+    {
+      "slug": "vector-pen-demo",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "94c1126c75c35f964c090a849263fd44dc84e191a536d5ad4b74edfb4612bc95"
+    },
+    {
+      "slug": "diff-reveal",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "73b7c4902da7819a0e030eef87552dd97d553bd751fd0bd0e53d60d55c3a17c3"
+    },
+    {
+      "slug": "scroll-lag",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "7e4ea2e71ba3e4133ca2365f7ff590090e95498eb72d9797d0e5d18dbfc696dd"
+    },
+    {
+      "slug": "scroll-scrub",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "42c7936040a56eb4331cc773af9159ba36f54f8fe5ef9888bbcab87ad226e0f6"
+    },
+    {
+      "slug": "attention-lines",
+      "ja": {
+        "name": "アテンションの線"
+      },
+      "reviewed": {
+        "sourceHash": "881e0384429d76cd2a03479b5c6560fc2f372792c7a7d44c743086fac6affebf",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "881e0384429d76cd2a03479b5c6560fc2f372792c7a7d44c743086fac6affebf"
+    },
+    {
+      "slug": "context-window",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "9f652a62f5138a239cf458305088abb5edbef34d71558aa4d6ff40a833846a9f"
+    },
+    {
+      "slug": "embedding-space",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b1e9b7e588f64d2d523b7ea7f3e1f42be91d186909f122ceb5861296a0d0f431"
+    },
+    {
+      "slug": "next-token",
+      "ja": {
+        "name": "次のトークンを表示"
+      },
+      "reviewed": {
+        "sourceHash": "c8b7ab1354a45fd704e7fc59af4d6104274bca09e76925bf1da19f1691699c12",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "c8b7ab1354a45fd704e7fc59af4d6104274bca09e76925bf1da19f1691699c12"
+    },
+    {
+      "slug": "progressive-disclosure",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "bb275b01a8067b62d0101dae8e9a5735e3851be8d534448f768785a2a84d2202"
+    },
+    {
+      "slug": "split-compare",
+      "ja": {
+        "name": "画面分割比較"
+      },
+      "reviewed": {
+        "sourceHash": "ad0746c7a6abde890f4d73efb3a2d9a41bf69813e6e701417f5f48d65ef4f462",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "ad0746c7a6abde890f4d73efb3a2d9a41bf69813e6e701417f5f48d65ef4f462"
+    },
+    {
+      "slug": "token-split",
+      "ja": {
+        "name": "トークン分割"
+      },
+      "reviewed": {
+        "sourceHash": "e399dbef16df77efcafea53f07ebfb601aa8d3c3faf37f5cdfe81c98819085e2",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "e399dbef16df77efcafea53f07ebfb601aa8d3c3faf37f5cdfe81c98819085e2"
+    },
+    {
+      "slug": "anchored-substitution",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "1ef5a118267fcde257c2cc032ceceefd04722457c933d7f084e0595555a2e3b2"
+    },
+    {
+      "slug": "annotation-tracking",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "990464c8723f6aa6624783c0f2e1a8412b3765c64d4c12548a87d202715abacf"
+    },
+    {
+      "slug": "character-articulation",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "3aa863a6068d3a26eba12f6ad1bd802b72e4db0e6be9c8549ea1eceb4522f6c7"
+    },
+    {
+      "slug": "character-gaze-reaction",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "249a349623653bbc5b8f64fa9369410dcf5be609fbeaf4525c2532333b61773c"
+    },
+    {
+      "slug": "code-diff-reveal",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "0ed5fe6d2914fbe65b37a29eb241c3473486b58bad671a691133c05d7ec82cb0"
+    },
+    {
+      "slug": "code-result-alternation",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "ec4f05ab3f3776f85e5a31a4b8c042439da78d122f7e5f95782118c8467b73dc"
+    },
+    {
+      "slug": "copy-to-target",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d9fe7936f77dd8c063e0f9473a8d9696871d955c7dcef89663aa2b74b7e5441b"
+    },
+    {
+      "slug": "dashed-flow",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "9aebc631f018a8feb2cecb938256693c29f0a5c1a363824f2c20acefbad266f8"
+    },
+    {
+      "slug": "delta-triangle-shrink",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "8da7e621c5a3beb54375eee92f03e967f863592e0924f444df65589098a8cece"
+    },
+    {
+      "slug": "dependent-geometry",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "13f0d32e37e38aad9fbb891216d670f4c765e45420626d1f07c275abd737c679"
+    },
+    {
+      "slug": "fourier-winding",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "0065456944775857ab96db5c2170d17a59bc50120c8e792aadf4adf3e7caafa8"
+    },
+    {
+      "slug": "globe-map-morph",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "79f58fc387531cd6ef73808856e0e3a14d7aca2a1d1d50e4d0dc363f38ae508c"
+    },
+    {
+      "slug": "graph-build",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b03d7d307e66e2a7f47acd88dd0b8b13b2b057e9663124bab76f687a04537a69"
+    },
+    {
+      "slug": "harmonic-assembly",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "45491f1f5ce5a3c61546d3d1242bdeb7188bbf4f5685fb1204613179c8fd9e06"
+    },
+    {
+      "slug": "inverse-kinematics-reach",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "65d725f032432c5001e92b0a1562f55fab64ed4d09104fd4c6fc586c81a948cd"
+    },
+    {
+      "slug": "lighting-pass-accumulation",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "8a017c57134163c256c3cda1f3ec4d7bd9d99d29abef53d9eb3b367abe0bcb46"
+    },
+    {
+      "slug": "matching-token-transform",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "044d4d540d4047f6be202a9f18ddf5103efbb2801e1fea8f05f5d53b5802f3dc"
+    },
+    {
+      "slug": "memory-allocation",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d84754a82fb098bd1773276d716f14ea5e1e9161c08da0cc7b544b33dbafd287"
+    },
+    {
+      "slug": "object-tracking-box",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "8f48e79b28e3e85d5077afc05958350eb3a1405e2711d8e6a2debe70980e29e9"
+    },
+    {
+      "slug": "path-beam",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "39c9e61f7cf0388855041c1c5c8bfcc009619933e01b73e9a3952f50ab13b62f"
+    },
+    {
+      "slug": "path-convoy",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "4f42e57e651b7c9ec13f24279f1b889f382f0730bf01e7f338901a7c7ac77b7d"
+    },
+    {
+      "slug": "pinned-scrollytelling",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "7e27e76ce14407d866e7bde9f2bee71e4d75bc295dd20366e1fa7693cf00ee8c"
+    },
+    {
+      "slug": "plane-transformation",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b898885f9bbb5594c59b67282fd5b5de07e3e7a034da65ea42aa7b56e2b6639d"
+    },
+    {
+      "slug": "process-loop",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "199076e4be2f760229202636fe0f9ca081550998e64f3c2be3e77f6eb45d803a"
+    },
+    {
+      "slug": "secant-to-tangent",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "2085c4cda7043e93c3fd025c18078f51afe79ada10bca5704f449d01c4741f66"
+    },
+    {
+      "slug": "seesaw-balance",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "fee42132f0cd32ecfc3da5d92d42f2641074bca254bbb3e49d27e7e1a112b109"
+    },
+    {
+      "slug": "segmentation-reveal",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "4edd00b421c308520a0bdf2767754849b832f15c13b7469a43ec899a0afc033e"
+    },
+    {
+      "slug": "sequence-message-draw",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "50c5dabd1fb9944247d60a355c47549aef29484267bc8798a443b851fbe5f14a"
+    },
+    {
+      "slug": "source-result-mapping",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d8f1d88a32754b648d945bfd7c3a9832f6e66870af2d9c4bfcdcc9bd0021bec9"
+    },
+    {
+      "slug": "speech-bubble-reveal",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "5b1938fdfa58ba6b7ae7937f00bb4998358396b711fb2715fde7f2c5b7989515"
+    },
+    {
+      "slug": "state-transition-walk",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b59fe66e67f056f10a38150f7e85706e7e99549c55b1b1ee74f1cce06cdb000d"
+    },
+    {
+      "slug": "step-panel-walkthrough",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "145e6e0750639b98571e02ce43ac8846651659098b1b5e955bc3194c97694fd2"
+    },
+    {
+      "slug": "step-recap",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "9233230794d8260002e57e153ff2055b6db6e1431454b992cd5581913490af8f"
+    },
+    {
+      "slug": "timeline-scrub",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "51ffa788bbbd3eeda09c436b304ccd76f12c1d1725f05902ebaefcfe37bf9571"
+    },
+    {
+      "slug": "vector-field-alignment",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "3c0d550b00fb3619d600f1bec1cc90b44441e9cda21db4b955023beb0345a664"
+    },
+    {
+      "slug": "vector-tip-to-tail",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "23e893a04327df0ddf4ecc68f1d90184a67e7aa87afc744ca99314a18b1c89de"
+    },
+    {
+      "slug": "venn-overlap",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "883ce51679fdc742f889a15c764900582dc99b6d52735fe623262f3472f1abfa"
+    },
+    {
+      "slug": "narration-sync",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b37845e81ab1bdafd25b2eac1fa69985e33acab3fc9bfb088f246fbd83bf0305"
+    },
+    {
+      "slug": "route-highlight",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "0e9e4106aceafd1838821270178e7ba751f80b7407a21c16d2f20a9a5a68d351"
+    },
+    {
+      "slug": "segmented-explanation",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "bcc87758ac0a08ff37a3f9f23725dfe579c181a0406e5eb6782657407a93cac2"
+    },
+    {
+      "slug": "wave-function-collapse",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "4aa048cbf3e6bffca8415bba0a2c2eda4bceaaca8b9e6b1319c5c9a3f173fd2e"
+    },
+    {
+      "slug": "grid-draw",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "13ba3e7f2829b2b8babcbac3a73ced0107be65c472ceaf0767d4ce94e1ef621b"
+    },
+    {
+      "slug": "collision-displacement",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "284650f967666814bde8a9eecb70aeac6f9b89e6a2ab340956491b21e7c2b37c"
+    },
+    {
+      "slug": "magnetic-distortion",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d1283a8202aa8c3f1112a502a7253ec1c34e05a3993e7a8a95355424fe4437b4"
+    },
+    {
+      "slug": "piece-assembly",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "70a7c1c4b12342e2806127fc6734600a94c534d27f4aaf79ee396cb2ac62b2e7"
+    },
+    {
+      "slug": "shatter",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "7b924a16c400c60bf6d66adcf8d6423fed585527bba7567127922eab5b338c2d"
+    },
+    {
+      "slug": "bend",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "7914a71897b97ef58b209808dcc20ed323411f64426d69ef8bc4474127d1bd92"
+    },
+    {
+      "slug": "boolean-path-merge",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "53805ef021679d0a87d3e14aeb0aa8bbdd1c1868e17ea1690e0cb1c391159d37"
+    },
+    {
+      "slug": "corner-peel",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "efcbe5c8d92fe3bec1ff30e0d9a915839cdb02f3800f1c5e524f2b2009aec875"
+    },
+    {
+      "slug": "curve-guided-deformation",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "ba8d5d4c3ce818ca985d0054a5e86b5a4d2efeb7893ec294fdc421268338416f"
+    },
+    {
+      "slug": "cyclic-position-swap",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "f391293446761e08946295291d1f66e1a4cfac8c31fb4bf4caa45779d1942057"
+    },
+    {
+      "slug": "elastic-mesh",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "5aa6f3c36ca78b960be8135ec7ca599e17010676368348e3ccdcc7d58144a0d2"
+    },
+    {
+      "slug": "graded-array-motion",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "41b3233c7c40c61c2d7da710ce3a099449111c19508bc70510f7666044225581"
+    },
+    {
+      "slug": "hinged-oscillation",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "1815265a1ab8425d2e6747f095d04109e4e224e0d760c28fc57860f267feb980"
+    },
+    {
+      "slug": "line-tension-loop",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "4e7527fe62a672870c62f81c2da55eeaabd3a19bee33d406d8295d264b503114"
+    },
+    {
+      "slug": "mesh-warp",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "98db36e570ecb258ead8175612e213b3a1268fbb180f59b3b99066b0b9cde35e"
+    },
+    {
+      "slug": "offset-path",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "06eca49fc15d4b77613091ddb9c2857bb5502244a06cec049416e53bcf0207b3"
+    },
+    {
+      "slug": "outline-then-fill",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "31461cd8e521be21e9bb894eb29b38e9f85a5dec731e25394fee87996d9de31c"
+    },
+    {
+      "slug": "path-highlight",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "5bab7c92743f4a59202adf22275ec94eab8e46a469e64b62769ea62cf1ea3078"
+    },
+    {
+      "slug": "perforated-tear",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "96c0a891c508b98041a63e1ff81218e6be46df2818ad0f91985aedc84f1c1b19"
+    },
+    {
+      "slug": "pivot-relay",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "6474849b6852b96b3516f02132b6f96c4b47a67d55eb51e56470322ccc2d98ae"
+    },
+    {
+      "slug": "pucker-bloat",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "0de363e82cae9eaa05a63dd3db10d36790276bb0f6faab4f2aca9825213525b4"
+    },
+    {
+      "slug": "round-corners",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "db6e6b1f7526b6ba0a6e8254d3f710d27035d8a6d681acf337275269a5e88c5e"
+    },
+    {
+      "slug": "shape-repeater",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b3d74b60c54d86d49b748ca1e8d9ee0fd6a9ec66a264c9a2e41bceead7d54431"
+    },
+    {
+      "slug": "shape-split-merge",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "99c9443e24127d56f58a1f5d8531ff4cc8ea0ab55e7380a2c5356031739fafdf"
+    },
+    {
+      "slug": "skew",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "4c224a9cd2016759e46aa4ac8251ecb04624f5dc3e4ccbc68d4b34806513fcc8"
+    },
+    {
+      "slug": "soft-body-jiggle",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "8ae67fe93616f9d06d7f9773477357b8df2363e09a6178bd39b71a160cb0be7a"
+    },
+    {
+      "slug": "split-lockup",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "dbba7ce576550241dba7dda367f74488c5cf111a219a7c17b6edf8e3588bf9e5"
+    },
+    {
+      "slug": "tapered-stroke",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b0d44b4cd0434a3a4422af6fcd6440f96573f4d9b4629b446ae56f943c6dae3f"
+    },
+    {
+      "slug": "traveling-deformation-wave",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "95c443aab1e3be2bdfe101c52c2ad9fd16a1bddc67f6a1850982793cc25edf57"
+    },
+    {
+      "slug": "zigzag-path",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "4cd606db33e4e8607763b2d9896567aba1f29154c67edcd033ebea308d20844c"
+    },
+    {
+      "slug": "shape-built-letters",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "707916199acd9a4052292bfaa73fa8f82ee7e289ca706589a34b0351a54aedd4"
+    },
+    {
+      "slug": "text-on-path",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "1d73ad90368a71231f8df3bac91764562696fc8c4b462a6b42fa82ce57cf4a7a"
+    },
+    {
+      "slug": "digital-rain",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "62852078770f2f017e4c5eb867b7cc2eb5e08107a608b0935344d82ad72183d8"
+    },
+    {
+      "slug": "fresnel-rim",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "e199956e4cc7835f1bb9b7891c0fccc564eee2c869c04f9e82432dc8919ddcb4"
+    },
+    {
+      "slug": "bulge-lens",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "233a62d1b1f23854ecbcee8e432d5ee41bd15f46234f104a20f542957cfc7376"
+    },
+    {
+      "slug": "caustic-ripples",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "879768c535bc58a1349d4d0413677bf50b10d08fdf8478c9709eab597b914a63"
+    },
+    {
+      "slug": "crt-scanlines",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "a8c93c070d16f9344d42a2b2f0f380030ee2f8508a93e98adb5196cae68a6f1a"
+    },
+    {
+      "slug": "film-grain",
+      "ja": {
+        "name": "フィルムグレイン"
+      },
+      "reviewed": {
+        "sourceHash": "7e5281b7972d737b2da91e305f89a8478e3cb1aa997c26858eee7c348dc47558",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "7e5281b7972d737b2da91e305f89a8478e3cb1aa997c26858eee7c348dc47558"
+    },
+    {
+      "slug": "glass-refraction",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "4018707a6db1bba19341342178714dea5931615dc2a405d71afc8a5ad794b4d0"
+    },
+    {
+      "slug": "glitch-rgb-split",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "1b242188e5ac730ce8eb07d1bd5dcc15943ef9c6b659691fe1191f88f4744f34"
+    },
+    {
+      "slug": "god-rays",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "4e0e48eba8bf7db72e967068d662c3334d763d18047c5ac56ff2f10343067529"
+    },
+    {
+      "slug": "holographic-sheen",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "cb50cd10aa3faf34ed234b26d5014a4139ada444dbea12c1e23724e8714e9f89"
+    },
+    {
+      "slug": "lamp-cone-reveal",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "85c7cb5221f6486793f649921722e62820b66bf2c25e3731458a0479152ec41d"
+    },
+    {
+      "slug": "light-leak",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "3a2eb3572dda37ee70db636747172d69addeda7ad1975c6d16ef394710684e84"
+    },
+    {
+      "slug": "liquid-metal",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "ed23db34d8ea752d96fa88adf5ba2a4829e35ab618ed629507c418b075a334ab"
+    },
+    {
+      "slug": "palette-cycle",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "38be0ad375f577ef15d8ec359fb50f42e4552cda617f79865523c9979479e80e"
+    },
+    {
+      "slug": "particle-video-mosaic",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "382a3201adcc46cc103d6d8838893c8dc453fddcd9edef89a0867e3d167c6c3e"
+    },
+    {
+      "slug": "pixel-sort",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "8c0a3394a6505e39c6a5505dfbf24297aef715101a93e21728b318bf4b3b3471"
+    },
+    {
+      "slug": "silk-flow",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "53acee51d61fc2918e365f7eeb640291472c8490f85f134a7b92bbe3d3c12d1f"
+    },
+    {
+      "slug": "topographic-flow",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "181986201b57847b9797c8de048f143947edf87eb873596777e005c6ec61a32d"
+    },
+    {
+      "slug": "vhs-tracking",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "6697db927e619e39d92434250dcf260b9d320fb6624d7ed444b725cba435275a"
+    },
+    {
+      "slug": "animated-dither",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "eddac73c68f0795a49916f0be4651b28dd2263d1fde8cecf2d03202e25b12685"
+    },
+    {
+      "slug": "ascii-motion",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "780a2e47825e27e500f2af74ff6f067f1be0a5cac8483874393d78d1d2c2be7f"
+    },
+    {
+      "slug": "barrel-warp",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "2f1d313babdfd4e750e3dd1a6e8cd4a39284fabc45ad700bbd383c1b9774412e"
+    },
+    {
+      "slug": "bloom-pulse",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "586b902fa3eb292eb7c73ff1fa6e78a6fda754f45060294e30b4ac0040f483d2"
+    },
+    {
+      "slug": "codec-glitch",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "851c496fd6c05841378470b97cb773bb48c4a769c36093bcdb86e264c2da9a28"
+    },
+    {
+      "slug": "film-dust-scratches",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "5e35f90f6bd0ff2b7289f51652af488bb1c912d72660a2ecf9fd1451b07b135a"
+    },
+    {
+      "slug": "flame-noise-loop",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "6d38e56f04c434e471581793f315eef0eca95c87140ab7100777ed079cd105f2"
+    },
+    {
+      "slug": "flowmap-smear",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d7fe97758488cc2afe05ea3ef2f725db691b540cfde82dd247f18af4c7166209"
+    },
+    {
+      "slug": "fluted-glass",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "074e65c89da60482fc850a2d49557dfd28e7e0023a4519498faba5dac3d4ddd7"
+    },
+    {
+      "slug": "gate-weave",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "175f481cc32a8e5d949ad5067f2c1a60783cc00dc0f79f0fa8c113147d308c38"
+    },
+    {
+      "slug": "glitch-scan-band",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "7f8e345dee0834f29ebf08458e0cc864b7ef076ae8d2ca497fa12d430ba34919"
+    },
+    {
+      "slug": "hatch-fill",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "a838ec02d365b7281d6d99818b6f12286eeffacac31e58bb1cbfd724de85e9e8"
+    },
+    {
+      "slug": "ink-bleed",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "ebadc3bc3de1599ba226d4bd428fe3abf9b031da1e582f6a5a31f2d9e292cfe8"
+    },
+    {
+      "slug": "kaleidoscope",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "e69a1c9fd6d848796bbf6a711a79718097e816e65f2ed12e542ee2f94527b1dc"
+    },
+    {
+      "slug": "lens-flare",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "257a939eca02fe019baee3711735b6be21760a8c62c2ec0e5e1895fac6d0bc8b"
+    },
+    {
+      "slug": "light-sweep",
+      "ja": {
+        "name": "光のスイープ"
+      },
+      "reviewed": {
+        "sourceHash": "b32da23533df58612c30b50d3bfe8526dba0b2bb1bbf2eff63bf8202528a1436",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "b32da23533df58612c30b50d3bfe8526dba0b2bb1bbf2eff63bf8202528a1436"
+    },
+    {
+      "slug": "line-boil",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d7e84b02aecf7502ce4a7a6333530233030f18d5342e02ce8dbb66a5679874f1"
+    },
+    {
+      "slug": "motion-blur",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "0a9682e35e68bf44496a3524247fc1d7c88f8c2f6189f3b551e9ba8fd4987752"
+    },
+    {
+      "slug": "moving-light",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "520f6e1b021de0fee5259510eead99068169f7883740f24552991345e79ada4e"
+    },
+    {
+      "slug": "negative-space-invert",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "af496e0990fad48b2f0afd8fded97755227747782f70b0a55084e108768c3a4b"
+    },
+    {
+      "slug": "particle-painting",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "7195134fa76dd222e33e86d7933f2c2524ebc92657b883feca2161e6c1bf2c8f"
+    },
+    {
+      "slug": "polar-wrap",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "78c5265c2bab6eac437d1cdb81a045b92549fed95e016aa4a9bb6ecdd457cf5c"
+    },
+    {
+      "slug": "progressive-blur",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d4de738932f17facb31ee29f79c2329499dd4823f7c8bd88aac84ed6161aa17f"
+    },
+    {
+      "slug": "raindrop-glass",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "f50a1e1ac352868d94b2d11ff2712a60a6a60027467913af0bf0dd6dd200a66b"
+    },
+    {
+      "slug": "ripple-distortion",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "8bebccc5b6495bc547fa5090ba65c8d2b556b517f802d380b194bc62745dfc2e"
+    },
+    {
+      "slug": "slit-scan",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "7933c1e775a5f0aed4cd6012cb3734438bf093f5d34c96faba7448982c1adcf3"
+    },
+    {
+      "slug": "strobe-flash",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "e9f360bdf069952b822d57590f34b2196d96f14739373bdbbe6045594cb394d2"
+    },
+    {
+      "slug": "temporal-wiggle",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "52d249930cf9f794804e6703db38afdfee0221335a58ad78cb75433c61416c3d"
+    },
+    {
+      "slug": "text-light-rays",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "c202087f86d4f45833fd623bf6752b535545990e2347e76d61d80d24afc9c15f"
+    },
+    {
+      "slug": "texture-fill-motion",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "aa45ff7ad6f6a5e817b295910986c7e1fdf319066728e187d2451234a7242cf4"
+    },
+    {
+      "slug": "turbulent-displace",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "ce642139eb6b3b5f87eecc58144e7d2a8b39aa4db536f9322b9f05e6f5c65a41"
+    },
+    {
+      "slug": "twirl",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "99f9114dc20b0a90a0e60164256d02e9e5fdd1cab555d3c1882cd08df07c7c5d"
+    },
+    {
+      "slug": "velocity-skew",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "19432c2ca957c317727c345a8857485934c17f277151306bae7e0639ab627e4b"
+    },
+    {
+      "slug": "water-refraction",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "8a28e7f07e9aea7147ecc9b22020827b7d73bc194ac7383e17163956efceae56"
+    },
+    {
+      "slug": "wave-warp",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "7117ff467b8dd4de451dcec439e0621f456db7f4828efc1ed6a113977b4ea876"
+    },
+    {
+      "slug": "gooey-text-morph",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "96a216f321106f6cbe48524d2e3f742c7452fcede6bff49c47f50543bdf41a8d"
+    },
+    {
+      "slug": "neon-sign-flicker",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "346502f1d08fd796717e0d31d740b2f718a3e050c84ad0668db7a2c12aa05183"
+    },
+    {
+      "slug": "text-echo-trail",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "851490c3a682605ce95677550688f272e4d015abf0f2170236a936c14c576048"
+    },
+    {
+      "slug": "text-liquid-distortion",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "bf9be7447db416e8c92d17c822080e459bf60253a5b58838aec7e7378ede66b2"
+    },
+    {
+      "slug": "text-slice-offset",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "a08970083f2d843b83727106ca720d5c1528352abf0769587948fbbcbd323fca"
+    },
+    {
+      "slug": "seek-arrive",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d14b080a0c967e671b2aa1111e486b828a9ff3a99e74bae8a971b67da847cab3"
+    },
+    {
+      "slug": "text-particle-dissolve",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "82190164890bb64371d2ddf3228edbc4d88f7b413e1761dae80b09bcc0d28ea5"
+    },
+    {
+      "slug": "domain-warping",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "089e5e20f6c13662e87eeeed233d429c1a9a9c81349cf5cf32c4afb18d69949d"
+    },
+    {
+      "slug": "fluid-ink",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "3342fe84be2d972cf3e34598cc4cbb2cfcfde77da549c710bf6f37da6a76f0b0"
+    },
+    {
+      "slug": "fractal-clouds",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "29440123ce45cd1607be65a40a623f55baddb15e665265fe1814a4ad5cd9eef0"
+    },
+    {
+      "slug": "neuro-noise",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "78255a1b0d47db715a27779f7e477195ce16d230925fc5c75614b927d7f9693c"
+    },
+    {
+      "slug": "particle-burst",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b92602fcdb08d91fc82afee3190b09a4dbba92bb274bf0da7857aad3de0364cc"
+    },
+    {
+      "slug": "particle-image-reveal",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "0421ccc1ccb8d9fe2c54830086911706b00538a7fd06a386fded0c09651deb8d"
+    },
+    {
+      "slug": "particle-vortex",
+      "ja": {
+        "name": "パーティクルの渦"
+      },
+      "reviewed": {
+        "sourceHash": "0cc52b006d89441a40b3ffd19e07e17466ff6311902b57ce5604f4a77c47249e",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "0cc52b006d89441a40b3ffd19e07e17466ff6311902b57ce5604f4a77c47249e"
+    },
+    {
+      "slug": "shooting-stars",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "a8230c82ed3f07ba019ec91b825a0f127036ced371aff99a4c2071cb29ab6caf"
+    },
+    {
+      "slug": "smoke-ring",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "2d56510c6e2d0aeb04de497bfcc5fc7070cb232ecb6afb6853bef828c759edb2"
+    },
+    {
+      "slug": "spiral-field",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "342f6d6864853c7a734a42db3a8eefc3095829e0051ce7ed833b062579209392"
+    },
+    {
+      "slug": "beam-collision-burst",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "a4c273a6aa8bd65afe8626dd51dcc6ce21651fffa6bf7b26f8b450340b9c569a"
+    },
+    {
+      "slug": "boid-flocking",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "afa9370c77115968005c098bf6090ed8da7bd2da39cf62cc0a80db949b612451"
+    },
+    {
+      "slug": "branch-growth",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b3bf3fc91a70750097b709e736eeaeb04630edec5b0547cd739594b249c47ff0"
+    },
+    {
+      "slug": "cellular-automaton",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "76755e49c5aaee292e86d5168eac33880fe3ece10aa54c7c40dea7c29b2e0992"
+    },
+    {
+      "slug": "differential-galaxy",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "73eb6776598a2a9e69a024c00dce1af5dec5711d087668d3343d0e9cb8c0f20f"
+    },
+    {
+      "slug": "differential-growth",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d2d06535771e157adf3ae76d925589448eb71577ca69da1eb254a082745c8784"
+    },
+    {
+      "slug": "diffusion-limited-growth",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b3d1ac45527d4455574e66137caee7659f7b25074eec6305afbf2d11d6adb736"
+    },
+    {
+      "slug": "eden-growth",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "115a5869a33a962fd8169fe5f4a2ad25ed8b1073bf837da7261c0fdf7092f0fc"
+    },
+    {
+      "slug": "electric-arc",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "a198f2eb6928bae84155a3aabab4949696759d192ea2d67c22833e8eabd6f31b"
+    },
+    {
+      "slug": "fire-plume",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "c8bfe3c33858063fd1435f997fd3b2c2e728ae2f23ddec6937458c9be8252d56"
+    },
+    {
+      "slug": "firework",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "6b568cea1f6729ad91c6bf834989c249a49327c712b204b92fae43d46440db4a"
+    },
+    {
+      "slug": "flow-field",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d5809904c3f32e1bbede7d119e7577ffa3bcb741b58dc617f62ade610126b2f2"
+    },
+    {
+      "slug": "fractal-zoom",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "166ac241bb2d2163cc6f276052d45f9be29547322796b9412f03ca9903ee598f"
+    },
+    {
+      "slug": "halftone-motion",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "a686dda0d1aad70698f360c9a3de5bbf615c479947e5d8edd194237a780357ca"
+    },
+    {
+      "slug": "metaball",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "f93b3e07c3d75bfebec13213a410e2aa1df5751b09ddc4832829f3552091967c"
+    },
+    {
+      "slug": "nbody-cluster",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "74caffc2667b91e5646bba479914814dbb9d1324e782dc34a27b68270adffc49"
+    },
+    {
+      "slug": "packing-relaxation",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "e32020369d80daa6ff8ec2be383a60556b1322a3487354d91465abd8f4a61e93"
+    },
+    {
+      "slug": "particle-assemble",
+      "ja": {
+        "name": "パーティクル集合"
+      },
+      "reviewed": {
+        "sourceHash": "821529be64a0d3e58a8e4f59e212517b208b51a5568db9d9c98a83a2576d867b",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "821529be64a0d3e58a8e4f59e212517b208b51a5568db9d9c98a83a2576d867b"
+    },
+    {
+      "slug": "particle-force-field",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "edf1af075293f41f70245d4c92f0818e00aaaef8a6270f08416ff8a88b6bf28b"
+    },
+    {
+      "slug": "particle-fountain",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "2bde506575ef51aaa5ea58740d21aff3f81a2ebdca77b7bf2fb48b8a1152b789"
+    },
+    {
+      "slug": "particle-life",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "722e451cd776e4165a79ad2272c0841ec5d4a45b5de441616881d41c3db366ec"
+    },
+    {
+      "slug": "particle-network",
+      "ja": {
+        "name": "パーティクルネットワーク"
+      },
+      "reviewed": {
+        "sourceHash": "7b695694fcf8e59667e5891efaff2267cb383d96a355c4910ecfd263a127e42f",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "7b695694fcf8e59667e5891efaff2267cb383d96a355c4910ecfd263a127e42f"
+    },
+    {
+      "slug": "physarum-network",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "4c3f0e8d86026ccb73bc46b9a411ef8cdafe5bf0a9f6b43a4a52517effce9ba9"
+    },
+    {
+      "slug": "rain-streaks",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "1c7b4fbe4de6ffe540f6e1632569cfa7330d28106fcb334da310c10a83b00ad7"
+    },
+    {
+      "slug": "random-walk",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "f4069bded202b55fe9ddf535b2d9ce19ca0b7c6ad3adbb8a61626ce90f2f31bd"
+    },
+    {
+      "slug": "reaction-diffusion",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "514ebd35b5b2e2ed8283340bd969263ae4fd5adc8b570818f0fb784a39d8ad0b"
+    },
+    {
+      "slug": "rigid-body-cascade",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "fcddbc80e38c6ec92e7ae6bfa6d97c260971162a7bc1471450969193270a8feb"
+    },
+    {
+      "slug": "rising-bubbles",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "a52ac5fab85bf52eb28539c2d692c78fab936c371488da785821579599180757"
+    },
+    {
+      "slug": "smoke-plume",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "2885310ab1112460d5080bc6a0bcb838f2264d46b479ecd3af5e4aefc4cd9b3c"
+    },
+    {
+      "slug": "spark-spray",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "bae85ae8c32b6b900a5dc0c398b21f01207f18235e9778b526d6ad029f555f41"
+    },
+    {
+      "slug": "strange-attractor",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "2474a5d6bda13948e31faf69587270b192c01e77056153873bf898aa29a428bd"
+    },
+    {
+      "slug": "tendril-wave",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "30df976892951df1004dfff4e2c9748387d51d1c3f17e700d13f62248fdcfbf8"
+    },
+    {
+      "slug": "voronoi-motion",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "4be4e5a4c0b26369a662b32835751e25240caf1bcc9104f68b8737da468194bd"
+    },
+    {
+      "slug": "wave-interference",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "1b3a89000e9f1b9dd6044d001e3b3ef67a5e27663b98b6f75841b267e901820a"
+    },
+    {
+      "slug": "particle-filled-text",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "a6d895981a448cececd45fc88c56c038363d66ad138ccc280b6a6a62992cd056"
+    },
+    {
+      "slug": "globe-connection-arcs",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d2321b12a0e729e7a45c09dd971a96ebd40183b3046f0f47d8ae68fd7a66bfc5"
+    },
+    {
+      "slug": "card-flip",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "201fe1a0ff655ab7822ccea603e03562a7f6f4ed83ff594c45b0ef01a5991815"
+    },
+    {
+      "slug": "depth-assemble",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "327654c99f265eff3847b60dcc0f7af6572a4b225b2f5f08ca24e71708f0e490"
+    },
+    {
+      "slug": "object-turntable",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "efbedbcc9c648c03ce86f3bafa9c3a7c4b150a3a340db23edab95a396d1ed854"
+    },
+    {
+      "slug": "portal-reveal",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "10ff8d4b56b1342546ec3ac5c75f68988127edc770212c2b8fe78d082b444163"
+    },
+    {
+      "slug": "text-extrusion",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "e71d4b61b8f4f838a6c81b8a26eb5a799903b7b7e86c7e5c1088a4827c44c2f3"
+    },
+    {
+      "slug": "tile-flip",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "2c9736f6937b3ed44b9171fa3f0aa192b44cc0136b8a065c384309381a819c96"
+    },
+    {
+      "slug": "wave-carousel",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "539a8ba0dfa588c9566323fe4daa28a82f9ef74d1efb5646129611d120ccbe8a"
+    },
+    {
+      "slug": "animated-lighting",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "6c300b9d299fb5c2aa4c29b80a7a7da1ea1d4bba5d33f8dcfe8874d2999fa59b"
+    },
+    {
+      "slug": "atmospheric-depth",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "5a2aca43dd5dd5bf89368cd9b15f6390533dc1451782126af5294388a7e2eb46"
+    },
+    {
+      "slug": "camera-flythrough",
+      "ja": {
+        "name": "カメラ・フライスルー"
+      },
+      "reviewed": {
+        "sourceHash": "8886e1c064831f2b80eca76b6836d3621553a1ff140965528809f542390adf6f",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "8886e1c064831f2b80eca76b6836d3621553a1ff140965528809f542390adf6f"
+    },
+    {
+      "slug": "card-flip-stack",
+      "ja": {
+        "name": "カードの積み重ねと反転"
+      },
+      "reviewed": {
+        "sourceHash": "9ad27fee2bfce014a29eb52eb4528f0576e6b511f19ca07b3b9db1954cbd660f",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "9ad27fee2bfce014a29eb52eb4528f0576e6b511f19ca07b3b9db1954cbd660f"
+    },
+    {
+      "slug": "corner-pin",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "5652110efc93d745049fef42d518b33d29d5c9e1c063ce2600205c314b115796"
+    },
+    {
+      "slug": "coverflow",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "45b90211ce58526ad1e2a0e2217fed68aa8bf378fadee85174a9fbd596b00412"
+    },
+    {
+      "slug": "deep-parallax",
+      "ja": {
+        "name": "多層パララックス"
+      },
+      "reviewed": {
+        "sourceHash": "3339203cd485cf32646ad9dbd200ac68e8cfd6e109e06b97dc6055c33565deee",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "3339203cd485cf32646ad9dbd200ac68e8cfd6e109e06b97dc6055c33565deee"
+    },
+    {
+      "slug": "depth-card-flyby",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "affc114a80e331ff3ac0c5c937a51d59fb40f0fa82aecfc2d087f3f35ea0570c"
+    },
+    {
+      "slug": "dynamic-reflection",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "88edec0967d3563f167153f57da2d0743e5b59f53db95f0e5f9a9cac4b3acd35"
+    },
+    {
+      "slug": "exploded-assembly",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "3b00f618fc0a1ad6c6827c28046291aa69eec35e0354e01adf2fb31d74739455"
+    },
+    {
+      "slug": "hard-shadow-pop",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "24244c2c9b077e57cf3e93c3a886c77b04b99da18023cd843d55115a8b35fee0"
+    },
+    {
+      "slug": "image-unroll",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "de924833b3030fe56a9b0d7f8fe0a1dea8485b2d43a2dcc22ae9febfe877eb82"
+    },
+    {
+      "slug": "layer-separation",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "7021da3d3b83f6ff4be062d162cad6d1f3ff90df2a20592fca092b64ff8ad6ac"
+    },
+    {
+      "slug": "noise-blob",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "aacf4cff3bb796af082a9fb78c6c903e945cfce9b419f01c3b544d27559ad969"
+    },
+    {
+      "slug": "paper-crumple",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d630468223dcc91c2bc449e211d82273bce3c3bf56109477047ee7eedb669a38"
+    },
+    {
+      "slug": "perspective-flatten",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "f57896999a082f702bac0f59055ffa9c33ae10c32284554f29f22390efa693c1"
+    },
+    {
+      "slug": "perspective-grid-drift",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "66e2e9d000fcd097fe8338d49572dd696f0a51175ecbf21efd4a845494769ada"
+    },
+    {
+      "slug": "perspective-panel-rotation",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "83d0539826d2a831aab63a3d6efbb66ac513b3f0dec954a745185cbe0b1ec75d"
+    },
+    {
+      "slug": "popup-book",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "a3ce7858c21541e51348e6cc963992584fd56fb4fc5465555dba5e9cae8e5876"
+    },
+    {
+      "slug": "screen-emergence",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "f30cbb515a7a5b96cb18c738d80eb02abf03387321b28a7de13925ecab840f61"
+    },
+    {
+      "slug": "shadow-elevation",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "96c32e2893b7777b697dbd379d2a6deca7bdcfa0c988533c5835681db7e1d21c"
+    },
+    {
+      "slug": "spherize",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "cee4ea6af9f2e2d032227923c4ab94390a592727aad3d7371fa84f0a5e230abe"
+    },
+    {
+      "slug": "starfield-warp",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "9e1814046742d5780ca981a4a03d6dcb1d4f328f4510e01197b50d2bbc0aee47"
+    },
+    {
+      "slug": "letter-flip-3d",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "c85c377f98eda0facd931cc03c0a4b0286ae16be24406c3c3733c18e613cf917"
+    },
+    {
+      "slug": "text-on-3d-surface",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "3d468df223847cb2f277768649aa6a9af9ca18c4136b027de0222237f6987fa1"
+    },
+    {
+      "slug": "walk-cycle",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "17aaa76db59d7b48b9d40f047b9a4db7fed0c86405d633952383d7c4222008f9"
+    },
+    {
+      "slug": "arc-spinner",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "7249c5700724024524ea492cf8043c47ba9f3a1baa8b0313685aaff99568381a"
+    },
+    {
+      "slug": "breathing-loop",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "9a90d19f6da8fd495c436ed75d285281cb2e41fc4795d32b71fc22725ca0d81b"
+    },
+    {
+      "slug": "float-loop",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "e81194e6f87db7645cc683fe70115a05f029735e169e111935fc2c0c32ce39e4"
+    },
+    {
+      "slug": "indeterminate-progress",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "20c3466ec6de3d3dfba4a88898556d56965c8bd4bff5558c5bf04b7143d1c022"
+    },
+    {
+      "slug": "loading-dots",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "f9185d753c5f79f44964ba756e1d16f20608fdc91d9bce09c850063a9b201428"
+    },
+    {
+      "slug": "marquee",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "1287a21daae675d25ee0352d1364edfb9ff716d1a0492cec60e6ed3eafa0ef8f"
+    },
+    {
+      "slug": "ripple-rings",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "c2793ec4ee9c4a8106c9ff29fc4e1c4964210142bc5b597223a902068d130662"
+    },
+    {
+      "slug": "skeleton-shimmer",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "3c563328a9c277359862e622f50c875e943b5704042dee5da934dc2bab1b9529"
+    },
+    {
+      "slug": "spin-loop",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "de2742f666be1e744d6d6766d8b125dfb78e670ec9478ce6a30029248dc8d476"
+    },
+    {
+      "slug": "stroke-chase",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "43219fb3df9fda73f66d5f98ade1f5ded30804ddfe80c62dd1f1ca840171bfcb"
+    },
+    {
+      "slug": "wiggle",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "4a050a0f9a3ec9dcfc8229d01047a1a3d238e4a6dd55aed50cb02639d0b58530"
+    },
+    {
+      "slug": "ambient-glow",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "9d5a76591b45d91f94e9b827112a493f3fc16b04ac4fe17c99b0745af5c414ac"
+    },
+    {
+      "slug": "ambient-particle-drift",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "cf39b553f37a1681899aee709fd07c52879dce6abc972748e23ff768ee92aaea"
+    },
+    {
+      "slug": "bar-wave-loader",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "63df8a4b467efa3f022ea23eedb11f3dc2366f898f09d0306e13881528cd4f65"
+    },
+    {
+      "slug": "chasing-dots",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "ca08e00a48463d3032990759d9f4328d88d7197a7c8e8d7fd36efa5ae9d5a7e4"
+    },
+    {
+      "slug": "chomp-loader",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "7a568dbc96699e42327397899de13b8d4ce98497df625aaf63375ca2994dafd7"
+    },
+    {
+      "slug": "circular-dot-wave",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "74c7ed1a56d9219540f01147cbea22989a0c416331749a2bae5243013aa33b7b"
+    },
+    {
+      "slug": "color-cycle",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "a267543604d223e553e8157a616be4472b0d092c4cd45e3c9f5533a727bce7aa"
+    },
+    {
+      "slug": "energy-orb",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "416e2997fc8905b4e6422449179d33f1925c63db00b15f6ff929484fe0fa5c6e"
+    },
+    {
+      "slug": "firefly-twinkle",
+      "ja": {
+        "name": "ホタルのきらめき"
+      },
+      "reviewed": {
+        "sourceHash": "67f51a72ed636e0f52180a5a0cf360fa1df4138e96eeb6e1643740e286fffe76",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "67f51a72ed636e0f52180a5a0cf360fa1df4138e96eeb6e1643740e286fffe76"
+    },
+    {
+      "slug": "flickering-grid",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "a750d6258538c89a71df7ee22ab163ae679a45ecd486d4a2f3e2ff97e22f493c"
+    },
+    {
+      "slug": "flowing-wave-field",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "6f345451b39b258bdcb224ec30bf0fdf12d299d9e0c7ea4e6f966970eabb60d5"
+    },
+    {
+      "slug": "folding-cube-loader",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d066d00090ff5caee1f9bb2d8d257c3c6912d829afa6c5dc2fd2d797696b29f8"
+    },
+    {
+      "slug": "gradient-drift",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "2411485e8a7c439b3e48efcec2ff2328f4dec4ce369361a2c94aa4a0a49bfe9f"
+    },
+    {
+      "slug": "grid-pulse",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "c34315f045ba20bcdbcab9a338f11f6131dcea1c2f56f48afd5ffc84c0fc8b20"
+    },
+    {
+      "slug": "hourglass-loader",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "23b3412c80548219b8f4945b6c498083ebd1d791714b07336df31e253da045ba"
+    },
+    {
+      "slug": "hypnotic-pattern",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "df54d042c1cfc84687a0b3f6e02c5775fbb6886bd22008943901a33647f0dcce"
+    },
+    {
+      "slug": "infinity-path-loader",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "709d8877300879e68c9edb3fc5265509132ece0def531a02ca65ad2a3d815c16"
+    },
+    {
+      "slug": "marching-ants",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "14a5724649a8d55150afd076110af613e19ef23be75e4ba9312b78b846c9cbf5"
+    },
+    {
+      "slug": "mesh-gradient-flow",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "2ebac4ebacc0646eaee3f14fda4ca0fa280ba9aa8d3484b00250ff45808be44f"
+    },
+    {
+      "slug": "nature-growth-loop",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "634fea8d15faaf2047a03f38b901270b5aa1b1bece3d22da66183adc164fe180"
+    },
+    {
+      "slug": "offset-loop",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "7c890760f09e232597877f3a17619a0aaad9fdd66a92b7dfe8c073c2ce2d76dd"
+    },
+    {
+      "slug": "orbit-loop",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "fbce2613de4d9b74c3f9f60730c1563b19fed46f5e96ecda2ad7afb3fee112e0"
+    },
+    {
+      "slug": "path-conveyor",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "67c046b942ea6bbed8be37e5d487fb460cf622bf946dcd5fdcec27db34cae647"
+    },
+    {
+      "slug": "radar-sweep",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "f86519884d67923e6f19cc44144bb7e8ed17af5f7580bdc7434ded6a45b307ce"
+    },
+    {
+      "slug": "rolling-shape-loop",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "9bdb02bbac46f303767df759c1abb0f543d37641353bb5f60b89837f735193b3"
+    },
+    {
+      "slug": "rotating-plane-loader",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "27750339829ac320c5377f3e08c608ba9936a446e50f58bc2a7a5f54157e739a"
+    },
+    {
+      "slug": "tiled-pattern-drift",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "7ad4c2b27713186e878d94d3fb519bc28a4de3befe4eac0730e96f6e3eeede1c"
+    },
+    {
+      "slug": "wandering-squares",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "7b95f76e1ec820849a4f24ead13fd06924e69c6539efe2fce9eb845ef56248ec"
+    },
+    {
+      "slug": "watching-eyes",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "8564e15d35647e1bea5243f1db2d3fd6e5017082ac860aae6c0ff22cd3b009b4"
+    },
+    {
+      "slug": "wiggle-loop",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "25e88f4bad4dcdd482d84777a212a3e267019eb9d40ebd66f38edb23b100b7ea"
+    },
+    {
+      "slug": "circular-text-spin",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "9ca5ac2008f16e4944c70dcbf33dc83a0069182430b44eb10b8c9c69c2aff63f"
+    },
+    {
+      "slug": "credit-roll",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b98423fb74fa2d7a7c4cca5e448e0cdab4b943a4ee50518fb1f7108bba84b046"
+    },
+    {
+      "slug": "analog-medium-text",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "5b3967efd43f2d6522c97dade718430587a62aa15fabf78a7f19bb380f8e4a0b"
+    },
+    {
+      "slug": "caption-page-swap",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "f21ca7ab25c19abc2e21c83a750ad07545b2381e200ae4b03d942afe1f60b8c4"
+    },
+    {
+      "slug": "caption-takeover",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "6a7487ef32d7f415dde39e977538d6accb466adef61f44fe5cf33015de0ded35"
+    },
+    {
+      "slug": "crosshair-caption",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "cc85644f637b467e3aa9cebd6cc1cb988bd22bf13c4b863a2af8ff73a292f704"
+    },
+    {
+      "slug": "hologram-text-boot",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "3126f12f059eb92f90fba5ddec24f03cdfa34a0b1dc6e64ae38732405c3adc3c"
+    },
+    {
+      "slug": "karaoke-caption",
+      "ja": {
+        "name": "カラオケ字幕"
+      },
+      "reviewed": {
+        "sourceHash": "f7ec431c824382706bde5d29563b740d5a5c72d900b9aa1c16ba6181d1fa1b34",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "f7ec431c824382706bde5d29563b740d5a5c72d900b9aa1c16ba6181d1fa1b34"
+    },
+    {
+      "slug": "laser-ignite-text",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "85079ceba5ff6d338a298eabc57468aafa66397a97b9eb99b2d6ba1696a35acf"
+    },
+    {
+      "slug": "led-matrix-text",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "e224a662d54ecc277e0c1963493c11d58ad77d7a2ee28d36211a6a543ee792ef"
+    },
+    {
+      "slug": "lower-third-reveal",
+      "ja": {
+        "name": "ローワーサードの表示"
+      },
+      "reviewed": {
+        "sourceHash": "3d46acf0fa1b2570877b2ae4f2143f90da75725689373f815a386a3d4c209fe4",
+        "fields": [
+          "name"
+        ]
+      },
+      "sourceHash": "3d46acf0fa1b2570877b2ae4f2143f90da75725689373f815a386a3d4c209fe4"
+    },
+    {
+      "slug": "lyric-line-focus",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "945384d5f1c2a7e6e7398dcd13a99ba172ec38727e354a3aa108dfea20536ad9"
+    },
+    {
+      "slug": "papercut-placement",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "122ba9fb8738956f405b0f3264687c2cab3e9adfbfe72b627470a6a46e3524d8"
+    },
+    {
+      "slug": "stamp-impact",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "e89f1a1e7f4084f72752426d9aba31b9e32e32d1dba5516d6e84bea315984e12"
+    },
+    {
+      "slug": "subject-occluded-caption",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "6842233d6b80cc14b5f6aa33455ca461bbe0e9e770b54b6805fe285ecd76dc64"
+    },
+    {
+      "slug": "word-pop-caption",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "bad5b3cda561a8fc543f903c46e8a7750cd59ea2f897a5b014892987e0ffafa4"
+    }
+  ]
+}

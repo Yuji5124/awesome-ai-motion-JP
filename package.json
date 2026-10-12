@@ -9,6 +9,9 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "check": "node scripts/check.mjs",
+    "i18n:sync": "node scripts/i18n/sync.mjs",
+    "i18n:check": "node scripts/i18n/report.mjs --check",
+    "i18n:report": "node scripts/i18n/report.mjs",
     "render": "node scripts/render.mjs",
     "render:all": "node scripts/render.mjs --all",
     "serve": "python3 -m http.server 8080"

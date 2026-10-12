@@ -1,0 +1,40 @@
+{
+  "repository": "Yuji5124/awesome-ai-motion-JP",
+  "upstream": "gongnyang/awesome-ai-motion",
+  "branch": "main",
+  "inspectedAt": "2026-10-12",
+  "checkoutCommit": "1e3c249073c61b42ceb556d7800f628d565d9312",
+  "upstreamMainAtInspection": "1e3c249073c61b42ceb556d7800f628d565d9312",
+  "trackedFiles": 2088,
+  "localCommitCount": 2,
+  "gitLfsFiles": 0,
+  "catalog": {
+    "effects": 637,
+    "renderedEffects": 128,
+    "recipes": 11,
+    "routes": 7,
+    "glossaryTerms": 250
+  },
+  "mediaFiles": {
+    "mp4": 191,
+    "gif": 140,
+    "jpg": 140,
+    "png": 45,
+    "total": 516
+  },
+  "ignoredOrToolGeneratedMediaAtInspection": {
+    "mp4": 1,
+    "gif": 1,
+    "jpg": 1,
+    "png": 2,
+    "note": "Three onboarding smoke outputs under .staging and two Playwright package icons; excluded from tracked source totals."
+  },
+  "preservedOriginalFiles": [
+    "LICENSE",
+    "ATTRIBUTIONS.md",
+    "README.md",
+    "README.ko.md",
+    "index.json",
+    "SKILL.md"
+  ]
+}

@@ -1,0 +1,1506 @@
+{
+  "schemaVersion": 1,
+  "sourceRepository": "gongnyang/awesome-ai-motion",
+  "entries": [
+    {
+      "id": "glossary-7a5b1cbedb02",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "fdda66f03022f9faa36f5976192b095e30044f75b886b74272dc7e98425d3aef"
+    },
+    {
+      "id": "glossary-9e6b17dad1e7",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "ac067c516911cb4f1201c159dffb6218feb200166353257aa2fc9706477273ae"
+    },
+    {
+      "id": "glossary-721a8b183c99",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "70c19eb5ef2aab4d894c500ef0f4e5b33165301dc8261cea3a4905fc9baa600a"
+    },
+    {
+      "id": "glossary-5716d8fce0fc",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "095bfd43c64be378e9841fde0ad22a16c194b8f745b90b6eda301d95e8f5885e"
+    },
+    {
+      "id": "glossary-de4fc89dcf91",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "77c7a34c91d751d95900f3ae28be7d1186f074169924d6770c4800d6ed864678"
+    },
+    {
+      "id": "glossary-e228b8e45bf1",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "9de550436d8213f51a59d74eae70ef145b840c198fae12f12fccad23516bef4e"
+    },
+    {
+      "id": "glossary-40f53914d00c",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "a4383657720f5ad7497b20babb14ffe2bc3084aa68c3779675c7e41acd2fdf4c"
+    },
+    {
+      "id": "glossary-9e858927e688",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "910c06019f9933013d70099ec32df706fa54e8d05da54f6990966ed4c3b60f31"
+    },
+    {
+      "id": "glossary-ac35a9b242bd",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "a18e0f6146d33ca5c37b8e3cc407a3645a04b8ec06b3777d68af527bf760d79f"
+    },
+    {
+      "id": "glossary-7af0db79c9cb",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "a8fe49957d76cf865e78296ba087722085db4e6e7a2890fcb6eb9076e90bcfe8"
+    },
+    {
+      "id": "glossary-d50900304e59",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "9c2b572281ee4945a508156303dadc4a1f80105a92f8bf6c632be917defcf220"
+    },
+    {
+      "id": "glossary-1f457b8be876",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "8b47f6cf98f03c2bcf0482ef02957dcaefeacecd738680ded73b909e5a4043de"
+    },
+    {
+      "id": "glossary-9a04d21dd574",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "8369009a07fa991e1c81e6c8d06011ae09dda634d29a6b11db17d1b16f1941bb"
+    },
+    {
+      "id": "glossary-f6f226139e34",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "3eef4ffdd7f0b094f2512923bcd6518e42cdfd1aa1e267d8501ee08bbe6eb485"
+    },
+    {
+      "id": "glossary-9822b8f1f041",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "0c5dc7c41911f6be805b7810a0b3f4d0e27ce936b6f1b2ad3c81916d8bc7e285"
+    },
+    {
+      "id": "glossary-7d0d80ca74d9",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "0ef05e59017df2febf95bebdb807160a1c369530ed7141eaee03702e68161a5b"
+    },
+    {
+      "id": "glossary-39647aac862a",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "5f264882bb276424be712548ef110918d1c055178eba9a77f6b25129b3235a72"
+    },
+    {
+      "id": "glossary-c160a59c30b7",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "be305e32a5162d55fd597e76e676d6db41d326f4a6efb3b44f2ec213b26cf388"
+    },
+    {
+      "id": "glossary-8bc90ad1cbba",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "faa98757b096f275e0819c5c93f9e18c47a251bf844c3ab7deb66e93cb74bc45"
+    },
+    {
+      "id": "glossary-0d5f90bb5cdb",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "7d7a442db554cdf9b52770fd78d8712c8cc16c0b9789f45d9744dd6fc5ed1b46"
+    },
+    {
+      "id": "glossary-0caf68c2697e",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "20e53b3d2c633b211cb98ced2a1bc0dd57945edbac335d04eb7c8d14f5d61079"
+    },
+    {
+      "id": "glossary-9d746a0a02a9",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "45841c177a7d3e894762bdb28318e649f2121de488ad3485ce27a7957e35ca2f"
+    },
+    {
+      "id": "glossary-b96001ff9343",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "0bb2b21372aa96598e5942e23db5b7bfc65bceb1f3649c39f3c7c5bf2c79dd93"
+    },
+    {
+      "id": "glossary-5a62af577934",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "7cb7ca79fcee2f5df0c3bab184f57a3637b1be34eaf07ffb5407009fe08f8203"
+    },
+    {
+      "id": "glossary-be747caa870d",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "2cba413c9ddb87c776cd5a7039835c490658bd7b4fbdef3ce53c9bd89638402d"
+    },
+    {
+      "id": "glossary-7d014a24501d",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "f9209d2e1a088efe4cb66730bde57fe4b82f3a69a4702f547f93c040dfe8ea75"
+    },
+    {
+      "id": "glossary-cf8a9cd8b957",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b22bf755fdf5b62c28ba44efd87434688a9f21d2a6f610524336a1341aae2259"
+    },
+    {
+      "id": "glossary-388363985362",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "17bde3f15ddae45ef667e532f9aa3e6f6c47bada2109b22912b26a170b3fab83"
+    },
+    {
+      "id": "glossary-01cbf90a58d8",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "522b8ef1cd3654a6d31757839b8583448c7835db1910e97136bcb14d6f3758f6"
+    },
+    {
+      "id": "glossary-b9f969f4d902",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "6cad169539d0e8035cc91be82003e770c3021c339e151bd6a101ef8898aefbb5"
+    },
+    {
+      "id": "glossary-2988e86ac101",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d2de486fe03da5ffc7010715ff5020e54593e1a8792b55c74377e7767d1100bf"
+    },
+    {
+      "id": "glossary-e62f84f2f58a",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "9b16b4bfc1f4fc325a192d791fb94a57310a816f4d758c7179d264e1764b7ff7"
+    },
+    {
+      "id": "glossary-5f18ffcfd9fb",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "5e1cd6bcbe41aa3176c3978e0131714776cb5c5bbc720c9da5008258362720ab"
+    },
+    {
+      "id": "glossary-8448e820622e",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "2bfda68e36fa9ee004f5e9693b6d48d8b022d219ed5df9c2ebbb48a493e81f3d"
+    },
+    {
+      "id": "glossary-8e4b2965f89c",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "275df5b14e1e9f57e4bc03084d73cf2f3984ec3038afbafed4e53c80dc54abdf"
+    },
+    {
+      "id": "glossary-fedf85b4e488",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "86a5881a4da61305621f82e9b1712b5dc3ce89cb16e7ad94aae967d16c7e4a50"
+    },
+    {
+      "id": "glossary-8c31ccda4c8e",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "8bc27c04f5f0086092fea0817450929f62ec0b41e97a2061c6f98a1e8f69e3ef"
+    },
+    {
+      "id": "glossary-85b748effb0f",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "7c27d6d09d8f3bc3a2329d6c620fb0f9ebe676b7817d02f457efd78fe8df161b"
+    },
+    {
+      "id": "glossary-c12811202d8d",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "e102d226eb0bdfa69b8c07a3372ac0548c20b2d0ec88c3ac1b0c5c10b26aae77"
+    },
+    {
+      "id": "glossary-6e91e049a578",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "c68ee9db168ddaca1dca06b0001b41a42961fb02f94a6a834a313d6840d99da2"
+    },
+    {
+      "id": "glossary-7094c43ad3e3",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "bbbf71e1d0d92558a8309c121c845da44d7532288329ba682a1863b99ca82f68"
+    },
+    {
+      "id": "glossary-745dcb2c47ce",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "61e6dbcd0e14157d19e5061072b7e9c72aa2c482e28a032f79c5819d10360300"
+    },
+    {
+      "id": "glossary-52a896393071",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "0c6fa2c498a2bf51336139a7023d76719c168b5abf2511cd3653075be850aa52"
+    },
+    {
+      "id": "glossary-e8fc04adef06",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "81a6d7f27ba4872ed2f2bc9abc66cd3679da52361043b223bb1c5df8e586128e"
+    },
+    {
+      "id": "glossary-28b896f2361b",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "a73395c14d555eae49b56fc1f8ea93adfbf05d7e1b5b5d1d73520a5269578b07"
+    },
+    {
+      "id": "glossary-0a1337053188",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "f236f9938ac8c41a925559e0e95d63357220f61bf785560c50e0eafe176eb672"
+    },
+    {
+      "id": "glossary-e6077000e19c",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "895d23f951047597522b33d01654ca6c7c271ccd2576d7618147c680d43a783d"
+    },
+    {
+      "id": "glossary-1fc8fe738233",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "c997f91dd3e5f39cb12c69feddf14a8d6ce7355bb70e188136d0a94ada17de85"
+    },
+    {
+      "id": "glossary-eac46a31f488",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "643bef0da625d4d36f878e8b3dc528deeaa4a63179188d434d9b7da93b3ae670"
+    },
+    {
+      "id": "glossary-28844c0d35b2",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "87edd4963c5bd2c697973959cb6aff2389cbd7eb9e88e04737731bd925db71d7"
+    },
+    {
+      "id": "glossary-fba8dee13699",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "e84be753ff5f27b783888b0835e794f00e9f4974e4b73495b7d9e24c79541492"
+    },
+    {
+      "id": "glossary-218394ef3124",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "0b54a18967244c4fa7ca3def3c946a59fcc6594501e607a20711fe9a05fd17e3"
+    },
+    {
+      "id": "glossary-e33a04148795",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "945a97353dfc317a537f133a14f67ee88c8138c07013fc25cf59368eddf1e7d5"
+    },
+    {
+      "id": "glossary-971814525f13",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "5ee6660297129319050ebb056fa9cbe3d6c9c758ab565ebfee39638809bb0ea0"
+    },
+    {
+      "id": "glossary-8ceef0b9d7e7",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "ceb09d43244010bdb132c3e01a7af8ff26c15edbdfc977861cb953046de20fab"
+    },
+    {
+      "id": "glossary-13138d7f73c6",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "8cc824a3d169775e479510eb4e9b07e0eee210691c1fa4495278550c604da41d"
+    },
+    {
+      "id": "glossary-ef06171f793b",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "eb35dc6491db11a59f996e905168989baa0ee557392837e065f9139dbc357faa"
+    },
+    {
+      "id": "glossary-bfc41250476b",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "7f84b852425b695076cf5e90d463df2e9bc6a1ca6ee505ea12d2fe429d0c41b2"
+    },
+    {
+      "id": "glossary-80fd2e1272ee",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "647ba5facb95ec7d103acb870f9f72ca5d9f81e9d98d687aeb382535a424f54b"
+    },
+    {
+      "id": "glossary-b85cec0225a5",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "e5a3279adb6093b86b232305ce210aeba1cda71fb3b2a9d771cbc132b7e2f0fa"
+    },
+    {
+      "id": "glossary-fb9c1d13c451",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "be2877e4c30be44742c6b62085516fec27c935c2a7168235285125ca23fa4dca"
+    },
+    {
+      "id": "glossary-2698f24c1ca1",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "36dbbc5cac4ee31a7da8f7769793cd14930c29a8a082685d732fbd8cbfb5f89d"
+    },
+    {
+      "id": "glossary-4e537567c59e",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "6349746728c691825bb613000075c5ad52f30ec9d0a80204c5a0f89c9fd1af81"
+    },
+    {
+      "id": "glossary-4a2dbe656fe0",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d48469000b347b3df429e9dca1b7c9fb57c8bcfc7ef94c0bc2aeb5132b869719"
+    },
+    {
+      "id": "glossary-7141764dc289",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "8701b34207221dc7306d551f3049c40910cbc366907f0c58fa58fc901a4c4012"
+    },
+    {
+      "id": "glossary-5cd89d965551",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "e8cfbb3abdd51138cb66af3eb3968cd6b0d0b0d774bbb2706b74f27005c1801f"
+    },
+    {
+      "id": "glossary-b0c06f1db809",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "c1f45ccf0452a3dceefee9890ea2d46b22937f3a8e107a15c103a16c67713687"
+    },
+    {
+      "id": "glossary-1ed4f1e9928b",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "0c7ec50ff248de5409b38795b0f30d65fd9d0375f511e98bc8be551177670991"
+    },
+    {
+      "id": "glossary-05c55d887c74",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "407262819799300a25c721a936a2abdd18a1a9ad9d7024367b0501f9150d7747"
+    },
+    {
+      "id": "glossary-45c6198154e7",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "f3044718ffb8e610bd0b57f5a898780ee019e0501e6b26ecff2702fcfdb6bbd6"
+    },
+    {
+      "id": "glossary-9951888d2e20",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "515645e55127412e207fd7dd2d1afc55d6b57f4f84c1a5f680abe21b806d4167"
+    },
+    {
+      "id": "glossary-5d0639f19bd9",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "4d5d320437d56099e871370f3bac604c6b88d9baa8c8dac122fb340bd0abeee6"
+    },
+    {
+      "id": "glossary-eab3028b0ab2",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "6ec9391a2ec0719ce7f56b04b1c6ecb9dce8800db9c0c1d1c462eda21c598d87"
+    },
+    {
+      "id": "glossary-8500d5d89be5",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "f8ca1b1c23ca0520a4fdf3d6f7bb7b01f68773ba3f69a10217407c7f7c0b9bc6"
+    },
+    {
+      "id": "glossary-deb6bf48bfe4",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "9d87f56e37b8b455f148b5df9bda95b12b4d1f666f11c7a73f178414675790c3"
+    },
+    {
+      "id": "glossary-d22fe9078829",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "da320b49c95f11e53c0a6349c785a90e90737397596430872118c2a1dbef32dd"
+    },
+    {
+      "id": "glossary-b2cf13df8e35",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "ff785efc46c2d7dcde52f762c3b24d86fbbf99bac8212cc889eed2f9e8b524d3"
+    },
+    {
+      "id": "glossary-56e395dc9533",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "48922e16ba17e779213f2580fcb39a7c1c93f15a5aee27e1feb693db1f856cdf"
+    },
+    {
+      "id": "glossary-0285b6f20782",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "fb2476185d1078cbe6ac43588ba9ab0116969e6d9beaaba7ac00ed7cac02146c"
+    },
+    {
+      "id": "glossary-5da38e5b6547",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "6cdbff54e5451a1c533e8135b252fa8f4c2023ec13cdfb42d594ab00527912a2"
+    },
+    {
+      "id": "glossary-45f8d3224112",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "099e8673058f5cb01055e9a48180d01693ee6eead97d56319efbf6ce014516cc"
+    },
+    {
+      "id": "glossary-7c399842a3f8",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "497cd58e22035f325ba58aaf4e3f7d64f64c340b6d67aa86ab40651d0edf4966"
+    },
+    {
+      "id": "glossary-56f969bf6339",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "4f885faf0dcf51b55d4e1b39eaa27338dab985873145665f6264d809b10ac580"
+    },
+    {
+      "id": "glossary-75cd74039b88",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "f00165985c0a3498865d6b27506cb46b2f3e1835483ab7bf23c8ebcd8b9ac481"
+    },
+    {
+      "id": "glossary-54286f62ce89",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "0e5b1d8ae3432c0870547677245bc51ba296a1766799d011eb9421d49ebe5326"
+    },
+    {
+      "id": "glossary-c09dfcd94ece",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "4d0bda12973ae9bcc398b6255af2aa84df7d0fb9d3064b03a46abf40753e5126"
+    },
+    {
+      "id": "glossary-aed2f8c3b9cd",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "ada136853c9748100253dcfc852bf38a447239c46dd1b2899e29a7bb449cf08d"
+    },
+    {
+      "id": "glossary-0f9d6c098258",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "96b649f0cc96fb48e211096c119b903492cebbfa085cce2324a8015da3295888"
+    },
+    {
+      "id": "glossary-bfc73c1b9026",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "67e6bb91a4baa3437b7bea4fa309fe6c2438ad388632e1e0faf405fa882d4855"
+    },
+    {
+      "id": "glossary-2286c0a05fc6",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "251fbb6742eea6a1624733aca6aec51567facdc7f97812afc3a62d431bbe333d"
+    },
+    {
+      "id": "glossary-9626a14a2103",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "78ff4181eaeba2240f19037e01011ddb6c2bc43f9f9da8f6ef4c11dbea59a610"
+    },
+    {
+      "id": "glossary-2cce67aa7b54",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b2956865e16d99e6d0711c1e5e2fd1dc298fc581fcafcd10ee371c35d14959f6"
+    },
+    {
+      "id": "glossary-3eae5448a662",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "365175c46b9e9e36c382d0b4c839660d9cb36eba6b3453b9f15adc463dbf4140"
+    },
+    {
+      "id": "glossary-a0e933896556",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "03cd16b6c0b74e73b6d71e7b290e9e3d60ffcc229881f0263fe3f2f0fc4a6fc6"
+    },
+    {
+      "id": "glossary-201a241fbc15",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d6d111658fd137a64dddf09e3b9904509b249366cb81e6f1768c37909a68abdd"
+    },
+    {
+      "id": "glossary-dad215527efd",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b5fd6bd6dcb0acf7cc51e08be79352d4f2ccf8a6e1d9e42aa4b08cbf43a098ce"
+    },
+    {
+      "id": "glossary-4ff02849f987",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "3e62265b611983f41518c96936d2e31316eda2301fdec34d6d23e8775f476a81"
+    },
+    {
+      "id": "glossary-74d5f6d5136e",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "03acc955ea056ffc22c91ae94c9037c46df127d0f6deb9462f938efc17e354f7"
+    },
+    {
+      "id": "glossary-ce38292830eb",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "f0b3c03638d77fc474c4ca51fac25cf079c94ad2fcb5665cd38af2ca0a5f6bbb"
+    },
+    {
+      "id": "glossary-9172fb7c76cd",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "84e01b4e3bcf8535eba599f42c0d4e96fad10acb7832ddfa2a800018b99785c5"
+    },
+    {
+      "id": "glossary-1643ff476723",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "7f15b56423b9a3357fd2096ab0d3f497302155b7f1a507ea12cc2674a8328e37"
+    },
+    {
+      "id": "glossary-169ac3880d68",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "e15d25c8a7138e7fdb3c500b1c8bfdb8eaf4c7d6492f683887002d078f5b155f"
+    },
+    {
+      "id": "glossary-8a462fbdedc1",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "5d2c3803da981a87520923b8c504f77a5952e98e8cf8d10a1ad9b58b86dcd8c8"
+    },
+    {
+      "id": "glossary-bd65f61779d5",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "f5f1b450ea594dc5bd8787005f8c4bb8769a3abd11f13391b1fce20e24fe021d"
+    },
+    {
+      "id": "glossary-c9aee9c7a369",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "16d16efbf9792cdcc524fd363ced8236dfccfef42b75d65300ddc916a3f8d889"
+    },
+    {
+      "id": "glossary-a86eec326716",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "c53a141b2194978f2ba7f2f2d936acd3477c993b8fbeb04447b3300f6d41d8b6"
+    },
+    {
+      "id": "glossary-7e5b446cd180",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "c6db8693c4a9fa3efccc2c49b9381563f6eced3b4a7189cdb99f656818aee937"
+    },
+    {
+      "id": "glossary-0981ee43fd76",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "027550be9d198e84d0b2dc3dc16a92c26bfc606f0c6f19ea3f8a1c9862e11e0f"
+    },
+    {
+      "id": "glossary-ee8086c2992c",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "2a0b8684378259eab8f750e3f95f24d29e5e4e1d7abfcedbef291b0c0225fe55"
+    },
+    {
+      "id": "glossary-bbbeca6047db",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d178d344387e1961f323385ce7d13852a357c0e3565e0c2a1732e5f3630ebd1f"
+    },
+    {
+      "id": "glossary-53331d5383cd",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "0add762a999e82dfae7f0ef4a86173e79ac570fcab062fcf5a0d4f67586443f4"
+    },
+    {
+      "id": "glossary-e4947c47b847",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "70cdfa97004b26a61962a7a66d9cb058e8b0edf5f52a2a2186eb2d439e7915d9"
+    },
+    {
+      "id": "glossary-fc911c0f9a12",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "49eeabc73a8123e4e2d23789d7a530c64b7eb415896c3e3cb7503ac1b58e76c8"
+    },
+    {
+      "id": "glossary-17f9f9643573",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d416ea094d575ce0411f1228f9c53200d4c7daadd56d1d35b3991e6ee6a589a2"
+    },
+    {
+      "id": "glossary-1bea50b32953",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "79454cbbe3d65d4cbdcebcde593b063dfad11a34fec229ccfe2caabd913394bc"
+    },
+    {
+      "id": "glossary-2aa65d05da8a",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "cd29d01d28502b368c058e475199cc08e7f25fd3a9965694599d64b1cc7e478c"
+    },
+    {
+      "id": "glossary-956729e608b8",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d80d2d68fcc06ff3bbc7f5546c82c097b7c3cac7d3652c507266a0477c7a0c49"
+    },
+    {
+      "id": "glossary-8def497300e2",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "01de82f7ac7e770f7de35bc3ef884ccd644aa16d271210cc1d7791ace65a4b4a"
+    },
+    {
+      "id": "glossary-3f8d4f045d2a",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "49dc06f07b061dc3ac11fcd502ac8cb41fd9595fc98d776914ce7c054f798353"
+    },
+    {
+      "id": "glossary-a7dbdcd963ed",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b26dee9efffe0f1af26c94d86900a3727a28b65bbf15aad988d18c09af27ab2f"
+    },
+    {
+      "id": "glossary-d416841b52a2",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "277a0605562dc918302adf3b9a58d80e98d51db8f8b387c79918f899fdd296e5"
+    },
+    {
+      "id": "glossary-123aaf4367ad",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "40ac1d41a62475acb130eabf2caf63ab52066220e5d143a75fcf707fac7307a5"
+    },
+    {
+      "id": "glossary-14b807ac8e50",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "24b7f4abdc3c510be324b3f923867c42da797a9f2ebc2e346942fe4c0e8603a1"
+    },
+    {
+      "id": "glossary-505322d6ab85",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "319c35261f26a1a06ca42dfb18e3026793de1f3432acec521a7adb3e2de71091"
+    },
+    {
+      "id": "glossary-d90fc1d50c35",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "cc0b0243cdf188f3dbd05d1238848cac0e7458cd00d003916fda1beb6f9ba890"
+    },
+    {
+      "id": "glossary-263315443f5a",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "f081a151fb6bf282fe735e1ab8276b99abd9fa8fb35678ccede5927ed20fc738"
+    },
+    {
+      "id": "glossary-1686efd1862f",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "412a0f517b3141f8ea54ff99f6f0149c7caa31fe2353721f89a79d977fbe8caa"
+    },
+    {
+      "id": "glossary-ab7ce139e725",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "5c1c823ec53b6dade26ce3f9170218e789647a4cb61720231fce3748e21a92dd"
+    },
+    {
+      "id": "glossary-eb857967c376",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d9e64c82d13cde09bda17379cec707860af8e887bd079a281bdc10337238ef3a"
+    },
+    {
+      "id": "glossary-5f54b4f58e87",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "c0b5077a16df6c13be5893e55bc8749d36ae079a4ef801a524bfdcd8c4ed6cb5"
+    },
+    {
+      "id": "glossary-a28ef1121439",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "2b348aeb6210951b0108f3dab7fdb2537a6dc8650df46b4943510d81d24f0e1b"
+    },
+    {
+      "id": "glossary-05958a6b03fa",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "a73f6ea2843f760dd03b940dfdd8a0e2f29067b59147d8d51692d432a70168cc"
+    },
+    {
+      "id": "glossary-0b909e2eeb70",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "619fa0cb9a6d4cf874df59dbc0a7928e4a887ea4c34b6a72f84841ae71bf4395"
+    },
+    {
+      "id": "glossary-8fc237530c7b",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "ada37ca82edfc73dddf3e2ad508d40077dc5ca075591f7d4bc9f5e1289a9fa0e"
+    },
+    {
+      "id": "glossary-d04f0043bc5f",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "6b59a013c6a843dd679e466c72f67c927661654bda22e3649e2dbe8fae8451fe"
+    },
+    {
+      "id": "glossary-2e5310dfa94e",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "6e51ca02a0dfa6d440c1975db5f2417977017abe8f362bc222428ef4b413962f"
+    },
+    {
+      "id": "glossary-a9d83921ea09",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "4906a955c505382cfa08ecee7a694ffbc9400a51c9c92076fef679ef7e5982a4"
+    },
+    {
+      "id": "glossary-946350e635e2",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "5e1a9f109054592b3b5dd781fab38b38f5c2e356b313b0213defbacf55281915"
+    },
+    {
+      "id": "glossary-64832c0d7096",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "dc3e90836a4bf8f79f0f15cc773321e2ac3ea916583b06306e8a76ed25e0eb31"
+    },
+    {
+      "id": "glossary-4aa8b23ef65a",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "11edcf4d0c1f1f6dd917f71f6bf8114742c1b45ee3d7f0376804d4eb459bdd72"
+    },
+    {
+      "id": "glossary-7c09a16652be",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "fcbd3e4cf7d7915687886a3a303e43f65496a397ac8f76ecdd7d16e03834734b"
+    },
+    {
+      "id": "glossary-bb68626ea3d6",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "a5d6772c49899345a29fe3cde85e3bd2d9278e2568a680faf25a1e8f58014953"
+    },
+    {
+      "id": "glossary-642a90a18775",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "22896a8c070318875b401a872c7eade7a1ce70cc406a2d05cc50ee9797a6ed5c"
+    },
+    {
+      "id": "glossary-9d1db185d0ac",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "437d719bde491e1589a81c93c6205246e8c5c8eceaab2ab76bbdbb1a99a9dcb7"
+    },
+    {
+      "id": "glossary-fb5b1f710d55",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d61d0c41ae619e872dbb2acc68a69b093c9b1e3c8829aa30e04d10842f5ad42e"
+    },
+    {
+      "id": "glossary-12d79197eacd",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "96a2a3ca8ac2d945644b4b068f4066008f5241103d0bfe884020912b2b998fed"
+    },
+    {
+      "id": "glossary-0aed787347a7",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "5d241d0e96f749cb5988cd81915d35a5a83df63ee5bb598fc56b10dacda132a2"
+    },
+    {
+      "id": "glossary-1be36a300368",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "258c83220e1370f9f7135f3855f04163109ea8022e207290ff4211fab3bd5f86"
+    },
+    {
+      "id": "glossary-e2f1aeafa31a",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "94c65b89f5ab810351af62e4e147677ca69ad2f9a979ce53aeb01bf7a4a2959f"
+    },
+    {
+      "id": "glossary-af4f8ff71ca7",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "6d8021ff5c656e890e13f215bc3abc874a865321d1ba2cb174956ec3f0c7b342"
+    },
+    {
+      "id": "glossary-36783ae83c31",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "4900cf5a53f57554bd78dc50b923e3b34521eca13e3138669b2d65489d92f587"
+    },
+    {
+      "id": "glossary-f18724615d08",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "ad0ea49d49840b34d1635d616ae09a40ec40e15200bc3130385512c700e2dc8c"
+    },
+    {
+      "id": "glossary-5767446a6e8e",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "ccb91cb4ec52fe43c72fb5adc658fcb02816692fde1023b9fd7cf679ed820191"
+    },
+    {
+      "id": "glossary-d55ce2e49d57",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "06a2210bb9ac89beaa709fc55ce953b516ef4fe3883f7dbcb4d29a01b5a55438"
+    },
+    {
+      "id": "glossary-b17fd29bde5d",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d627769bd8ce6a5d34e2134206899c28ee04faecf7938f8e815a6666e215341c"
+    },
+    {
+      "id": "glossary-c47bc6aed2ea",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "2c7b32dc20efa08d84a1b218231bf4763ee157475d5a36ec9076e71338b8b706"
+    },
+    {
+      "id": "glossary-d28d4f5f32bd",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "6a6a8fd5415f18defea56d9170cc034498469ebde6f11974714e68bf4b700b31"
+    },
+    {
+      "id": "glossary-63198c01a11e",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "e023e11c7b97ef459c8460250787dda5d370e893481f01db8698efbea3b2900d"
+    },
+    {
+      "id": "glossary-b292a7c90d1d",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "156dec5090893c8ab7ff4799de9ef1864b8f583695d456d4594e4f74a09ed821"
+    },
+    {
+      "id": "glossary-851986bdb9f0",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "c97a11d4a6de2a9b1c21d6a99f4a785eed248b48879d42255d7c5f19535ae404"
+    },
+    {
+      "id": "glossary-d1b579107c89",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d60d84e1cdf90371c4e0e46ecf6d5a2b8b9d45c752c20fac49d207e990b7ba61"
+    },
+    {
+      "id": "glossary-bae647487314",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "0598c40bedd412e1aef6c41eaf7cba25c0b78023b0d1662dc542b29b18df8ca7"
+    },
+    {
+      "id": "glossary-c03ec03ce962",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "62efd214fa36fee723380db251610ed8e00db195d4ad58effe5ca5a080978e94"
+    },
+    {
+      "id": "glossary-0d33bfc39f17",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "32aab6f78b95e89de7757370adb51898b41991884c5a2354dd903d47cfba5229"
+    },
+    {
+      "id": "glossary-cf1982311e82",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "43d8d4d28524473f7c8d9d1343be605c73261de8ef355326e51fd231e429f3e8"
+    },
+    {
+      "id": "glossary-483222b4e599",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "bdec64c4671f010ff36a0a155459eb7b828d991b7a0c3cf4cc1b0049eafb86f9"
+    },
+    {
+      "id": "glossary-70cb5d20ba3e",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "8abb1bd7e0233f7eb60737eebceb3048fb300cc878d5a243d74a678d1d5b6005"
+    },
+    {
+      "id": "glossary-c086b2c71033",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "148d3b9c53a0cd1d645d73cf68361e51712ede317656d03420b749c209af8ef2"
+    },
+    {
+      "id": "glossary-cb80c5ab44fd",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "0850b32352becd3a85136b17138a97c5bdbf8b3057dcbf0405f664df4e4389a7"
+    },
+    {
+      "id": "glossary-1256252b7b49",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "95eb2671ed984734494a9cce7d13bb37847bdfe38e33227e9eed0943477e53ac"
+    },
+    {
+      "id": "glossary-ce9593f14ba2",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "bac06a380c8a9df5e73535e3a7b02c71a97dc27d5ed273cbf510f10517fd90a4"
+    },
+    {
+      "id": "glossary-8bbce4401c6f",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "ba6515779b439a7d669e531c32872521d624d5c21e01763bf5c645985a0ece34"
+    },
+    {
+      "id": "glossary-ac237e803a5e",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "9edde1c72c52990b46bf2d943a5d47094c00455aa140b30a1f9e778c869a7003"
+    },
+    {
+      "id": "glossary-a479a324fb1b",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "a198a95f67fdd7446fe4a0a04f409dbf63cb6a31fcb48f1dd96c3bcb18fad275"
+    },
+    {
+      "id": "glossary-c35ff4451ed6",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "a0ebdb4625a1df4d6954c4586c8007ece3466c32dd955da42845c6a8a4f5a7ec"
+    },
+    {
+      "id": "glossary-9f88b0e0b8b3",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "29063817167920e6d1fec2ab1fc373750cdb1ad85dee00e542d21ea9715706b9"
+    },
+    {
+      "id": "glossary-7dc9cdf9f35c",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "daad78f543c07d7fb698bb54fa0b89168cd842cdb188b0e484b597913b02aae5"
+    },
+    {
+      "id": "glossary-95e7bc05c12b",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "1c123b38de2949198a957a357bb6d9fe0edee96e3b62823c3f0e4a5168380623"
+    },
+    {
+      "id": "glossary-0e50287dcbfa",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "f994da205b67fe39c02cbe1636f831dcc2fb0dbc59936c893b08bf184089c6b6"
+    },
+    {
+      "id": "glossary-110e5e5d7a19",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "bef4d5af8a381dc71ccd0365ca598cd040653e93468c1e969178eca45a027932"
+    },
+    {
+      "id": "glossary-808dd4c70ea3",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "2a3fdc6341fefc347f8335a6572f64d3bc592abb4bd3691daf0e9ffec67e64fd"
+    },
+    {
+      "id": "glossary-5714816829ba",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b89fe031072b7a3634ea74e167cba04fd6f9abd862ad80a1c6597192a6a0b594"
+    },
+    {
+      "id": "glossary-d88f322728bd",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "96ef3abb78de811f8718a77ec8ff5f86b936c9ef25d15f9a753cdab56b278329"
+    },
+    {
+      "id": "glossary-f3b1a97eaa72",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b34590dd5fcebb06cccb50b0ea87047b1c277aaabe6d225bb1501bf4ed121ebb"
+    },
+    {
+      "id": "glossary-d54914e4437a",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "2d87bf829b0b6de957c21e2935e8257614a5b04978564ec49783a91bf8c2eeab"
+    },
+    {
+      "id": "glossary-fdb33cada44d",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "76f55841f858163bf9160225ada9671b59723339eb7d6e5a5405f129cd7dcd27"
+    },
+    {
+      "id": "glossary-a796ae1b22af",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "6a8c6a639318c7ee4e44b0ef6294d38222feca49027cce769343285b153fc1b4"
+    },
+    {
+      "id": "glossary-62907d9d2400",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "cb000ddb52485b97b12087bcef4b6fa5d4ebf9e4f28388617a7f80be03f017be"
+    },
+    {
+      "id": "glossary-ede0d13e8062",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "2cba9c3224db328980e2a9502f212a8c779158b3d5d87fc8c4f93cce74ff9802"
+    },
+    {
+      "id": "glossary-1bbd415d0db8",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "a1954dcca78172e420bb0728caeda2eb95f6ae465e0a502cc00a7f4ed12bb4b1"
+    },
+    {
+      "id": "glossary-6fb78b92785b",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "89afb8e2363cb9c5dfccdb37a844c885bba2d567b01b19c2473d2da26c57cd9e"
+    },
+    {
+      "id": "glossary-3c7059e9809c",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "c1ea874e8437af837fe19bacc8a44e0fcd82bb1af0755b04f57cb62dd6676fea"
+    },
+    {
+      "id": "glossary-b07a35605a16",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "781716eea722084c781eb2e61e1ff9d4d703587b3b431d97c881a37aa044f338"
+    },
+    {
+      "id": "glossary-8335d719dbc5",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "1ff5abfbbe6b17f189de8ce2252a34d387a40a7efbd13995e2c7756bda3184cd"
+    },
+    {
+      "id": "glossary-1c1d126b695d",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "ddfd38b3bfbc31f6d9cd9a26e97c843851339b7aeb4812a23bb8ad74e6b066bd"
+    },
+    {
+      "id": "glossary-a06c8ea1e8f4",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "546612ad439d365a27f80194fd55215171f0f56a5676f87e969566fbd17bac44"
+    },
+    {
+      "id": "glossary-93a0d84a2e10",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "6872e7df81ab52e5755c3cf16cef26f16c77f651082b77882fe737456e265b2f"
+    },
+    {
+      "id": "glossary-f01ad75cd0e9",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "44c887eb2936e268dc9b0afba4a950d45a875fa403bc36bd200f6731616bdd4d"
+    },
+    {
+      "id": "glossary-a9a96b442810",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "3df4016a275b32acb2bcd597281603df5c28267ea84f70c3a31f497c228bbd32"
+    },
+    {
+      "id": "glossary-a6e7012b5ff0",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "ebbab3e9bf071737752c3a97ad7f15f272aba3d303665870b0b6896ddcda080e"
+    },
+    {
+      "id": "glossary-66dd25280498",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "53213cb4a5f3c344a8b534d511fec5a5ae65f1717b26d1b19cb323fd086b5a5c"
+    },
+    {
+      "id": "glossary-1ababdcd3ab3",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "1261d76214e5e2c4221c2a1b387a90f771f19748209ac7792dab83b15a9fb710"
+    },
+    {
+      "id": "glossary-9300116053b8",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "e45b0500ba08049144e05ede6ce46fa359e7d45279cf5fedfe03840394de240a"
+    },
+    {
+      "id": "glossary-b3dc66bc1442",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "89d9330c69fa65a223aa8515ae9499fd136573614187e838c7679034cb682eca"
+    },
+    {
+      "id": "glossary-d037be6ea987",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "98f109f5ab58844c4906fb7326bfc005ddffb2b5a2e8561e75acabfc6de4e640"
+    },
+    {
+      "id": "glossary-c32e217763dd",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "73f5bf393e12c2a8341d43c7d8fbf837ccc2b1ed5e317d7cad3ac73be41b339b"
+    },
+    {
+      "id": "glossary-39ded84fec10",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "a3b2425a0fdc32a65710605f6129e08088830accf96715cfe676bf2f7e9780eb"
+    },
+    {
+      "id": "glossary-3bc606d283cf",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "78793e08ad654941a1af5c2f0d78bbe26fdff4e77e8cdb779c26b14db798dc48"
+    },
+    {
+      "id": "glossary-6892c5ec4e0f",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "d8e37656a77f0f64cab03d473ac04c8ea80cd2ab282b393ed811ad1739be345e"
+    },
+    {
+      "id": "glossary-97540261fbab",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "e09b0fd6d85de9d48fd39deeccf920df9465798ec3bb391a182ae3c04885629c"
+    },
+    {
+      "id": "glossary-a76cb1f1c289",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "c1b63f3cc65447c740de0b8f5b6bdf681c991c3f53633e366e19096ead49938a"
+    },
+    {
+      "id": "glossary-ca687caeb13c",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "bfcb50bb5908a9ab962b8ce54f276ffa38086c8e6122dc570e6df5a353528aab"
+    },
+    {
+      "id": "glossary-607902d619af",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "62bcdeb3ee96a4eb72397b717af9c109d1dcb31389fd9419943f163e6e75bfe2"
+    },
+    {
+      "id": "glossary-894759d73f40",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "31e4516b9448439724724e26160f285bce71dc63815c40e6ed7fbe2ccdb2cb4c"
+    },
+    {
+      "id": "glossary-cebc076829dc",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "edef1c80afd0aacf32d145db2a5dbfe40a89413e24c4c49fdd1e23e6361e91e3"
+    },
+    {
+      "id": "glossary-22a4072c8603",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "5bd2f20b9899637a833950a8fd7f672e23b82aaa0f8a85ff924d56efeae1dd10"
+    },
+    {
+      "id": "glossary-7aad25a2ec4c",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "c1632cfbb75d179f718e424919566c982fba3f1c59630e051d788d3d624668a9"
+    },
+    {
+      "id": "glossary-a8295f1f379c",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "589b011f714140e49c49b9f45d82809358fb45085b0a0fbf7695f61d8518daec"
+    },
+    {
+      "id": "glossary-a06bb123f9ac",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "e54633d4c23c27b8594f4f50b6a57fefa69b495890d66803c3dd91d7099dc95c"
+    },
+    {
+      "id": "glossary-49540e08d93f",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "818117aa9a47742231cf080bcf3e9105a1f91950615c04313a4d6096e00b5c20"
+    },
+    {
+      "id": "glossary-b12eb5622403",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "b17e11d5f0bfba7788df5211174e40b185bda98eed4ffad5a94b701ae1ff3b0e"
+    },
+    {
+      "id": "glossary-92746cd77dcd",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "c296fbc4f551d10376214f018c39d8ef33ba438515a5af94d6a7ae9adf5ff691"
+    },
+    {
+      "id": "glossary-6806425a70d9",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "30843056279e7bfe619d63b87c3ed2ed387ee4682b1ba981e4c5b5baa0ff52e6"
+    },
+    {
+      "id": "glossary-d646944ae06a",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "4e8b5feb541a15c14eb79a46a9e429763050e0cbcdb2d536990f9fe5c95bb49d"
+    },
+    {
+      "id": "glossary-f9b4a79d8e41",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "e4faec923804da41fd0467720184838b433c6fb748878d4dec4e2f1dddfcae60"
+    },
+    {
+      "id": "glossary-abc24ebff8c2",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "e02bffdca7b3fe7973fbddcc6689792306e894e1242909c437db8cde28ade69e"
+    },
+    {
+      "id": "glossary-2dd93914d02d",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "140394875fae925386913a8bf53bbfa6829fbb6eaceac5cc932b94b80d0cc5f7"
+    },
+    {
+      "id": "glossary-b4897c383cfa",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "1510c3243f117706f509b394642013371a41349c548d3f6ab6c3c2f549faadec"
+    },
+    {
+      "id": "glossary-499f7ec805b9",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "1bd96d05821cfb6d465a5e005561bdf69dd0cd19ba6bd77a157bb4966c1f1800"
+    },
+    {
+      "id": "glossary-809681473a97",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "34ddf3957b1fb5354b57312d4249d3f3f26bc8ce4ac06c73363be57d4e00727b"
+    },
+    {
+      "id": "glossary-82c6a87b2a55",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "4111b9f7959f838aa566b6be6480330f893c92b4ea5806eb4d5c48251e5effbb"
+    },
+    {
+      "id": "glossary-d7432d66b0bc",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "3cfd9811d6d20daaee2c2812656330b445b22df018f27c2e291264c65ad3ba3e"
+    },
+    {
+      "id": "glossary-e6ff44ca53f4",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "0ff6c7a2baf9c6e6f28bd9d46e243576e562c7ba1b666857d90b9bc3b85be46d"
+    },
+    {
+      "id": "glossary-d8d4cd0894c6",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "3dfcb1183df604544089ec4ccf1a8fa0c9bd999f2befd29e9f52df93da8bf3ca"
+    },
+    {
+      "id": "glossary-423ac00cbb33",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "37d92be385ac2844a7c617cfe1f2317c8900b8beb25aaac51e37374c9fd4cf38"
+    },
+    {
+      "id": "glossary-c87a19697794",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "f5e1bf0f0539426e1a99035b3aba9723206aa10ece95e86e46b5eed262b692a6"
+    },
+    {
+      "id": "glossary-7ef8acb60b05",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "59dd2d5fa8cecca3bfd21336be2e993f5afde8780cd64aa16cff8891c77db3e6"
+    },
+    {
+      "id": "glossary-3f06b9d5903c",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "7b9ae56fe12ab63a33ed46c96a6107c805d82b20c9e79335615316189abcbefb"
+    },
+    {
+      "id": "glossary-fe3ad22cccf0",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "c5bde61c79f2ca08dce90717f6e36a52cb31785079b170fbbc37c14f82bbb8e8"
+    },
+    {
+      "id": "glossary-763f6f19f0c9",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "1a35c46021600e9a269de6b6038a07dc258ef0d85c636099475301f2ecbb8855"
+    },
+    {
+      "id": "glossary-943cc5b342b7",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "9c7c7a973a82da68326c0c9cd202e5284461b10d253692762e50a1eef6b1e9db"
+    },
+    {
+      "id": "glossary-bfcbfc8020c7",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "0d594df3d515efa940d6f05caf468f892efde83595276129ef3c60bbe7824a2d"
+    },
+    {
+      "id": "glossary-37cccfcabb02",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "cd67349345e03d483a069c41d4eceab9ed2e2e641db6129dba4979587439e0be"
+    },
+    {
+      "id": "glossary-3f506955b8e6",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "7df05c2fd48d29b3d47190000eac5c997734d89e1b978ede401c2e3e3b62cc0a"
+    },
+    {
+      "id": "glossary-8cfd49ea695e",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "cbdd475dc548ad1a726ab2d9db1c1dcec3849c1fe13cfa9c002e774ef0df00f3"
+    },
+    {
+      "id": "glossary-6eeef95351c6",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "e5c484c4d6c7d3c9225601c9b70a768fadafe1df5c5447d867c411348d48e6c8"
+    },
+    {
+      "id": "glossary-bdee3fece456",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "1d638ef5db174148d3996f670e7eefe68dc0a23ec1ab4baab5d7cc17164824de"
+    },
+    {
+      "id": "glossary-28eb1a4e0a21",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "e8053c7add1ebeb10e6ae91c474bb4dc9dc2ec3c3b5b40fed3ffbc39147c937d"
+    },
+    {
+      "id": "glossary-1ae4f623e765",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "7976c7a5821020b14b4a2fe94e1171e924f45912ce1332bc76e29bb2614d0525"
+    },
+    {
+      "id": "glossary-e46c9efdf3c5",
+      "ja": {},
+      "reviewed": {},
+      "sourceHash": "dad01e410c4b812e89d34cc8ebc9f9a0f3a174d3a6e2d7c1131a3b9110aebfd8"
+    }
+  ]
+}

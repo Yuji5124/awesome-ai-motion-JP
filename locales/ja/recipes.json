@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "sourceRepository": "gongnyang/awesome-ai-motion",
+  "entries": [
+    {
+      "slug": "ai-principle",
+      "ja": {
+        "name": "AIの原則を1カットで",
+        "oneLiner": "トークンを分割して参照関係を示し、次の語を選ぶまでを1文で描く。",
+        "style": "AIの原理を説明する教育動画",
+        "structure": "トークン分割 → アテンション線を描画 → 次の語を選択"
+      },
+      "reviewed": {
+        "sourceHash": "b1adea950a962d9432dfc4d9c6f9ab91013714ec4846a575178fa8d2165198d3",
+        "fields": [
+          "name",
+          "oneLiner",
+          "style",
+          "structure"
+        ]
+      },
+      "sourceHash": "b1adea950a962d9432dfc4d9c6f9ab91013714ec4846a575178fa8d2165198d3"
+    },
+    {
+      "slug": "before-after",
+      "ja": {
+        "name": "ビフォー・アフター",
+        "oneLiner": "変更前後を並べ、変更後の数値と差を表す語句を順に強調する。",
+        "style": "製品の改善点を比較するプレゼンやデータ動画",
+        "structure": "画面分割比較 → 変更後の数値をカウントアップ → 差を表す語句を強調"
+      },
+      "reviewed": {
+        "sourceHash": "67ac4a26ff48ce7c602d1352d6cdfe993941d890cc19ae399eccac6ca2764ae1",
+        "fields": [
+          "name",
+          "oneLiner",
+          "style",
+          "structure"
+        ]
+      },
+      "sourceHash": "67ac4a26ff48ce7c602d1352d6cdfe993941d890cc19ae399eccac6ca2764ae1"
+    },
+    {
+      "slug": "concept-explainer",
+      "ja": {
+        "name": "概念解説",
+        "oneLiner": "タイトルと3段階の図解を順に見せ、中心となるモデルへ視線を集める。",
+        "style": "AIの原理を1つのシーンで説明する教育動画",
+        "structure": "タイトルに強弱をつけて登場 → 入力・モデル・出力を順に表示 → モデルをスポットライトで強調"
+      },
+      "reviewed": {
+        "sourceHash": "774e8d81679b84a99ddf21943210b265e6c0806b0645a7093d1a369755aaf563",
+        "fields": [
+          "name",
+          "oneLiner",
+          "style",
+          "structure"
+        ]
+      },
+      "sourceHash": "774e8d81679b84a99ddf21943210b265e6c0806b0645a7093d1a369755aaf563"
+    },
+    {
+      "slug": "chapter-transition",
+      "ja": {
+        "name": "章の切り替え",
+        "oneLiner": "インク色の章番号カードをはさみ、次章の冒頭シーンへつなぐ。",
+        "style": "教育動画やプレゼンの章間の切り替え",
+        "structure": "前のシーン → インク色の「02」カードへワイプ → 章タイトルを表示 → 0.45秒保持 → 円形マスクで次章へ"
+      },
+      "reviewed": {
+        "sourceHash": "3f14ce654fca4757f55d312da44afd1de738e428f07f4216bad3145c383d0fd4",
+        "fields": [
+          "name",
+          "oneLiner",
+          "style",
+          "structure"
+        ]
+      },
+      "sourceHash": "3f14ce654fca4757f55d312da44afd1de738e428f07f4216bad3145c383d0fd4"
+    },
+    {
+      "slug": "data-story",
+      "ja": {
+        "name": "データストーリー",
+        "oneLiner": "結論となる数値を示してから、候補ごとの確率とその読み取り方を説明する。",
+        "style": "数値の結論を先に示すデータ解説動画",
+        "structure": "62%までカウントアップ → 候補の確率バーを伸ばす → 最も高い確率に注釈を添える"
+      },
+      "reviewed": {
+        "sourceHash": "158ad5d6bcc34ef3f2ee00f94d38503d1a063bd801d6281c33e5da1614ec759d",
+        "fields": [
+          "name",
+          "oneLiner",
+          "style",
+          "structure"
+        ]
+      },
+      "sourceHash": "158ad5d6bcc34ef3f2ee00f94d38503d1a063bd801d6281c33e5da1614ec759d"
+    },
+    {
+      "slug": "product-demo",
+      "ja": {
+        "name": "製品デモ",
+        "oneLiner": "実際のUI操作に沿って、質問の入力からモデルの応答までを見せる。",
+        "style": "AI製品への入力から応答までを見せる製品デモ",
+        "structure": "質問をタイプ入力 → カーソルでクリック → 回答をストリーミング表示 → 回答の要点を拡大"
+      },
+      "reviewed": {
+        "sourceHash": "862635b0352382449b0097c0210300940e3bf3fe58b4c528bf8060c8e2159080",
+        "fields": [
+          "name",
+          "oneLiner",
+          "style",
+          "structure"
+        ]
+      },
+      "sourceHash": "862635b0352382449b0097c0210300940e3bf3fe58b4c528bf8060c8e2159080"
+    },
+    {
+      "slug": "quote-card",
+      "ja": {
+        "name": "引用文の表示",
+        "oneLiner": "2行の引用文を表示し、要点となる一節と出典を順に示す。",
+        "style": "引用文と要点を伝える解説動画",
+        "structure": "行ごとにマスク表示 → 要点をハイライト → 出典への引き出し線を描く"
+      },
+      "reviewed": {
+        "sourceHash": "c4df9bec6addbf314cc70f60a4ead2e3de513e862ade2d8c2a109ba845992212",
+        "fields": [
+          "name",
+          "oneLiner",
+          "style",
+          "structure"
+        ]
+      },
+      "sourceHash": "c4df9bec6addbf314cc70f60a4ead2e3de513e862ade2d8c2a109ba845992212"
+    },
+    {
+      "slug": "scrolldeck-scene",
+      "ja": {
+        "name": "スクロールデッキのシーン",
+        "oneLiner": "登場・保持・退場を、スクロール進捗の3区間で見せる。",
+        "style": "スクロールデッキの1シーンを設計する教育動画",
+        "structure": "スタッガーとマスクで登場 → 保持中にハイライト → 全体をフェードして上へ退場"
+      },
+      "reviewed": {
+        "sourceHash": "0803b5e5048cde90a3b6b0bf5ba2083e708cbbd18530e0ebc05f85c078bea521",
+        "fields": [
+          "name",
+          "oneLiner",
+          "style",
+          "structure"
+        ]
+      },
+      "sourceHash": "0803b5e5048cde90a3b6b0bf5ba2083e708cbbd18530e0ebc05f85c078bea521"
+    },
+    {
+      "slug": "shorts-hook",
+      "ja": {
+        "name": "ショート動画の冒頭フック",
+        "oneLiner": "最初の1秒で3語のフックを見せ、次の場面へズームし、数値と結論で締める。",
+        "style": "縦型ショート動画の冒頭フックと主要指標",
+        "structure": "キネティック文字を3拍で表示 → Oの中へズームして転換 → 939までカウントアップして結論を表示"
+      },
+      "reviewed": {
+        "sourceHash": "6d4a39481fe91eb09376fdb8226d80502d4cf9d7fec6f5e3fbc9054a4eedcbc9",
+        "fields": [
+          "name",
+          "oneLiner",
+          "style",
+          "structure"
+        ]
+      },
+      "sourceHash": "6d4a39481fe91eb09376fdb8226d80502d4cf9d7fec6f5e3fbc9054a4eedcbc9"
+    },
+    {
+      "slug": "title-opener",
+      "ja": {
+        "name": "タイトルオープニング",
+        "oneLiner": "2行タイトルと副題のリズムで始め、要点の語句に下線を引く。",
+        "style": "教育動画の冒頭4秒や短いタイポグラフィのオープニング",
+        "structure": "2行タイトルをマスク表示 → 副題を文字ごとにずらして表示 →「次の語」に下線を描く"
+      },
+      "reviewed": {
+        "sourceHash": "a778b1126e743ff6deced6f863419749f2ba56d0bc24090f7697006d32ba49d3",
+        "fields": [
+          "name",
+          "oneLiner",
+          "style",
+          "structure"
+        ]
+      },
+      "sourceHash": "a778b1126e743ff6deced6f863419749f2ba56d0bc24090f7697006d32ba49d3"
+    },
+    {
+      "slug": "edu-hook",
+      "ja": {
+        "name": "教育動画の冒頭フック",
+        "oneLiner": "問いで興味を引き、要点・学習の流れ・学ぶ概念を5秒以内に示す。",
+        "style": "教育・解説動画の横長オープニング5秒",
+        "structure": "問いを表示 → 要点の語句を強調 → 学習の流れを示す → 学習目標に下線を引く"
+      },
+      "reviewed": {
+        "sourceHash": "35b0752dfdb2a25176801984a70c610658fa96c2719d767539c3fff5a961c88f",
+        "fields": [
+          "name",
+          "oneLiner",
+          "style",
+          "structure"
+        ]
+      },
+      "sourceHash": "35b0752dfdb2a25176801984a70c610658fa96c2719d767539c3fff5a961c88f"
+    }
+  ]
+}
