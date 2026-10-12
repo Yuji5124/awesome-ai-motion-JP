@@ -10,7 +10,49 @@
         "useWhen": [
           "手足やパーツに重さとしなやかさを与えるとき"
         ],
-        "avoid": "停止時刻をそろえると、機械的で硬い印象になる。"
+        "avoid": "停止時刻をそろえると、機械的で硬い印象になる。",
+        "conveys": "各部位の動きにわずかな重さと柔らかさが生まれる。全体が一塊で動くより、生き生きと自然に見える。",
+        "purposes": [
+          "雰囲気づくり",
+          "流れ・順序の表現"
+        ],
+        "goodExample": "カードの束が右へ動くとき、見出しが先に進み、本文が0.06秒遅れて到着するため、一枚のカードのようにまとまって見える。",
+        "badExample": "部位ごとの遅れを0.3秒以上にしてばらばらに見せたり、すべてのボタンや文字に適用して画面を揺らしたりする。",
+        "params": [
+          {
+            "name": "部位間の開始差",
+            "default": "0.07s",
+            "range": "0.04~0.10s",
+            "note": "前の部位が先に動き出す"
+          },
+          {
+            "name": "部位ごとの時間加算",
+            "default": "+0.06s",
+            "range": "0.03~0.08s",
+            "note": "後ろの部位ほど遅く停止する"
+          },
+          {
+            "name": "基本時間",
+            "default": "1.1s",
+            "range": "0.6~1.4s",
+            "note": "移動距離に応じて調整する"
+          },
+          {
+            "name": "イージング",
+            "default": "power3.inOut",
+            "range": "power2~power4",
+            "note": "開始と停止の両方が分かる移動"
+          }
+        ],
+        "engines": {
+          "hyperframes": "一つのpausedタイムライン内で、各部位のpositionを0.07秒ずつずらす。部位にはtransformのx/yだけを適用する。",
+          "reelforge": "オブジェクトシーンの移動ビートにdata-part属性を付けた部位別マークアップを用意し、時間差だけをパラメータとして公開する。",
+          "scrolline": "scrubタイムラインでは時間差が進行率の差になる。0.07秒の代わりに進行率を0.02~0.03ずつずらす。"
+        },
+        "prompts": {
+          "claude": "GSAPタイムラインで、頭・胴体・尾のように分かれた<対象>を右へ820px移動し、オーバーラップ動作を付けてください。先頭の部位を最初に動かし、後続は0.07秒ずつ遅らせます。各部位のdurationは1.1秒から順に0.06秒ずつ長くして、後ろほど遅く止めます。easeはpower3.inOut、到着後は0.6秒停止。transformだけを使い、seek可能なpausedタイムライン一つにまとめてください。",
+          "codex": "<ファイル>の移動シーンにオーバーラップ動作を実装してください。要素を部位の配列に分け、i番目のtweenをposition 0.25+i*0.07、duration 1.1+i*0.06、ease power3.inOutで配置します。Math.randomやsetTimeoutは使わずタイムラインだけで制御してください。0.4秒、1.0秒、2.7秒の状態をキャプチャし、部位間のずれが広がってからまとまることを確認してください。"
+        }
       },
       "reviewed": {
         "sourceHash": "b3f1c9d35b27f7709a932b2f186d9b1c9603dc7a0e77d5e89ba27eb18203a698",
@@ -18,9 +60,16 @@
           "name",
           "oneLiner",
           "useWhen",
-          "avoid"
+          "avoid",
+          "conveys",
+          "purposes",
+          "goodExample",
+          "badExample",
+          "params",
+          "engines",
+          "prompts"
         ],
-        "status": "human-reviewed"
+        "status": "codex-translated"
       },
       "sourceHash": "b3f1c9d35b27f7709a932b2f186d9b1c9603dc7a0e77d5e89ba27eb18203a698"
     },
@@ -33,7 +82,50 @@
           "キャラクターやアイコンの発射方向を示すとき",
           "大きな移動の前に視線を誘導するとき"
         ],
-        "avoid": "操作への即時応答では遅延を感じさせないよう短くする。"
+        "avoid": "操作への即時応答では遅延を感じさせないよう短くする。",
+        "conveys": "動き出す方向と力をためる様子を伝え、急な移動を目で追いやすくする。",
+        "purposes": [
+          "注目を集める",
+          "動きを説明する",
+          "変化を比較する"
+        ],
+        "goodExample": "朱色の点が0.25秒かけて左へ54px下がり、横につぶれた後、右へ勢いよく飛び出す。",
+        "badExample": "予備動作が主動作より長くなり、操作への反応を遅く感じさせる。",
+        "params": [
+          {
+            "name": "予備移動距離",
+            "default": "54px",
+            "range": "24~70px",
+            "note": "主動作とは反対方向へ動かす"
+          },
+          {
+            "name": "予備動作の時間",
+            "default": "0.25s",
+            "range": "0.15~0.30s",
+            "note": "短くても視認できる長さにする"
+          },
+          {
+            "name": "横方向の変形率",
+            "default": "1.30",
+            "range": "1.15~1.40",
+            "note": "縦方向の倍率は横方向の逆数にする"
+          },
+          {
+            "name": "発射の時間",
+            "default": "0.65s",
+            "range": "0.4~0.9s",
+            "note": "予備動作後に素早く動き出す"
+          }
+        ],
+        "engines": {
+          "hyperframes": "予備動作のtweenと発射のtweenを、同じpausedタイムラインに連続して配置する。",
+          "reelforge": "移動ビートの前に、反対方向へ54px動く0.25秒の準備ビートを追加する。",
+          "scrolline": "全体の移動進行率の冒頭に、短い逆方向の変位を割り当てる。"
+        },
+        "prompts": {
+          "claude": "GSAPで<対象>に予備動作を付けてください。0.60秒から0.25秒かけて左へ54px動かし、scaleXを1.3、scaleYを1/1.3にします。0.85秒から0.65秒かけてx=730pxへ発射し、縦横比を元に戻してください。3.00秒まで到着状態を保ちます。",
+          "codex": "<ファイル>の下側の比較行に予備動作を実装してください。0.60秒から0.25秒間、x:-54px、scaleX:1.3、scaleY:1/1.3、ease:power2.inOutで準備し、0.85秒から0.65秒間、x:730px、scale:1、ease:power3.outで発射します。0.73秒に逆方向への圧縮が見え、1.73秒と2.90秒で同じ到着状態になっていることをキャプチャして確認してください。"
+        }
       },
       "reviewed": {
         "sourceHash": "a4dacaea08eec46c9e290427e05937c9747440e04280afff2005d5b783374e1b",
@@ -41,9 +133,16 @@
           "name",
           "oneLiner",
           "useWhen",
-          "avoid"
+          "avoid",
+          "conveys",
+          "purposes",
+          "goodExample",
+          "badExample",
+          "params",
+          "engines",
+          "prompts"
         ],
-        "status": "human-reviewed"
+        "status": "codex-translated"
       },
       "sourceHash": "a4dacaea08eec46c9e290427e05937c9747440e04280afff2005d5b783374e1b"
     },

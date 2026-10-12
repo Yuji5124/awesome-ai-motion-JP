@@ -40,7 +40,14 @@ for (const [key, idKey] of [['effects', 'slug'], ['recipes', 'slug'], ['routes',
   const previousEntries = previous.entries || previous.effects || [];
   const known = new Map(previousEntries.filter(entry => entry[idKey]).map(entry => [entry[idKey], entry]));
   const migrated = new Set();
-  const sourceItems = (source[key] || []).map(item => key === 'glossary' ? { ...item, id: glossaryId(item) } : item);
+  const sourceItems = (source[key] || []).map(item => {
+    if (key === 'glossary') return { ...item, id: glossaryId(item) };
+    if (key === 'routes') {
+      const markdown = path.join(root, item.file || '');
+      return { ...item, content: fs.existsSync(markdown) ? fs.readFileSync(markdown, 'utf8') : '' };
+    }
+    return item;
+  });
   const sourceIds = new Set(sourceItems.map(item => item[idKey]));
   const entries = sourceItems.map(item => {
     const id = item[idKey];
@@ -57,12 +64,12 @@ for (const [key, idKey] of [['effects', 'slug'], ['recipes', 'slug'], ['routes',
     const prose = reviewedJa[key]?.[item.slug];
     if (prose) {
       for (const [field, translation] of Object.entries(prose)) if (!ja[field]) ja[field] = translation;
-      reviewed.sourceHash = sourceHash;
+      reviewed.sourceHash ||= sourceHash;
       reviewed.fields = [...new Set([...(reviewed.fields || []), ...Object.keys(prose)])];
     }
     if (title?.status === 'curated' && !ja.name) {
       ja.name = title.text;
-      reviewed.sourceHash = sourceHash;
+      reviewed.sourceHash ||= sourceHash;
       reviewed.fields = [...new Set([...(reviewed.fields || []), 'name'])];
     }
     return { ...current, [idKey]: id, ja, reviewed, sourceHash };

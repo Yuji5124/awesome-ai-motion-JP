@@ -185,7 +185,9 @@ function detail(e) {
   const pairs = (e.pairsWith || []).map(s => bySlug.get(s)).filter(Boolean);
   const eng = e.engines || {};
   const pr = e.prompts || {}, prE = e.promptsEn || {};
-  const params = (e.params || []).map(p => `<tr><td>${content(p.name)}</td><td class="val">${esc(p.default)}</td><td class="val">${esc(p.range || '')}</td><td>${content(p.note || '')}</td></tr>`).join('');
+  const jaEffect = jaCatalog.effects.get(e.slug) || {};
+  const jaParams = Array.isArray(jaEffect.params) ? jaEffect.params : [];
+  const params = (e.params || []).map((p, i) => `<tr><td>${content(p.name, '', jaParams[i]?.name)}</td><td class="val">${esc(p.default)}</td><td class="val">${esc(p.range || '')}</td><td>${content(p.note || '', '', jaParams[i]?.note)}</td></tr>`).join('');
   const tagLinks = [
     ...(e.purposes || []).map(p => `<a href="${u}index.html#purpose=${encodeURIComponent(p)}">${L(p, PURPOSE_EN[p])}</a>`),
     ...(e.media || []).map(m => `<a href="${u}index.html#media=${encodeURIComponent(m)}">${L(m, MEDIA_EN[m])}</a>`),
@@ -194,7 +196,7 @@ function detail(e) {
   ].join('');
   const routes = (I.routes || []).filter(r => (r.effects || []).includes(e.slug));
   const recipes = (I.recipes || []).filter(r => (r.steps || []).some(s => s.effect === e.slug));
-  const promptBlock = (id, label, ko, en) => ko ? `<div class="prompt"><div class="h"><b>${label}</b><button class="copy" type="button" data-target="#${id}-ko" lang="ko">복사</button>${en ? `<button class="copy" type="button" data-target="#${id}-en" lang="en">COPY</button>` : ''}<button class="copy" type="button" data-target="#${id}-${en ? 'en' : 'ko'}" lang="ja">原文をコピー</button></div><p id="${id}-ko" lang="ko">${esc(ko)}</p>${en ? `<p id="${id}-en" lang="en">${esc(en)}</p>` : ''}<p lang="ja"><span class="untranslated">日本語プロンプト未登録 · 原文をコピーできます</span><details class="original"><summary>原文</summary>${esc(ko)}${en ? `<hr>${esc(en)}` : ''}</details></p></div>` : '';
+  const promptBlock = (id, label, ko, en, ja) => ko ? `<div class="prompt"><div class="h"><b>${label}</b><button class="copy" type="button" data-target="#${id}-ko" lang="ko">복사</button>${en ? `<button class="copy" type="button" data-target="#${id}-en" lang="en">COPY</button>` : ''}<button class="copy" type="button" data-target="#${id}-${ja ? 'ja' : en ? 'en' : 'ko'}" lang="ja">${ja ? 'コピー' : '原文をコピー'}</button></div><p id="${id}-ko" lang="ko">${esc(ko)}</p>${en ? `<p id="${id}-en" lang="en">${esc(en)}</p>` : ''}${ja ? `<p id="${id}-ja" lang="ja">${esc(ja)}</p>` : `<p lang="ja"><span class="untranslated">日本語プロンプト未登録</span><details class="original"><summary>原文</summary>${esc(ko)}${en ? `<hr>${esc(en)}` : ''}</details></p>`}</div>` : '';
   let n = 0; const sn = () => String(++n).padStart(2, '0');
   const body = `
 <div class="crumb"><a href="${u}index.html">${L('효과', 'Effects')}</a> / <a href="${u}index.html#fam=${e.family}">${famName(e.family)}</a> / Nº ${e.no}</div>
@@ -204,7 +206,7 @@ function detail(e) {
 <p class="one-big">${L(e.oneLiner || '', e.oneLinerEn, jaCatalog.effects.get(e.slug)?.oneLiner)}</p>
 <section class="sec" style="margin-top:48px"><div class="lab"><div class="dd">${sn()}</div><h2>${L('무엇을 전하나', 'What it tells')}</h2></div>
 <div class="rows">
-<div class="r"><div class="k">${L('전달 효과', 'Conveys')}<small>CONVEYS</small></div><div>${L(e.conveys || '', e.conveysEn, jaCatalog.effects.get(e.slug)?.conveys)}</div></div>
+<div class="r"><div class="k">${L('전달 효과', 'Conveys')}<small>CONVEYS</small></div><div>${L(e.conveys || '', e.conveysEn, jaEffect.conveys)}</div></div>
 <div class="r"><div class="k">${L('언제 쓰나', 'Use when')}<small>USE WHEN</small></div><div>${listContent(e.useWhen, e.useWhenEn, jaCatalog.effects.get(e.slug)?.useWhen)}</div></div>
 <div class="r"><div class="k">${L('과용 주의', 'Avoid')}<small>AVOID</small></div><div>${listContent(e.avoid, [], jaCatalog.effects.get(e.slug)?.avoid)}</div></div>
 <div class="r"><div class="k">${L('분류', 'Tags')}<small>TAGS</small></div><div class="tags"><a href="${u}index.html#fam=${e.family}">${famName(e.family)}</a>${tagLinks}</div></div>
@@ -216,12 +218,12 @@ function detail(e) {
 ${e.snippet ? `<div style="margin-top:28px"><div class="prompt"><div class="h"><b>GSAP</b><button class="copy" type="button" data-target="#snip">${L('복사', 'COPY')}</button></div><pre id="snip"><code>${esc(e.snippet)}</code></pre></div></div>` : ''}
 <div class="links" style="margin-top:18px">${e.files && e.files.html ? `<a href="${u}../${e.files.html}">${L('라이브 소스 열기', 'Open live source')}</a><a href="${REPO}/blob/main/${e.files.html}">${L('소스 코드', 'Source')}</a>` : ''}<a href="${REPO}/tree/main/effects/${e.slug}">README</a></div></div></section>
 <section class="sec"><div class="lab"><div class="dd">${sn()}</div><h2>${L('에이전트 프롬프트', 'Agent prompts')}</h2><p>${L('그대로 붙여 넣는다', 'Paste as is')}</p></div>
-<div>${promptBlock('pc', 'Claude Code', pr.claude, prE.claude)}${promptBlock('px', 'Codex', pr.codex, prE.codex)}</div></section>
+<div>${promptBlock('pc', 'Claude Code', pr.claude, prE.claude, jaEffect.prompts?.claude)}${promptBlock('px', 'Codex', pr.codex, prE.codex, jaEffect.prompts?.codex)}</div></section>
 ${eng.hyperframes || eng.reelforge || eng.scrolline ? `<section class="sec"><div class="lab"><div class="dd">${sn()}</div><h2>${L('도구별로 쓰기', 'In your tools')}</h2><p>HyperFrames · ReelForge · Scrolline</p></div>
 <div class="rows">
-${eng.hyperframes ? `<div class="r"><div class="k">HyperFrames<small>VIDEO · GSAP</small></div><div>${content(eng.hyperframes)}</div></div>` : ''}
-${eng.reelforge ? `<div class="r"><div class="k">ReelForge<small>BRIEF TO VIDEO</small></div><div>${content(eng.reelforge)}</div></div>` : ''}
-${eng.scrolline ? `<div class="r"><div class="k">Scrolline Deck<small>SCROLL SCRUB</small></div><div>${content(eng.scrolline)}</div></div>` : ''}
+${eng.hyperframes ? `<div class="r"><div class="k">HyperFrames<small>VIDEO · GSAP</small></div><div>${content(eng.hyperframes, '', jaEffect.engines?.hyperframes)}</div></div>` : ''}
+${eng.reelforge ? `<div class="r"><div class="k">ReelForge<small>BRIEF TO VIDEO</small></div><div>${content(eng.reelforge, '', jaEffect.engines?.reelforge)}</div></div>` : ''}
+${eng.scrolline ? `<div class="r"><div class="k">Scrolline Deck<small>SCROLL SCRUB</small></div><div>${content(eng.scrolline, '', jaEffect.engines?.scrolline)}</div></div>` : ''}
 </div></section>` : ''}
 ${pairs.length ? `<section class="sec"><div class="lab"><div class="dd">${sn()}</div><h2>${L('잘 맞는 조합', 'Pairs well with')}</h2></div><div class="pairs">${pairs.map(p => tile(p, 1, { one: false })).join('')}</div></section>` : ''}
 ${recipes.length || routes.length ? `<section class="sec"><div class="lab"><div class="dd">${sn()}</div><h2>${L('쓰이는 곳', 'Used in')}</h2></div><div class="rows">${recipes.map(r => `<div class="r"><div class="k">${L('레시피', 'Recipe')}<small>${r.no}</small></div><div><a href="${u}recipe/${r.slug}.html">${L(r.ko, r.en)}</a></div></div>`).join('')}${routes.map(r => `<div class="r"><div class="k">${L('루트', 'Route')}</div><div><a href="${u}route/${r.slug}.html">${L(r.ko, r.en)}</a></div></div>`).join('')}</div></section>` : ''}
@@ -242,9 +244,11 @@ function recipes() {
 <div class="grid">${cards}</div></section>` }));
   for (const r of list) {
     const done = r.render === 'done';
-    const steps = (r.steps || []).map(s => { const e = bySlug.get(s.effect); return `<li><span class="t">${esc(s.at || '')}</span><div><b>${e ? `<a href="../effect/${e.slug}.html">${L(e.ko, e.en)}</a>` : esc(s.effect)}</b> ${content(s.role || '')}${s.params ? `<div class="mono muted" style="font-size:12px;margin-top:4px">${content(s.params)}</div>` : ''}</div></li>`; }).join('');
+    const jaRecipe = jaCatalog.recipes.get(r.slug) || {};
+    const jaSteps = Array.isArray(jaRecipe.steps) ? jaRecipe.steps : [];
+    const steps = (r.steps || []).map((s, i) => { const e = bySlug.get(s.effect), jaStep = jaSteps[i] || {}; return `<li><span class="t">${esc(s.at || '')}</span><div><b>${e ? `<a href="../effect/${e.slug}.html">${L(e.ko, e.en)}</a>` : esc(s.effect)}</b> ${content(s.role || '', '', jaStep.role)}${s.params ? `<div class="mono muted" style="font-size:12px;margin-top:4px">${content(s.params, '', jaStep.params)}</div>` : ''}</div></li>`; }).join('');
     const pr = r.prompts || {}, prE = r.promptsEn || {};
-    const pb = (id, label, ko, en) => ko ? `<div class="prompt"><div class="h"><b>${label}</b><button class="copy" type="button" data-target="#${id}-ko" lang="ko">복사</button>${en ? `<button class="copy" type="button" data-target="#${id}-en" lang="en">COPY</button>` : ''}<button class="copy" type="button" data-target="#${id}-${en ? 'en' : 'ko'}" lang="ja">原文をコピー</button></div><p id="${id}-ko" lang="ko">${esc(ko)}</p>${en ? `<p id="${id}-en" lang="en">${esc(en)}</p>` : ''}<p lang="ja"><span class="untranslated">日本語プロンプト未登録</span><details class="original"><summary>原文</summary>${esc(ko)}${en ? `<hr>${esc(en)}` : ''}</details></p></div>` : '';
+    const pb = (id, label, ko, en, ja) => ko ? `<div class="prompt"><div class="h"><b>${label}</b><button class="copy" type="button" data-target="#${id}-ko" lang="ko">복사</button>${en ? `<button class="copy" type="button" data-target="#${id}-en" lang="en">COPY</button>` : ''}<button class="copy" type="button" data-target="#${id}-${ja ? 'ja' : en ? 'en' : 'ko'}" lang="ja">${ja ? 'コピー' : '原文をコピー'}</button></div><p id="${id}-ko" lang="ko">${esc(ko)}</p>${en ? `<p id="${id}-en" lang="en">${esc(en)}</p>` : ''}${ja ? `<p id="${id}-ja" lang="ja">${esc(ja)}</p>` : `<p lang="ja"><span class="untranslated">日本語プロンプト未登録</span><details class="original"><summary>原文</summary>${esc(ko)}${en ? `<hr>${esc(en)}` : ''}</details></p>`}</div>` : '';
     const body = `
 <div class="crumb"><a href="../recipes.html">${L('레시피', 'Recipes')}</a> / ${r.no}</div>
 <div class="dhead"><div><h1>${L(r.ko, r.en, jaCatalog.recipes.get(r.slug)?.name)}</h1><div class="en" lang="ko">${esc(r.en || '')}</div></div><div class="nn">${r.no}</div></div>
@@ -252,11 +256,11 @@ function recipes() {
 <div class="stagebar"><span class="fig">${L('레시피', 'Recipe')} ${r.no}. ${esc(r.ko)}${r.duration ? ` · ${esc(r.duration)}` : ''}</span>${done ? `<div class="speed" data-for="#v"><span>${L('재생 속도', 'Speed')}</span><button data-rate="0.25">0.25x</button><button data-rate="0.5">0.5x</button><button data-rate="1" class="on">1x</button></div>` : ''}</div></div>
 <p class="one-big">${L(r.oneLiner || '', r.oneLinerEn, jaCatalog.recipes.get(r.slug)?.oneLiner)}</p>
 <section class="sec" style="margin-top:48px"><div class="lab"><div class="dd">01</div><h2>${L('언제 쓰나', 'When to use')}</h2></div><div class="rows">
-<div class="r"><div class="k">${L('어울리는 영상', 'Style')}<small>STYLE</small></div><div>${L(r.style || '', r.styleEn, jaCatalog.recipes.get(r.slug)?.style)}</div></div>
-<div class="r"><div class="k">${L('구조', 'Structure')}<small>STRUCTURE</small></div><div>${L(r.structure || '', r.structureEn, jaCatalog.recipes.get(r.slug)?.structure)}</div></div>
-<div class="r"><div class="k">${L('주의', 'Avoid')}<small>AVOID</small></div><div>${listContent(r.avoid || [])}</div></div></div></section>
+<div class="r"><div class="k">${L('어울리는 영상', 'Style')}<small>STYLE</small></div><div>${L(r.style || '', r.styleEn, jaRecipe.style)}</div></div>
+<div class="r"><div class="k">${L('구조', 'Structure')}<small>STRUCTURE</small></div><div>${L(r.structure || '', r.structureEn, jaRecipe.structure)}</div></div>
+<div class="r"><div class="k">${L('주의', 'Avoid')}<small>AVOID</small></div><div>${listContent(r.avoid || [], [], jaRecipe.avoid)}</div></div></div></section>
 <section class="sec"><div class="lab"><div class="dd">02</div><h2>${L('순서와 타이밍', 'Order and timing')}</h2></div><ol class="steps">${steps}</ol></section>
-<section class="sec"><div class="lab"><div class="dd">03</div><h2>${L('에이전트 프롬프트', 'Agent prompts')}</h2></div><div>${pb('pc', 'Claude Code', pr.claude, prE.claude)}${pb('px', 'Codex', pr.codex, prE.codex)}</div></section>
+<section class="sec"><div class="lab"><div class="dd">03</div><h2>${L('에이전트 프롬프트', 'Agent prompts')}</h2></div><div>${pb('pc', 'Claude Code', pr.claude, prE.claude, jaRecipe.prompts?.claude)}${pb('px', 'Codex', pr.codex, prE.codex, jaRecipe.prompts?.codex)}</div></section>
 <div class="links">${r.files.html ? `<a href="../../recipes/${r.slug}/index.html">${L('라이브 소스 열기', 'Open live source')}</a>` : ''}<a href="${REPO}/tree/main/recipes/${r.slug}">README</a></div>`;
     write(`recipe/${r.slug}.html`, page({ title: `${r.ko} · ${r.en || ''} · Awesome AI Motion`, desc: r.oneLiner, depth: 1, active: 'recipes', body }));
   }
@@ -273,12 +277,15 @@ function routes() {
     const src = fs.existsSync(path.join(ROOT, r.file)) ? fs.readFileSync(path.join(ROOT, r.file), 'utf8') : '';
     const link = u => /^(https?:|#)/.test(u) ? u : `${REPO}/blob/main/${path.posix.normalize(path.posix.join('routes', u))}`;
     const html = md(src, { link });
-    const toc = [...src.matchAll(/^##\s+(.+)$/gm)].map(m => { const id = m[1].replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-|-$/g, '').toLowerCase(); return `<a href="#${esc(id)}">${esc(m[1].replace(/[*`]/g, ''))}</a>`; }).join('');
+    const jaRoute = jaCatalog.routes.get(r.slug) || {};
+    const htmlJa = jaRoute.content ? md(jaRoute.content, { link }) : '';
+    const makeToc = markdown => [...markdown.matchAll(/^##\s+(.+)$/gm)].map(m => { const id = m[1].replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-|-$/g, '').toLowerCase(); return `<a href="#${esc(id)}">${esc(m[1].replace(/[*`]/g, ''))}</a>`; }).join('');
+    const toc = makeToc(src), tocJa = htmlJa ? makeToc(jaRoute.content) : toc;
     const eff = (r.effects || []).map(s => bySlug.get(s)).filter(Boolean);
-    const body = `<div class="crumb"><a href="../routes.html">${L('루트', 'Routes')}</a> / ${L(r.ko, r.en)}</div>
-<div class="docgrid"><aside class="toc">${toc}${eff.length ? `<div style="margin-top:24px" class="mono muted">${L('연결 효과', 'Linked effects')} ${eff.length}</div>` : ''}</aside><article class="doc"><div lang="ko">${html}</div><div lang="en"><p>The Japanese translation is not available. This route guide is in Korean.</p><details><summary>Korean source</summary>${html}</details></div><div lang="ja"><p class="untranslated">日本語訳未登録 · このガイドは韓国語の原文です。</p><details><summary>韓国語原文を表示</summary>${html}</details></div>
+    const body = `<div class="crumb"><a href="../routes.html">${L('루트', 'Routes')}</a> / ${L(r.ko, r.en, jaRoute.name)}</div>
+<div class="docgrid"><aside class="toc"><nav lang="ko">${toc}</nav><nav lang="en">${toc}</nav><nav lang="ja">${tocJa}</nav>${eff.length ? `<div style="margin-top:24px" class="mono muted">${L('연결 효과', 'Linked effects')} ${eff.length}</div>` : ''}</aside><article class="doc"><div lang="ko">${html}</div><div lang="en"><p>The Japanese translation is not available. This route guide is in Korean.</p><details><summary>Korean source</summary>${html}</details></div><div lang="ja">${htmlJa || `<p class="untranslated">日本語訳未登録 · このガイドは韓国語の原文です。</p><details><summary>韓国語原文を表示</summary>${html}</details>`}</div>
 ${eff.length ? `<h2>${L('연결된 효과', 'Linked effects')}</h2><div class="pairs">${eff.map(p => tile(p, 1, { one: false })).join('')}</div>` : ''}</article></div>`;
-    write(`route/${r.slug}.html`, page({ title: `${r.ko} · ${r.en || ''} · Awesome AI Motion`, desc: r.oneLiner, depth: 1, active: 'routes', body }));
+    write(`route/${r.slug}.html`, page({ title: `${jaRoute.title || r.ko} · ${r.en || ''} · Awesome AI Motion`, desc: jaRoute.oneLiner || r.oneLiner, depth: 1, active: 'routes', body }));
   }
 }
 

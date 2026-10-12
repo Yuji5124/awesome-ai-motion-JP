@@ -5,6 +5,7 @@ import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const source = JSON.parse(fs.readFileSync(path.join(root, 'index.json'), 'utf8'));
+const hash = item => crypto.createHash('sha256').update(JSON.stringify(item)).digest('hex');
 const glossaryId = item => `glossary-${crypto.createHash('sha1').update([item.en, item.ko, item.group, item.effect, item.src].join('\0')).digest('hex').slice(0, 12)}`;
 const file = path.join(root, 'locales/ja/effects.json');
 const catalog = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : { entries: [] };
@@ -25,7 +26,7 @@ const hasJa = value => {
 for (const effect of source.effects) {
   const localized = translations.get(effect.slug);
   if (!localized) { missingIds.push(effect.slug); untranslatedNames.push(effect.slug); untranslatedSummaries.push(effect.slug); untranslatedPrompts.push(effect.slug); continue; }
-  if (localized.reviewed?.sourceHash && localized.sourceHash !== localized.reviewed.sourceHash) stale.push(effect.slug);
+  if (localized.reviewed?.sourceHash && hash(effect) !== localized.reviewed.sourceHash) stale.push(effect.slug);
   for (const field of fields) if (hasJa(localized.ja?.[field])) stats[field].translated++;
   if (!hasJa(localized.ja?.name)) untranslatedNames.push(effect.slug);
   if (!hasJa(localized.ja?.oneLiner)) untranslatedSummaries.push(effect.slug);
@@ -55,7 +56,14 @@ for (const [key, idKey, fields] of [
   ['routes', 'slug', ['name', 'title', 'oneLiner', 'content']],
   ['glossary', 'id', ['name', 'definition', 'params', 'avoid']]
 ]) {
-  const input = (source[key] || []).map(item => key === 'glossary' ? { ...item, id: glossaryId(item) } : item);
+  const input = (source[key] || []).map(item => {
+    if (key === 'glossary') return { ...item, id: glossaryId(item) };
+    if (key === 'routes') {
+      const markdown = path.join(root, item.file || '');
+      return { ...item, content: fs.existsSync(markdown) ? fs.readFileSync(markdown, 'utf8') : '' };
+    }
+    return item;
+  });
   const translationPath = path.join(root, `locales/ja/${key}.json`);
   const data = fs.existsSync(translationPath) ? JSON.parse(fs.readFileSync(translationPath, 'utf8')) : { entries: [] };
   const indexed = new Map((data.entries || []).map(item => [item[idKey], item]));
@@ -63,7 +71,12 @@ for (const [key, idKey, fields] of [
   const misses = fields.reduce((sum, field) => sum + input.filter(item => hasJa(indexed.get(item[idKey])?.ja?.[field])).length, 0);
   console.log(`${key}: ${input.length}件 | 翻訳レコード ${count}/${input.length} | 主要項目 ${misses}/${input.length * fields.length}`);
   const ids = new Set();
-  for (const entry of data.entries || []) { if (ids.has(entry[idKey])) duplicateIds.push(`${key}:${entry[idKey]}`); ids.add(entry[idKey]); }
+  for (const entry of data.entries || []) {
+    if (ids.has(entry[idKey])) duplicateIds.push(`${key}:${entry[idKey]}`);
+    ids.add(entry[idKey]);
+    const sourceItem = input.find(item => item[idKey] === entry[idKey]);
+    if (sourceItem && entry.reviewed?.sourceHash && entry.reviewed.sourceHash !== hash(sourceItem)) stale.push(`${key}:${entry[idKey]}`);
+  }
   const sourceIds = new Set(input.map(item => item[idKey]));
   const orphans = (data.entries || []).filter(item => !sourceIds.has(item[idKey])).map(item => item[idKey]);
   if (orphans.length) { extraIds.push(...orphans.map(id => `${key}:${id}`)); console.log(`${key}に余分なID: ${orphans.join(', ')}`); }

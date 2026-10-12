@@ -10,3 +10,5 @@ routes/_prompts/
 _클립 모음/
 scripts/sanitize.py
 effects/*/verification/
+locales/ja/work/*.json
+!locales/ja/work/progress.jsonl

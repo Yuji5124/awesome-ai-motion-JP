@@ -1,0 +1,4 @@
+{"at":"2026-10-12T07:30:27.120Z","type":"prepared","batchId":"effects-0001-1791790227119","collection":"effects","itemCount":2,"file":"locales/ja/work/effects-0001-1791790227119.json"}
+{"at":"2026-10-12T07:30:52.687Z","type":"applied","batchId":"effects-0001-1791790227119","collection":"effects","itemCount":2,"ids":["overlapping-action","anticipation"]}
+{"at":"2026-10-12T07:31:19.304Z","type":"prepared","batchId":"effects-0002-1791790279301","collection":"effects","itemCount":25,"file":"locales/ja/work/effects-0002-1791790279301.json"}
+{"at":"2026-10-12T07:35:42.724Z","type":"prepared","batchId":"routes-0001-1791790542722","collection":"routes","itemCount":2,"file":"locales/ja/work/routes-0001-1791790542722.json"}

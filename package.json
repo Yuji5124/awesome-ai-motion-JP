@@ -12,6 +12,11 @@
     "i18n:sync": "node scripts/i18n/sync.mjs",
     "i18n:check": "node scripts/i18n/report.mjs --check",
     "i18n:report": "node scripts/i18n/report.mjs",
+    "i18n:status": "node scripts/i18n/batch.mjs status",
+    "i18n:prepare": "node scripts/i18n/batch.mjs prepare",
+    "i18n:apply": "node scripts/i18n/batch.mjs apply",
+    "i18n:retry": "node scripts/i18n/batch.mjs retry",
+    "i18n:api": "node scripts/i18n/batch.mjs api",
     "render": "node scripts/render.mjs",
     "render:all": "node scripts/render.mjs --all",
     "serve": "python3 -m http.server 8080"
