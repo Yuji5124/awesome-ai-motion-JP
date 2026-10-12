@@ -535,8 +535,24 @@
     },
     {
       "slug": "stepped-motion",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "ステップモーション",
+        "oneLiner": "値や姿勢を中間補間せず、段階ごとに切り替える。",
+        "useWhen": [
+          "ピクセル単位の動きやコマ撮り風の表現"
+        ],
+        "avoid": "滑らかさを求める場面では段差が目立たないか確認する。"
+      },
+      "reviewed": {
+        "sourceHash": "f5a024cb2708fecbcaf8f916af737072b6a5f5c111d8e632b28349ec136aea33",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "f5a024cb2708fecbcaf8f916af737072b6a5f5c111d8e632b28349ec136aea33"
     },
     {
@@ -563,134 +579,486 @@
     },
     {
       "slug": "symmetric-panel-open",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "両開きパネル",
+        "oneLiner": "左右のパネルが本のように開き、中央の内容を見せる。",
+        "useWhen": [
+          "タイトルや新しい章を左右から見せるとき"
+        ],
+        "avoid": "中央の継ぎ目と左右の動作開始をそろえる。"
+      },
+      "reviewed": {
+        "sourceHash": "f366148903c33193883c5b61dea0bbc21dd6397592ad3b4308a4fe98f1ccb0fb",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "f366148903c33193883c5b61dea0bbc21dd6397592ad3b4308a4fe98f1ccb0fb"
     },
     {
       "slug": "back-entrance",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "奥からの登場",
+        "oneLiner": "小さくぼやけた要素が遠方から近づき、通常の大きさで定着する。",
+        "useWhen": [
+          "奥行きや接近感を表現するとき"
+        ],
+        "avoid": "拡大やぼかしで文字が読めない時間を長くしない。"
+      },
+      "reviewed": {
+        "sourceHash": "e024a9543ac1c6eb0d3de84b35cb68a56a56eecd165432142d7e5a13f0ccfc55",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "e024a9543ac1c6eb0d3de84b35cb68a56a56eecd165432142d7e5a13f0ccfc55"
     },
     {
       "slug": "blinds-reveal",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "ブラインドリビール",
+        "oneLiner": "複数の帯が時間差で開き、隠れていた画像全体を見せる。",
+        "useWhen": [
+          "画像を分割して段階的に明かすとき"
+        ],
+        "avoid": "帯の幅や遅れを整え、内容が判別しづらくならないようにする。"
+      },
+      "reviewed": {
+        "sourceHash": "8c9b994a16ab1933a8cc240a253d05c3866a40e6e396f117e037eb8dc78698bb",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "8c9b994a16ab1933a8cc240a253d05c3866a40e6e396f117e037eb8dc78698bb"
     },
     {
       "slug": "blur-reveal",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "ぼかしからの表示",
+        "oneLiner": "ぼやけた文字や画像のぼかしを弱め、鮮明にしながら表示する。",
+        "useWhen": [
+          "柔らかく落ち着いた登場"
+        ],
+        "avoid": "読ませる文字は早めに十分な鮮明さへ戻す。"
+      },
+      "reviewed": {
+        "sourceHash": "e357f2e51c3bd8e9035a1e150ea56ee566756d5cb6d5f2115419bc25887cc033",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "e357f2e51c3bd8e9035a1e150ea56ee566756d5cb6d5f2115419bc25887cc033"
     },
     {
       "slug": "blurred-slide",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "ブラー付きスライド",
+        "oneLiner": "ぼかしと伸びを伴って移動し、停止とともに本来の形へ戻す。",
+        "useWhen": [
+          "短い移動に速度感を加えるとき"
+        ],
+        "avoid": "ぼかし量や移動距離を抑え、形が崩れた印象を避ける。"
+      },
+      "reviewed": {
+        "sourceHash": "c6a93e44239376167b5b829e149c67d3c384aa3050071ca205fda6cafcf8187e",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "c6a93e44239376167b5b829e149c67d3c384aa3050071ca205fda6cafcf8187e"
     },
     {
       "slug": "bomb-exit",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "傾いて退場",
+        "oneLiner": "要素が横へ傾きながら移動し、強くぼけて画面から消える。",
+        "useWhen": [
+          "勢いのある退場やコミカルな場面"
+        ],
+        "avoid": "強い傾きやぼかしを連続して使わない。"
+      },
+      "reviewed": {
+        "sourceHash": "0d7d3f18eea96df084d9286ca886a460d55cccaa191215d016be1c9bea3d11fe",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "0d7d3f18eea96df084d9286ca886a460d55cccaa191215d016be1c9bea3d11fe"
     },
     {
       "slug": "corner-mask-swing",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "コーナーマスクスイング",
+        "oneLiner": "覆いの板が角を軸に回転し、背後の内容を露出させる。",
+        "useWhen": [
+          "ページや場面をめくるように切り替えるとき"
+        ],
+        "avoid": "マスクの回転軸と開く方向が一致しているか確認する。"
+      },
+      "reviewed": {
+        "sourceHash": "c5bf9088ed8e2e6312d19d9814d4db8b5ef49a9aede15133c45f7e15c135fe8b",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "c5bf9088ed8e2e6312d19d9814d4db8b5ef49a9aede15133c45f7e15c135fe8b"
     },
     {
       "slug": "counter-moving-matte",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "逆方向マット",
+        "oneLiner": "表示窓が一方へ開く間、内部の画像を反対方向へ動かして見せる。",
+        "useWhen": [
+          "画像を枠の中で流しながら表示するとき"
+        ],
+        "avoid": "画像の移動量とマスクの動きが不自然にずれないようにする。"
+      },
+      "reviewed": {
+        "sourceHash": "d10eb229876f849cedc0f89a07f9f2ce27f541ae36eb17bf1f8b8ca78a965a7b",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "d10eb229876f849cedc0f89a07f9f2ce27f541ae36eb17bf1f8b8ca78a965a7b"
     },
     {
       "slug": "curtain-reveal",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "カーテンリビール",
+        "oneLiner": "手前の葉やパネルが左右へよけ、背後のタイトルを見せる。",
+        "useWhen": [
+          "タイトルや製品を覆いから登場させるとき"
+        ],
+        "avoid": "前景と背景の奥行きを保ち、タイトルの登場を妨げない。"
+      },
+      "reviewed": {
+        "sourceHash": "d5904a33e06a71a7120e398d91ff27b962a3fc63a8d0be87a93d1a4753b2434f",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "d5904a33e06a71a7120e398d91ff27b962a3fc63a8d0be87a93d1a4753b2434f"
     },
     {
       "slug": "depixelate-reveal",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "デピクセル化リビール",
+        "oneLiner": "大きな色ブロックを細分化し、画像を徐々に鮮明にする。",
+        "useWhen": [
+          "デジタル映像や低解像度表現からの登場"
+        ],
+        "avoid": "ブロックが細かくなる速度を整え、ちらつきを抑える。"
+      },
+      "reviewed": {
+        "sourceHash": "c10c28c5de221621c9575df9375c9008722874f8ce76dbede34658b1a97d7a7b",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "c10c28c5de221621c9575df9375c9008722874f8ce76dbede34658b1a97d7a7b"
     },
     {
       "slug": "elliptic-entrance",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "楕円軌道からの登場",
+        "oneLiner": "傾いて歪んだ要素が楕円の軌道をたどり、正面を向いて入る。",
+        "useWhen": [
+          "奥行きのあるカードやパネルの登場"
+        ],
+        "avoid": "遠近変形で内容が読めない時間を短くする。"
+      },
+      "reviewed": {
+        "sourceHash": "7caac054c1a187ee23855b99493cd4374a8e05ffa4825f0ea1bec5e21d86083a",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "7caac054c1a187ee23855b99493cd4374a8e05ffa4825f0ea1bec5e21d86083a"
     },
     {
       "slug": "fade-slide",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "フェードスライド",
+        "oneLiner": "少し移動しながら不透明度を上げ、要素を表示する。",
+        "useWhen": [
+          "控えめな見出しやパネルの登場"
+        ],
+        "avoid": "移動距離を小さく保ち、過剰な滑りを避ける。"
+      },
+      "reviewed": {
+        "sourceHash": "54889129e6979d2341079ec922661dfad70ccb31dbde37403f0435515cfc9aa5",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "54889129e6979d2341079ec922661dfad70ccb31dbde37403f0435515cfc9aa5"
     },
     {
       "slug": "fade",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "フェード",
+        "oneLiner": "位置を変えず、不透明度の変化だけで表示・退場させる。",
+        "useWhen": [
+          "静かな切り替えや重なりのある画面"
+        ],
+        "avoid": "背景とのコントラストが低い場合は見落とされない時間を取る。"
+      },
+      "reviewed": {
+        "sourceHash": "8a6c66fd755cfbdb8a7678ac8cdc54d42ef236283b7f31744e5b979542465278",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "8a6c66fd755cfbdb8a7678ac8cdc54d42ef236283b7f31744e5b979542465278"
     },
     {
       "slug": "flicker-reveal",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "フリッカーリビール",
+        "oneLiner": "要素を不規則に点滅させ、最終的に表示または消去する。",
+        "useWhen": [
+          "電気・信号・映像ノイズを想起させる表現"
+        ],
+        "avoid": "点滅を長く続けず、視覚的な負担に配慮する。"
+      },
+      "reviewed": {
+        "sourceHash": "0dc5979bf55bfbcff05db1fe1e0de17bfc0597097a4ab48281db49747b9a40be",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "0dc5979bf55bfbcff05db1fe1e0de17bfc0597097a4ab48281db49747b9a40be"
     },
     {
       "slug": "flip-reveal",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "フリップリビール",
+        "oneLiner": "細い側面を見せた要素が3D回転し、正面を向いて現れる。",
+        "useWhen": [
+          "カードやパネルの切り替え"
+        ],
+        "avoid": "裏面の向きや鏡像表示を確認し、急な回転を抑える。"
+      },
+      "reviewed": {
+        "sourceHash": "2fdce73d5e5f607a684d5c54e510d0f33f31a4e6a876fb26dbbee9eb4a88fb1e",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "2fdce73d5e5f607a684d5c54e510d0f33f31a4e6a876fb26dbbee9eb4a88fb1e"
     },
     {
       "slug": "foolish-reveal",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "多軸ローテーションリビール",
+        "oneLiner": "要素が大きさを変え、複数の角を軸に順番に回って定着する。",
+        "useWhen": [
+          "遊び心のあるタイトルやイラスト"
+        ],
+        "avoid": "動きが複雑なため、頻繁な利用や長い演出を避ける。"
+      },
+      "reviewed": {
+        "sourceHash": "443b4d8320b3122dd3075cf90ffa66e2313b3337bc4accf213dedf6e3dad33ee",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "443b4d8320b3122dd3075cf90ffa66e2313b3337bc4accf213dedf6e3dad33ee"
     },
     {
       "slug": "hinge-drop",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "ヒンジドロップ",
+        "oneLiner": "要素が端を支点に揺れた後、下へ落ちて画面から消える。",
+        "useWhen": [
+          "カードや紙片が倒れ落ちる演出"
+        ],
+        "avoid": "固定する辺を一貫させ、落下先との衝突を避ける。"
+      },
+      "reviewed": {
+        "sourceHash": "235d0a94b5c3db5a704f8e199c57bc35707c0a4f4d5fbc0be3aa4c1734a94371",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "235d0a94b5c3db5a704f8e199c57bc35707c0a4f4d5fbc0be3aa4c1734a94371"
     },
     {
       "slug": "hinge-reveal",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "ヒンジリビール",
+        "oneLiner": "パネルを一辺で回転させ、傾いた状態から正面へ開く。",
+        "useWhen": [
+          "扉やパネルを開くような場面転換"
+        ],
+        "avoid": "支点が途中でぶれないようにし、裏面も意図して設計する。"
+      },
+      "reviewed": {
+        "sourceHash": "9f365c989ac4eea63b030c4e23658fa3a574506cf57e145a8d1ef0736bda31c6",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "9f365c989ac4eea63b030c4e23658fa3a574506cf57e145a8d1ef0736bda31c6"
     },
     {
       "slug": "jack-in-the-box",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "びっくり箱の登場",
+        "oneLiner": "小さく傾いた要素が急に大きくなり、左右に揺れて落ち着く。",
+        "useWhen": [
+          "驚きやユーモアを伴う登場"
+        ],
+        "avoid": "大きさと揺れを控えめにし、周辺情報を隠さない。"
+      },
+      "reviewed": {
+        "sourceHash": "05446dad4ce07bc3e94424b3d163d18e359d57857d309c6390b2e73055c30361",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "05446dad4ce07bc3e94424b3d163d18e359d57857d309c6390b2e73055c30361"
     },
     {
       "slug": "light-speed",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "ライトスピード",
+        "oneLiner": "要素が傾きながら横から高速で入り、切り返して正位置に伸びる。",
+        "useWhen": [
+          "SF風の高速な登場"
+        ],
+        "avoid": "高速移動の後に読める停止時間を確保する。"
+      },
+      "reviewed": {
+        "sourceHash": "730a1f9e22a4a6be29f9c655e34bdaec3942eba0f932ef603d10addf9a389008",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "730a1f9e22a4a6be29f9c655e34bdaec3942eba0f932ef603d10addf9a389008"
     },
     {
       "slug": "magic-exit",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "マジック退場",
+        "oneLiner": "要素が拡大・回転しながら一方向へ抜けて消える。",
+        "useWhen": [
+          "勢いのある場面転換"
+        ],
+        "avoid": "拡大による画面外へのはみ出しと次画面との干渉を確認する。"
+      },
+      "reviewed": {
+        "sourceHash": "db9537e89e74cf927a87daaca78ffd6cd1997907877e9612bf2d41af6622c0f0",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "db9537e89e74cf927a87daaca78ffd6cd1997907877e9612bf2d41af6622c0f0"
     },
     {
       "slug": "mosaic-reveal",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "モザイクリビール",
+        "oneLiner": "画像をタイル状の区画から順に表示して全体を組み立てる。",
+        "useWhen": [
+          "画像や場面をグリッドで構成するとき"
+        ],
+        "avoid": "細かいタイルのちらつきや読み込み順の偏りを避ける。"
+      },
+      "reviewed": {
+        "sourceHash": "404069cc6f3fcfffa92bbbdd62b4a1ed92990196456e76dd5370b2dff783304f",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "404069cc6f3fcfffa92bbbdd62b4a1ed92990196456e76dd5370b2dff783304f"
     },
     {
@@ -839,147 +1207,508 @@
     },
     {
       "slug": "audio-reactive-pulse",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "音反応パルス",
+        "oneLiner": "音の低域や高域の強さに合わせて図形や光の大きさを変える。",
+        "useWhen": [
+          "音楽や効果音の強弱を視覚化するとき"
+        ],
+        "avoid": "反応を過敏にせず、音が止まった際の状態も整える。"
+      },
+      "reviewed": {
+        "sourceHash": "8c8b60b9f55ecb7906636d3c70712308d558cc829725db4fd9670e8dabc6764c",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "8c8b60b9f55ecb7906636d3c70712308d558cc829725db4fd9670e8dabc6764c"
     },
     {
       "slug": "blink",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "点滅",
+        "oneLiner": "明るさや不透明度を周期的に切り替える。",
+        "useWhen": [
+          "注意を引く信号や状態表示"
+        ],
+        "avoid": "連続点滅を避け、点滅頻度を抑える。"
+      },
+      "reviewed": {
+        "sourceHash": "653626a363d4ecc0e916341263ad623d00a2b2a658ea9752d5a2625ba133266e",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "653626a363d4ecc0e916341263ad623d00a2b2a658ea9752d5a2625ba133266e"
     },
     {
       "slug": "bounce-attention",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "バウンス強調",
+        "oneLiner": "要素をその場で上下に弾ませ、元の位置へ戻す。",
+        "useWhen": [
+          "ボタンや通知に短く注意を向けるとき"
+        ],
+        "avoid": "繰り返しを控え、操作や文章の読み取りを妨げない。"
+      },
+      "reviewed": {
+        "sourceHash": "16de516ba17a40c38396b750cc6822f54149bde9ce64f55bfc5c84079736ed0a",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "16de516ba17a40c38396b750cc6822f54149bde9ce64f55bfc5c84079736ed0a"
     },
     {
       "slug": "circumscribe",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "輪郭で囲む",
+        "oneLiner": "対象の周囲に円や四角の線を描き、一時的に強調する。",
+        "useWhen": [
+          "図やキーワードの範囲を明示するとき"
+        ],
+        "avoid": "輪郭が対象の細部や隣接情報を隠さないようにする。"
+      },
+      "reviewed": {
+        "sourceHash": "eeb75ec1438ee68e2df4a1cc562f6be26a1c05b9ddad7daf4dd7e6f6855c014c",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "eeb75ec1438ee68e2df4a1cc562f6be26a1c05b9ddad7daf4dd7e6f6855c014c"
     },
     {
       "slug": "color-transition",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "色のトランジション",
+        "oneLiner": "対象の色を現在の色から次の色へ滑らかに変える。",
+        "useWhen": [
+          "選択・状態・カテゴリの変化を示すとき"
+        ],
+        "avoid": "色だけに意味を頼らず、必要ならラベルや形も変える。"
+      },
+      "reviewed": {
+        "sourceHash": "21d47c376a49eb31a255f47515b859e99fbe219a56c88e0f4d5330b450165808",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "21d47c376a49eb31a255f47515b859e99fbe219a56c88e0f4d5330b450165808"
     },
     {
       "slug": "focus-contraction",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "フォーカス収縮",
+        "oneLiner": "広い半透明の円が対象へ縮まり、位置を示して消える。",
+        "useWhen": [
+          "地図や画面内の場所を指し示すとき"
+        ],
+        "avoid": "最終位置を正確に合わせ、円が小さすぎて見失われないようにする。"
+      },
+      "reviewed": {
+        "sourceHash": "d38afffce735d42869563b227d4970af91d86f23bd05babb799bd017d9fc669a",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "d38afffce735d42869563b227d4970af91d86f23bd05babb799bd017d9fc669a"
     },
     {
       "slug": "focus-handoff",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "フォーカスの受け渡し",
+        "oneLiner": "複数項目の強調を一つずつ切り替え、視線を次へ移す。",
+        "useWhen": [
+          "図解の項目を順に説明するとき"
+        ],
+        "avoid": "現在の対象と次の対象の切り替えを明確にする。"
+      },
+      "reviewed": {
+        "sourceHash": "b2b132c2490382a8a08c734f242d5fc112dafa652e4c55e90a5e6b27f379c8fb",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "b2b132c2490382a8a08c734f242d5fc112dafa652e4c55e90a5e6b27f379c8fb"
     },
     {
       "slug": "outline-pulse",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "輪郭パルス",
+        "oneLiner": "輪郭線を表示し、一時的に太さや明るさを強めて戻す。",
+        "useWhen": [
+          "画像や図形の境界を短く強調するとき"
+        ],
+        "avoid": "強調後に輪郭を消すか残すかを一貫させる。"
+      },
+      "reviewed": {
+        "sourceHash": "3f3cb3a7d792d876382924f4add1a73f7cee88c0ca7ccd9b9d99ad0bc86b2930",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "3f3cb3a7d792d876382924f4add1a73f7cee88c0ca7ccd9b9d99ad0bc86b2930"
     },
     {
       "slug": "radial-speed-lines",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "放射状スピードライン",
+        "oneLiner": "中心から外へ向かう線を短く伸ばして速度感を出す。",
+        "useWhen": [
+          "急発進や衝撃の瞬間を強めるとき"
+        ],
+        "avoid": "線の密度や表示時間を抑え、主対象を隠さない。"
+      },
+      "reviewed": {
+        "sourceHash": "f4854e04b639f396e24d3417e8e5006c8b2dda2851aca29b5bb66ba12d50bf4d",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "f4854e04b639f396e24d3417e8e5006c8b2dda2851aca29b5bb66ba12d50bf4d"
     },
     {
       "slug": "selection-travel",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "選択範囲の移動",
+        "oneLiner": "半透明の選択帯を次の範囲へ移し、幅と高さを合わせる。",
+        "useWhen": [
+          "文章や表の選択箇所を順に示すとき"
+        ],
+        "avoid": "移動中もどの範囲を選択しているか読み取れるようにする。"
+      },
+      "reviewed": {
+        "sourceHash": "dd63d50876924b00c4fe2bf68508745c197e0bfe176d72dda8e51cc9d6afaada",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "dd63d50876924b00c4fe2bf68508745c197e0bfe176d72dda8e51cc9d6afaada"
     },
     {
       "slug": "shake",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "シェイク",
+        "oneLiner": "要素を基準位置や角度の両側へ短く揺らし、停止させる。",
+        "useWhen": [
+          "衝撃やエラー、強い反応を示すとき"
+        ],
+        "avoid": "常用せず、揺れ幅を小さくして視覚負担を抑える。"
+      },
+      "reviewed": {
+        "sourceHash": "a230f04483043e019adafd154a6859c4f01bee64499ee93f37f6f010567f5093",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "a230f04483043e019adafd154a6859c4f01bee64499ee93f37f6f010567f5093"
     },
     {
       "slug": "swing",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "スイング",
+        "oneLiner": "固定軸の周りで左右に振れ、振幅を弱めながら停止する。",
+        "useWhen": [
+          "吊り下げ物や振り子の動きを表すとき"
+        ],
+        "avoid": "支点と重力方向を保ち、振れの周期を自然にする。"
+      },
+      "reviewed": {
+        "sourceHash": "9fc3f6c19117bceef574ecabb7a9dd1d2cbd55de2fba81cf818fcdb36508071c",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "9fc3f6c19117bceef574ecabb7a9dd1d2cbd55de2fba81cf818fcdb36508071c"
     },
     {
       "slug": "vignette-pulse",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "ビネットパルス",
+        "oneLiner": "画面端の暗さを一瞬内側へ寄せ、その後に解放する。",
+        "useWhen": [
+          "短い衝撃や視線集中を演出するとき"
+        ],
+        "avoid": "画面周辺の情報を長く暗くしない。"
+      },
+      "reviewed": {
+        "sourceHash": "3627e2fb5e67a80d8fbd2dc587a03a5724506a22662a36be9859e252b2035161",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "3627e2fb5e67a80d8fbd2dc587a03a5724506a22662a36be9859e252b2035161"
     },
     {
       "slug": "text-color-wipe",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "文字色ワイプ",
+        "oneLiner": "薄い文字の上を色付きの文字が一方向から塗り替える。",
+        "useWhen": [
+          "文章の中の語句を順に強調するとき"
+        ],
+        "avoid": "二重文字の位置を正確に重ね、読みやすさを保つ。"
+      },
+      "reviewed": {
+        "sourceHash": "94ed2ec7618be714be5d3e127021342f9a70bc2f1b4e6369abcbbe1b876c4949",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "94ed2ec7618be714be5d3e127021342f9a70bc2f1b4e6369abcbbe1b876c4949"
     },
     {
       "slug": "letter-drop-pile",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "文字の落下・積み上げ",
+        "oneLiner": "文中の文字を落とし、床に当てて積み上げる。",
+        "useWhen": [
+          "言葉の崩壊や物質化を表現するとき"
+        ],
+        "avoid": "文字の重なりで内容が読めなくなる点を意図して使う。"
+      },
+      "reviewed": {
+        "sourceHash": "c020d943d8157e94c30e9fb7c72b5afe0225afd7c31807aed17fb542985b1fb0",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "c020d943d8157e94c30e9fb7c72b5afe0225afd7c31807aed17fb542985b1fb0"
     },
     {
       "slug": "char-stagger",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "一文字ずつのせり上がり",
+        "oneLiner": "文字を時間差で下から持ち上げ、順に不透明にする。",
+        "useWhen": [
+          "見出しや短い単語を順番に見せるとき"
+        ],
+        "avoid": "文字間隔と開始順を保ち、長文では表示を待たせすぎない。"
+      },
+      "reviewed": {
+        "sourceHash": "af43231e132afe9c2d6927bb5f284c7d32968d2a110935188e18e3729aba19a2",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "af43231e132afe9c2d6927bb5f284c7d32968d2a110935188e18e3729aba19a2"
     },
     {
       "slug": "highlight-sweep",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "ハイライトスイープ",
+        "oneLiner": "重要語句の背後に蛍光ペン風の帯を左から引く。",
+        "useWhen": [
+          "文中の要点や引用箇所を示すとき"
+        ],
+        "avoid": "帯を文字の前面に出さず、強調対象を覆わない。"
+      },
+      "reviewed": {
+        "sourceHash": "30a66cb8d7ea9095f1191038da321d5932e017fa34095283b376aee0c1c88d1b",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "30a66cb8d7ea9095f1191038da321d5932e017fa34095283b376aee0c1c88d1b"
     },
     {
       "slug": "kinetic-beats",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "キネティックビーツ",
+        "oneLiner": "単語を一定の拍ごとに大きく提示し、素早く定着させる。",
+        "useWhen": [
+          "音声や音楽に合わせて短い語句を見せるとき"
+        ],
+        "avoid": "拍の間隔に余裕を持たせ、一度に読める語数にする。"
+      },
+      "reviewed": {
+        "sourceHash": "c57fd2d3a281885fc9451db5530107bd2a3a690013c69f1379fd657d3f165afd",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "c57fd2d3a281885fc9451db5530107bd2a3a690013c69f1379fd657d3f165afd"
     },
     {
       "slug": "mask-reveal",
       "ja": {
-        "name": "マスクで表示"
+        "name": "マスクリビール",
+        "oneLiner": "隠し窓の下からタイトルを動かし、行ごとに見せる。",
+        "useWhen": [
+          "見出しを整然と登場させるとき"
+        ],
+        "avoid": "マスクの外にはみ出す文字や行の切れを確認する。"
       },
       "reviewed": {
         "sourceHash": "8b34a044177a8a656327cb5964d5bb105dc2f6a8abe13d03ed8ef2e37f691d7b",
         "fields": [
-          "name"
-        ]
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
       },
       "sourceHash": "8b34a044177a8a656327cb5964d5bb105dc2f6a8abe13d03ed8ef2e37f691d7b"
     },
     {
       "slug": "text-scramble",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "テキストスクランブル",
+        "oneLiner": "各文字位置の記号を切り替え、左から正しい文字に固定する。",
+        "useWhen": [
+          "デジタル端末風の文字表示"
+        ],
+        "avoid": "記号の変化を長引かせず、最終文を確実に読めるようにする。"
+      },
+      "reviewed": {
+        "sourceHash": "5a327328a33431c5054ee6aff9900d5e5a2e2fc8c2c4d6cc4d4a6421f7c18a19",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "5a327328a33431c5054ee6aff9900d5e5a2e2fc8c2c4d6cc4d4a6421f7c18a19"
     },
     {
       "slug": "typewriter",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "タイプライター表示",
+        "oneLiner": "文字を一定間隔で一字ずつ表示し、カーソルを入力位置に追従させる。",
+        "useWhen": [
+          "入力や会話を再現するとき"
+        ],
+        "avoid": "読み上げや利用者の読む速度に合う表示時間を設定する。"
+      },
+      "reviewed": {
+        "sourceHash": "51328f874daaafedb5a86b25982f96da6b484470b817b11b22ce9e0e34bcb9b3",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "51328f874daaafedb5a86b25982f96da6b484470b817b11b22ce9e0e34bcb9b3"
     },
     {
       "slug": "underline-draw",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "下線を描く",
+        "oneLiner": "SVGの線を左から描画し、キーワードの下線を引く。",
+        "useWhen": [
+          "見出しや語句に手描き風の強調を加えるとき"
+        ],
+        "avoid": "線の長さと文字位置を合わせ、本文と重ならないようにする。"
+      },
+      "reviewed": {
+        "sourceHash": "577291eea9149a7fe2b29f6a323b75c8e937618c099e114e4f4eea74c3bcae41",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "577291eea9149a7fe2b29f6a323b75c8e937618c099e114e4f4eea74c3bcae41"
     },
     {
       "slug": "word-emphasis",
-      "ja": {},
-      "reviewed": {},
+      "ja": {
+        "name": "語句の強調",
+        "oneLiner": "静止した文章の一節だけ色や大きさを変え、周囲を弱める。",
+        "useWhen": [
+          "説明文の中で結論や重要語を示すとき"
+        ],
+        "avoid": "複数箇所を同時に強調せず、読む順序を保つ。"
+      },
+      "reviewed": {
+        "sourceHash": "47b5870a6adc351d669109ae5096a004b4cec487721045eea0e11b3063888a9d",
+        "fields": [
+          "name",
+          "oneLiner",
+          "useWhen",
+          "avoid"
+        ],
+        "status": "human-reviewed"
+      },
       "sourceHash": "47b5870a6adc351d669109ae5096a004b4cec487721045eea0e11b3063888a9d"
     },
     {
